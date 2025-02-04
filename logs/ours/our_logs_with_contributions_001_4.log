@@ -1,0 +1,1087 @@
+** filename: GreaterEqThan@comparators@circomlib_16.circom 
+** result: NOT SURE 
+** time: 5.039521 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: BabyCheck@babyjub@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 5.022481 
+    ** contribution counts: 
+    ****** single_to_double: 2 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Num2BitsNeg@bitify@circomlib_256.circom 
+** result: NOT SURE 
+** time: 5.415046 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: GreaterEqThan@comparators@circomlib_32.circom 
+** result: NOT SURE 
+** time: 5.052599 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Num2BitsNeg@bitify@circomlib_16.circom 
+** result: NOT SURE 
+** time: 8.582687 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Num2Bits@bitify@circomlib_1.circom 
+** result: NOT SURE 
+** time: 0.025988 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: T1@t1@circomlib.circom 
+** result: NOT SURE 
+** time: 5.853872 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Main@main@circomlib.circom 
+** result: TIMEOUT 
+** time: 30.074426889419556 
+    ** contribution counts: 
+
+** filename: Bits2Num@bitify@circomlib_256.circom 
+** result: NOT SURE 
+** time: 5.208002 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: BabyPbk@babyjub@circomlib.circom 
+** result: NOT SURE 
+** time: 200.485682 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Sigma@poseidon@circomlib.circom 
+** result: NOT SURE 
+** time: 0.037221 
+    ** contribution counts: 
+    ****** single_to_double: 1 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: EdDSAPoseidonVerifier@eddsaposeidon@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 34.408979 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: BabyAdd@babyjub@circomlib.circom 
+** result: NOT SURE 
+** time: 0.279396 
+    ** contribution counts: 
+    ****** single_to_double: 4 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Point2Bits_Strict@pointbits@circomlib.circom 
+** result: NOT SURE 
+** time: 18.937276 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Bits2Num@bitify@circomlib_32.circom 
+** result: NOT SURE 
+** time: 0.111054 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Mux4@mux4@circomlib.circom 
+** result: NOT SURE 
+** time: 0.481387 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: GreaterThan@comparators@circomlib_32.circom 
+** result: NOT SURE 
+** time: 5.068408 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Point2Bits@pointbits@circomlib.circom 
+** result: UNDER-CONSTRAINED! 
+** time: 0.016698 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+    ****** NO_Assumptions_raw_SMT_UNDER: 256 
+
+** filename: BitElementMulAny@escalarmulany@circomlib.circom 
+** result: NOT SURE 
+** time: 5.05458 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: LessEqThan@comparators@circomlib_32.circom 
+** result: NOT SURE 
+** time: 5.053761 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Pedersen@pedersen@circomlib_32.circom 
+** result: NOT SURE 
+** time: 5.980791 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Sha256_2@sha256_2@circomlib.circom 
+** result: TIMEOUT 
+** time: 30.065230131149292 
+    ** contribution counts: 
+
+** filename: AND@gates@circomlib.circom 
+** result: NOT SURE 
+** time: 0.034526 
+    ** contribution counts: 
+    ****** single_to_double: 1 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Num2BitsNeg@bitify@circomlib_64.circom 
+** result: NOT SURE 
+** time: 5.186713 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Bits2Num@bitify@circomlib_128.circom 
+** result: NOT SURE 
+** time: 5.09791 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Num2Bits@bitify@circomlib_64.circom 
+** result: NOT SURE 
+** time: 5.129669 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Num2BitsNeg@bitify@circomlib_32.circom 
+** result: NOT SURE 
+** time: 5.059411 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: GreaterEqThan@comparators@circomlib_8.circom 
+** result: NOT SURE 
+** time: 5.032657 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: EdDSAMiMCSpongeVerifier@eddsamimcsponge@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 43.792093 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Pedersen@pedersen@circomlib_8.circom 
+** result: NOT SURE 
+** time: 6.205976 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: SMTVerifierLevel@smtverifierlevel@circomlib.circom 
+** result: NOT SURE 
+** time: 17.754341 
+    ** contribution counts: 
+    ****** single_to_double: 2 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: SMTHash1@smthash_mimc@circomlib.circom 
+** result: NOT SURE 
+** time: 5.851714 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: OR@gates@circomlib.circom 
+** result: NOT SURE 
+** time: 0.025776 
+    ** contribution counts: 
+    ****** single_to_double: 1 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: BinSum@binsum@circomlib_32_5.circom 
+** result: NOT SURE 
+** time: 5.150452 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: NAND@gates@circomlib.circom 
+** result: NOT SURE 
+** time: 0.025728 
+    ** contribution counts: 
+    ****** single_to_double: 1 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Num2Bits@bitify@circomlib_254.circom 
+** result: NOT SURE 
+** time: 5.410608 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Pedersen@pedersen@circomlib_253.circom 
+** result: NOT SURE 
+** time: 104.445976 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: SMTHash1@smthash_poseidon@circomlib.circom 
+** result: NOT SURE 
+** time: 6.031028 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Num2BitsNeg@bitify@circomlib_128.circom 
+** result: NOT SURE 
+** time: 6.000685 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: SMTHash2@smthash_mimc@circomlib.circom 
+** result: NOT SURE 
+** time: 32.627547 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Pedersen@pedersen@circomlib_16.circom 
+** result: NOT SURE 
+** time: 5.538745 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Edwards2Montgomery@montgomery@circomlib.circom 
+** result: NOT SURE 
+** time: 2.032728 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: IsEqual@comparators@circomlib.circom 
+** result: NOT SURE 
+** time: 2.042904 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: NOR@gates@circomlib.circom 
+** result: NOT SURE 
+** time: 0.026801 
+    ** contribution counts: 
+    ****** single_to_double: 1 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Pedersen@pedersen_old@circomlib_254.circom 
+** result: NOT SURE 
+** time: 75.794787 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: MontgomeryAdd@montgomery@circomlib.circom 
+** result: UNDER-CONSTRAINED! 
+** time: 0.52661 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+    ****** NO_Assumptions_raw_SMT_UNDER: 3 
+
+** filename: BabyDbl@babyjub@circomlib.circom 
+** result: NOT SURE 
+** time: 0.747789 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Num2Bits@bitify@circomlib_32.circom 
+** result: NOT SURE 
+** time: 5.073125 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: SigmaPlus@sigmaplus@circomlib.circom 
+** result: NOT SURE 
+** time: 6.110932 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: T2@t2@circomlib.circom 
+** result: NOT SURE 
+** time: 5.748662 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Num2Bits_strict@bitify@circomlib.circom 
+** result: NOT SURE 
+** time: 6.667472 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Num2BitsNeg@bitify@circomlib_253.circom 
+** result: NOT SURE 
+** time: 5.364069 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: ForceEqualIfEnabled@comparators@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.027299 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Pedersen@pedersen_old@circomlib_32.circom 
+** result: NOT SURE 
+** time: 5.898271 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Num2BitsNeg@bitify@circomlib_8.circom 
+** result: NOT SURE 
+** time: 7.366508 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: MontgomeryDouble@montgomery@circomlib.circom 
+** result: NOT SURE 
+** time: 7.037743 
+    ** contribution counts: 
+    ****** single_to_double: 1 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: GreaterThan@comparators@circomlib_8.circom 
+** result: NOT SURE 
+** time: 5.032425 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Pedersen@pedersen_old@circomlib_64.circom 
+** result: NOT SURE 
+** time: 7.269428 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Bits2Num@bitify@circomlib_16.circom 
+** result: NOT SURE 
+** time: 0.063436 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Num2Bits@bitify@circomlib_253.circom 
+** result: NOT SURE 
+** time: 5.373165 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: AliasCheck@aliascheck@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 5.515099 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Mux2@mux2@circomlib.circom 
+** result: NOT SURE 
+** time: 0.082742 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Bits2Num@bitify@circomlib_64.circom 
+** result: NOT SURE 
+** time: 0.63956 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Mux3@mux3@circomlib.circom 
+** result: NOT SURE 
+** time: 0.153528 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Bits2Num@bitify@circomlib_8.circom 
+** result: NOT SURE 
+** time: 0.031098 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Pedersen@pedersen@circomlib_64.circom 
+** result: NOT SURE 
+** time: 8.792847 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Pedersen@pedersen_old@circomlib_128.circom 
+** result: NOT SURE 
+** time: 20.523097 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Montgomery2Edwards@montgomery@circomlib.circom 
+** result: NOT SURE 
+** time: 2.039934 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Multiplexor2@escalarmulany@circomlib.circom 
+** result: NOT SURE 
+** time: 0.029713 
+    ** contribution counts: 
+    ****** single_to_double: 4 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Num2BitsNeg@bitify@circomlib_1.circom 
+** result: NOT SURE 
+** time: 0.039037 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Bits2Num_strict@bitify@circomlib.circom 
+** result: NOT SURE 
+** time: 6.337909 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: EdDSAMiMCVerifier@eddsamimc@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 35.512972 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Mux1@mux1@circomlib.circom 
+** result: NOT SURE 
+** time: 0.034283 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Sign@sign@circomlib.circom 
+** result: NOT SURE 
+** time: 5.528193 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Bits2Num@bitify@circomlib_1.circom 
+** result: NOT SURE 
+** time: 0.024028 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Switcher@switcher@circomlib.circom 
+** result: NOT SURE 
+** time: 0.031651 
+    ** contribution counts: 
+    ****** single_to_double: 2 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: SMTProcessorLevel@smtprocessorlevel@circomlib.circom 
+** result: NOT SURE 
+** time: 7.100736 
+    ** contribution counts: 
+    ****** single_to_double: 9 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: WindowMulFix@escalarmulfix@circomlib.circom 
+** result: NOT SURE 
+** time: 5.102297 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Window4@pedersen@circomlib.circom 
+** result: NOT SURE 
+** time: 5.102491 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Bits2Num@bitify@circomlib_253.circom 
+** result: NOT SURE 
+** time: 5.156568 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Num2Bits@bitify@circomlib_16.circom 
+** result: NOT SURE 
+** time: 5.046372 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Pedersen@pedersen_old@circomlib_1.circom 
+** result: NOT SURE 
+** time: 5.241992 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Pedersen@pedersen@circomlib_1.circom 
+** result: NOT SURE 
+** time: 5.15513 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Sigma@poseidon_old@circomlib.circom 
+** result: NOT SURE 
+** time: 0.027171 
+    ** contribution counts: 
+    ****** single_to_double: 1 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: LessEqThan@comparators@circomlib_8.circom 
+** result: NOT SURE 
+** time: 5.032466 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: SMTVerifierSM@smtverifiersm@circomlib.circom 
+** result: NOT SURE 
+** time: 0.052983 
+    ** contribution counts: 
+    ****** single_to_double: 1 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: BinSub@binsub@circomlib_16.circom 
+** result: NOT SURE 
+** time: 5.062475 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: SMTHash2@smthash_poseidon@circomlib.circom 
+** result: NOT SURE 
+** time: 5.809548 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: BinSum@binsum@circomlib_32_2.circom 
+** result: NOT SURE 
+** time: 5.122632 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: XOR@gates@circomlib.circom 
+** result: NOT SURE 
+** time: 0.025692 
+    ** contribution counts: 
+    ****** single_to_double: 1 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Pedersen@pedersen_old@circomlib_253.circom 
+** result: NOT SURE 
+** time: 78.084762 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Bits2Point@pointbits@circomlib.circom 
+** result: UNDER-CONSTRAINED! 
+** time: 0.031777 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+    ****** NO_Assumptions_raw_SMT_UNDER: 2 
+
+** filename: Bits2Num@bitify@circomlib_254.circom 
+** result: NOT SURE 
+** time: 5.187374 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Pedersen@pedersen@circomlib_128.circom 
+** result: NOT SURE 
+** time: 27.226422 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Sha256compression@sha256compression@circomlib.circom 
+** result: TIMEOUT 
+** time: 30.053054571151733 
+    ** contribution counts: 
+
+** filename: Num2BitsNeg@bitify@circomlib_254.circom 
+** result: NOT SURE 
+** time: 5.441408 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: GreaterThan@comparators@circomlib_16.circom 
+** result: NOT SURE 
+** time: 5.039091 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: NOT@gates@circomlib.circom 
+** result: NOT SURE 
+** time: 0.024581 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Pedersen@pedersen@circomlib_254.circom 
+** result: NOT SURE 
+** time: 106.000559 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Num2Bits@bitify@circomlib_8.circom 
+** result: NOT SURE 
+** time: 5.076667 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Pedersen@pedersen_old@circomlib_16.circom 
+** result: NOT SURE 
+** time: 6.417305 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Num2Bits@bitify@circomlib_256.circom 
+** result: NOT SURE 
+** time: 5.43458 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: IsZero@comparators@circomlib.circom 
+** result: NOT SURE 
+** time: 0.03592 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Pedersen@pedersen_old@circomlib_256.circom 
+** result: NOT SURE 
+** time: 77.543401 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: LessEqThan@comparators@circomlib_16.circom 
+** result: NOT SURE 
+** time: 5.039814 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: SMTProcessorSM@smtprocessorsm@circomlib.circom 
+** result: NOT SURE 
+** time: 0.129715 
+    ** contribution counts: 
+    ****** single_to_double: 2 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Bits2Point_Strict@pointbits@circomlib.circom 
+** result: NOT SURE 
+** time: 13.954652 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Num2Bits@bitify@circomlib_128.circom 
+** result: NOT SURE 
+** time: 5.245281 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Pedersen@pedersen_old@circomlib_8.circom 
+** result: NOT SURE 
+** time: 5.28353 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Pedersen@pedersen@circomlib_256.circom 
+** result: NOT SURE 
+** time: 104.88677 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: GreaterThan@comparators.circom 
+** result: NOT SURE 
+** time: 5.027071 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Segment@pedersen.circom 
+** result: NOT SURE 
+** time: 5.893944 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: BabyCheck@babyjub.circom 
+** result: CONSTRAINED! 
+** time: 5.023029 
+    ** contribution counts: 
+    ****** single_to_double: 2 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Poseidon@poseidon.circom 
+** result: NOT SURE 
+** time: 5.674108 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Pedersen@pedersen_old.circom 
+** result: NOT SURE 
+** time: 15.158394 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Num2BitsNeg@bitify.circom 
+** result: NOT SURE 
+** time: 5.408926 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: SegmentMulAny@escalarmulany.circom 
+** result: NOT SURE 
+** time: 5.066543 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: MiMCFeistel@mimcsponge.circom 
+** result: NOT SURE 
+** time: 0.049066 
+    ** contribution counts: 
+    ****** single_to_double: 3 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: BabyAdd@babyjub.circom 
+** result: NOT SURE 
+** time: 0.224907 
+    ** contribution counts: 
+    ****** single_to_double: 4 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: MultiAND@gates.circom 
+** result: NOT SURE 
+** time: 0.030242 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: BabyPbk@babyjub.circom 
+** result: NOT SURE 
+** time: 198.871994 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Multiplexer@multiplexer.circom 
+** result: NOT SURE 
+** time: 5.035892 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Bits2Num_strict@bitify.circom 
+** result: NOT SURE 
+** time: 6.22057 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Point2Bits_Strict@pointbits.circom 
+** result: NOT SURE 
+** time: 18.935341 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: BinSum@binsum.circom 
+** result: NOT SURE 
+** time: 5.063228 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Bits2Point_Strict@pointbits.circom 
+** result: NOT SURE 
+** time: 13.915775 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: MultiMux4@mux4.circom 
+** result: NOT SURE 
+** time: 4.786605 
+    ** contribution counts: 
+    ****** single_to_double: 27 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: EdDSAMiMCSpongeVerifier@eddsamimcsponge.circom 
+** result: CONSTRAINED! 
+** time: 42.788957 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: OR@gates.circom 
+** result: NOT SURE 
+** time: 0.026289 
+    ** contribution counts: 
+    ****** single_to_double: 1 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Mux2@mux2.circom 
+** result: NOT SURE 
+** time: 0.082404 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Switcher@switcher.circom 
+** result: NOT SURE 
+** time: 0.03157 
+    ** contribution counts: 
+    ****** single_to_double: 2 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: BabyDbl@babyjub.circom 
+** result: NOT SURE 
+** time: 0.747129 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: XOR@gates.circom 
+** result: NOT SURE 
+** time: 0.025415 
+    ** contribution counts: 
+    ****** single_to_double: 1 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: EscalarProduct@multiplexer.circom 
+** result: NOT SURE 
+** time: 0.029169 
+    ** contribution counts: 
+    ****** single_to_double: 2 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: IsEqual@comparators.circom 
+** result: NOT SURE 
+** time: 2.036538 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: IsZero@comparators.circom 
+** result: NOT SURE 
+** time: 0.026299 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: MontgomeryDouble@montgomery.circom 
+** result: NOT SURE 
+** time: 7.038007 
+    ** contribution counts: 
+    ****** single_to_double: 1 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Mux4@mux4.circom 
+** result: NOT SURE 
+** time: 0.482822 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: EscalarMulAny@escalarmulany.circom 
+** result: NOT SURE 
+** time: 5.078479 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: MultiMux3@mux3.circom 
+** result: NOT SURE 
+** time: 0.276278 
+    ** contribution counts: 
+    ****** single_to_double: 17 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Montgomery2Edwards@montgomery.circom 
+** result: NOT SURE 
+** time: 2.033874 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: NOR@gates.circom 
+** result: NOT SURE 
+** time: 0.026985 
+    ** contribution counts: 
+    ****** single_to_double: 1 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: BitElementMulAny@escalarmulany.circom 
+** result: NOT SURE 
+** time: 5.062973 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: MiMCSponge@mimcsponge.circom 
+** result: NOT SURE 
+** time: 0.23652 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: GreaterEqThan@comparators.circom 
+** result: NOT SURE 
+** time: 5.027511 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Sign@sign.circom 
+** result: NOT SURE 
+** time: 5.632857 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Mux3@mux3.circom 
+** result: NOT SURE 
+** time: 0.12188 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: AND@gates.circom 
+** result: NOT SURE 
+** time: 0.024799 
+    ** contribution counts: 
+    ****** single_to_double: 1 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: NAND@gates.circom 
+** result: NOT SURE 
+** time: 0.025835 
+    ** contribution counts: 
+    ****** single_to_double: 1 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: ForceEqualIfEnabled@comparators.circom 
+** result: CONSTRAINED! 
+** time: 0.027179 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: MultiMux1@mux1.circom 
+** result: NOT SURE 
+** time: 0.030774 
+    ** contribution counts: 
+    ****** single_to_double: 4 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: WindowMulFix@escalarmulfix.circom 
+** result: NOT SURE 
+** time: 5.124956 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Multiplexor2@escalarmulany.circom 
+** result: NOT SURE 
+** time: 0.030107 
+    ** contribution counts: 
+    ****** single_to_double: 4 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: AliasCheck@aliascheck.circom 
+** result: CONSTRAINED! 
+** time: 5.5081 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: NOT@gates.circom 
+** result: NOT SURE 
+** time: 0.02446 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: LessEqThan@comparators.circom 
+** result: NOT SURE 
+** time: 5.02712 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: MontgomeryAdd@montgomery.circom 
+** result: UNDER-CONSTRAINED! 
+** time: 0.428983 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+    ****** NO_Assumptions_raw_SMT_UNDER: 3 
+
+** filename: MiMC7@mimc.circom 
+** result: NOT SURE 
+** time: 5.040232 
+    ** contribution counts: 
+    ****** single_to_double: 3 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: MultiMiMC7@mimc.circom 
+** result: NOT SURE 
+** time: 5.05106 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Decoder@multiplexer.circom 
+** result: UNDER-CONSTRAINED! 
+** time: 0.032792 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+    ****** NO_Assumptions_raw_SMT_UNDER: 2 
+
+** filename: MultiMux2@mux2.circom 
+** result: NOT SURE 
+** time: 0.102947 
+    ** contribution counts: 
+    ****** single_to_double: 9 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Mux1@mux1.circom 
+** result: NOT SURE 
+** time: 0.034352 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Bits2Num@bitify.circom 
+** result: NOT SURE 
+** time: 0.025316 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Sigma@poseidon.circom 
+** result: NOT SURE 
+** time: 0.026777 
+    ** contribution counts: 
+    ****** single_to_double: 1 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Window4@pedersen.circom 
+** result: NOT SURE 
+** time: 5.103361 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: EdDSAPoseidonVerifier@eddsaposeidon.circom 
+** result: CONSTRAINED! 
+** time: 33.787241 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Num2Bits_strict@bitify.circom 
+** result: NOT SURE 
+** time: 6.672826 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: CompConstant@compconstant.circom 
+** result: NOT SURE 
+** time: 6.886818 
+    ** contribution counts: 
+    ****** single_to_double: 127 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: BinSub@binsub.circom 
+** result: NOT SURE 
+** time: 5.329949 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: LessThan@comparators.circom 
+** result: NOT SURE 
+** time: 5.025208 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: SegmentMulFix@escalarmulfix.circom 
+** result: NOT SURE 
+** time: 8.852414 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: EdDSAMiMCVerifier@eddsamimc.circom 
+** result: CONSTRAINED! 
+** time: 35.572826 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Pedersen@pedersen.circom 
+** result: NOT SURE 
+** time: 5.13598 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Edwards2Montgomery@montgomery.circom 
+** result: NOT SURE 
+** time: 2.037486 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+
+** filename: Num2Bits@bitify.circom 
+** result: NOT SURE 
+** time: 5.166355 
+    ** contribution counts: 
+    ****** DO_ASSUMPTION_PHASE: 1 
+

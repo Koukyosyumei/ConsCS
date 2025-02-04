@@ -1,0 +1,57 @@
+# r1cs file: ./benchmarks/circomlibex-cff5ab6/Num2BitsNeg@bitify@circomlib_16.r1cs
+# timeout: 5000
+# solver: cvc5
+# selector: counter
+# precondition: ()
+# propagation on: #t
+# solver on: #t
+# smt: #f
+# weak: #t
+# map: #f
+# number of wires: 21
+# number of constraints: 20
+# field size (how many bytes): 32
+# inputs: (0 17).
+# outputs: (1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16).
+# targets: #<set: 16 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15>.
+# parsing original r1cs...
+# xlist: (x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 x14 x15 x16 x17 x18 x19 x20).
+# alt-xlist (x0 y1 y2 y3 y4 y5 y6 y7 y8 y9 y10 y11 y12 y13 y14 y15 y16 x17 y18 y19 y20).
+# parsing alternative r1cs...
+# configuring precondition...
+# unique: #<set:>.
+# initial known-set #<set: 0 17>
+# initial unknown-set #<set: 16 1 5 6 7 8 9 10 11 12 13 14 15 2 18 3 19 4 20>
+# refined known-set: #<set: 0 17>
+# refined unknown-set: #<set: 16 1 5 6 7 8 9 10 11 12 13 14 15 2 18 3 19 4 20>
+  # propagation (linear lemma): #<set: 19> added.
+  # propagation (linear lemma): none.
+  # propagation (binary01 lemma): none.
+  # propagation (basis2 lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (linear lemma): none.
+  # propagation (binary01 lemma): none.
+  # propagation (basis2 lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (aboz lemma): none.
+  # checking: (x1 y1), skip.
+  # checking: (x2 y2), skip.
+  # checking: (x16 y16), skip.
+  # checking: (x18 y18), skip.
+  # checking: (x3 y3), skip.
+  # checking: (x4 y4), skip.
+  # checking: (x5 y5), skip.
+  # checking: (x6 y6), skip.
+  # checking: (x7 y7), skip.
+  # checking: (x8 y8), skip.
+  # checking: (x9 y9), skip.
+  # checking: (x10 y10), skip.
+  # checking: (x11 y11), skip.
+  # checking: (x12 y12), skip.
+  # checking: (x13 y13), skip.
+  # checking: (x14 y14), skip.
+  # checking: (x15 y15), skip.
+  # checking: (x20 y20), skip.
+# final unknown set #<set: 16 1 3 5 6 7 8 9 10 11 12 13 14 15 2 18 4 20>.
+# weak uniqueness: unknown.

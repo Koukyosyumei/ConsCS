@@ -1,0 +1,57 @@
+# r1cs file: ./benchmarks/circomlibex-cff5ab6/Num2BitsNeg@bitify@circomlib_8.r1cs
+# timeout: 5000
+# solver: cvc5
+# selector: counter
+# precondition: ()
+# propagation on: #t
+# solver on: #t
+# smt: #f
+# weak: #t
+# map: #f
+# number of wires: 13
+# number of constraints: 12
+# field size (how many bytes): 32
+# inputs: (0 9).
+# outputs: (1 2 3 4 5 6 7 8).
+# targets: #<set: 1 2 3 4 5 6 7 8>.
+# parsing original r1cs...
+# xlist: (x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12).
+# alt-xlist (x0 y1 y2 y3 y4 y5 y6 y7 y8 x9 y10 y11 y12).
+# parsing alternative r1cs...
+# configuring precondition...
+# unique: #<set:>.
+# initial known-set #<set: 0 9>
+# initial unknown-set #<set: 1 2 3 4 5 6 7 8 10 11 12>
+# refined known-set: #<set: 0 9>
+# refined unknown-set: #<set: 1 2 3 4 5 6 7 8 10 11 12>
+  # propagation (linear lemma): #<set: 11> added.
+  # propagation (linear lemma): none.
+  # propagation (binary01 lemma): none.
+  # propagation (basis2 lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (linear lemma): none.
+  # propagation (binary01 lemma): none.
+  # propagation (basis2 lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (aboz lemma): none.
+  # checking: (x1 y1), skip.
+  # checking: (x2 y2), skip.
+  # checking: (x8 y8), skip.
+  # checking: (x10 y10), verified.
+  # propagation (linear lemma): none.
+  # propagation (binary01 lemma): none.
+  # propagation (basis2 lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (aboz lemma): none.
+  # checking: (x3 y3), skip.
+  # checking: (x4 y4), skip.
+  # checking: (x5 y5), skip.
+  # checking: (x6 y6), skip.
+  # checking: (x7 y7), skip.
+  # checking: (x8 y8), skip.
+  # checking: (x1 y1), skip.
+  # checking: (x2 y2), skip.
+  # checking: (x12 y12), skip.
+# final unknown set #<set: 1 2 3 4 5 6 7 8 12>.
+# weak uniqueness: unknown.

@@ -1,0 +1,43 @@
+# r1cs file: ./benchmarks/circomlib-cff5ab6/MontgomeryDouble@montgomery.r1cs
+# timeout: 5000
+# solver: cvc5
+# selector: counter
+# precondition: ()
+# propagation on: #t
+# solver on: #t
+# smt: #f
+# weak: #t
+# map: #f
+# number of wires: 7
+# number of constraints: 4
+# field size (how many bytes): 32
+# inputs: (0 3 4).
+# outputs: (1 2).
+# targets: #<set: 1 2>.
+# parsing original r1cs...
+# xlist: (x0 x1 x2 x3 x4 x5 x6).
+# alt-xlist (x0 y1 y2 x3 x4 y5 y6).
+# parsing alternative r1cs...
+# configuring precondition...
+# unique: #<set:>.
+# initial known-set #<set: 0 3 4>
+# initial unknown-set #<set: 1 2 5 6>
+# refined known-set: #<set: 0 3 4>
+# refined unknown-set: #<set: 1 2 5 6>
+  # propagation (linear lemma): #<set: 6> added.
+  # propagation (linear lemma): none.
+  # propagation (binary01 lemma): none.
+  # propagation (basis2 lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (linear lemma): none.
+  # propagation (binary01 lemma): none.
+  # propagation (basis2 lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (aboz lemma): none.
+  # checking: (x5 y5), sat but not a target.
+  # checking: (x1 y1), sat.
+# final unknown set #<set: 1 2 5>.
+# weak uniqueness: unsafe.
+# counter-example:
+  #hash((one . 1) (p . 0) (ps1 . 21888242871839275222246405745257275088548364400416034343698204186575808495616) (ps2 . 21888242871839275222246405745257275088548364400416034343698204186575808495615) (ps3 . 21888242871839275222246405745257275088548364400416034343698204186575808495614) (ps4 . 21888242871839275222246405745257275088548364400416034343698204186575808495613) (ps5 . 21888242871839275222246405745257275088548364400416034343698204186575808495612) (x0 . 0) (x1 . 5322068362127053380761936828261197253630416030257971508159916442316514342224) (x2 . 0) (x3 . 19227208690775748531865437331126676461733156385287048589618245965417551240156) (x4 . 0) (x5 . 0) (x6 . 18039640916646237372880335511686420348069741665070947478680356439334569097561) (y1 . 0) (y2 . 11395287471962378606215025428882238971762841540906324053591198862844560648166) (y5 . 1919201053887612038854394017032965582736186453021883147377541836331787784350) (y6 . 18039640916646237372880335511686420348069741665070947478680356439334569097561) (zero . 0)).

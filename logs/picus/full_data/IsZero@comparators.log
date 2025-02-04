@@ -1,0 +1,35 @@
+# r1cs file: ./benchmarks/circomlib-cff5ab6/IsZero@comparators.r1cs
+# timeout: 5000
+# solver: cvc5
+# selector: counter
+# precondition: ()
+# propagation on: #t
+# solver on: #t
+# smt: #f
+# weak: #t
+# map: #f
+# number of wires: 4
+# number of constraints: 2
+# field size (how many bytes): 32
+# inputs: (0 2).
+# outputs: (1).
+# targets: #<set: 1>.
+# parsing original r1cs...
+# xlist: (x0 x1 x2 x3).
+# alt-xlist (x0 y1 x2 y3).
+# parsing alternative r1cs...
+# configuring precondition...
+# unique: #<set:>.
+# initial known-set #<set: 0 2>
+# initial unknown-set #<set: 1 3>
+# refined known-set: #<set: 0 2>
+# refined unknown-set: #<set: 1 3>
+  # propagation (linear lemma): none.
+  # propagation (binary01 lemma): none.
+  # propagation (basis2 lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (aboz lemma): none.
+  # checking: (x3 y3), sat but not a target.
+  # checking: (x1 y1), verified.
+# final unknown set #<set: 3>.
+# weak uniqueness: safe.

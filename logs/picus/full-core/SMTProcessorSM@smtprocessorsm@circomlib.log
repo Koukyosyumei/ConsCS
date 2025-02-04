@@ -1,0 +1,42 @@
+# r1cs file: ./benchmarks/circomlibex-cff5ab6/SMTProcessorSM@smtprocessorsm@circomlib.r1cs
+# timeout: 5000
+# solver: cvc5
+# selector: counter
+# precondition: ()
+# propagation on: #t
+# solver on: #t
+# smt: #f
+# weak: #t
+# map: #f
+# number of wires: 20
+# number of constraints: 8
+# field size (how many bytes): 32
+# inputs: (0 7 8 9 10 11 12 13 14 15 16 17).
+# outputs: (1 2 3 4 5 6).
+# targets: #<set: 1 2 3 4 5 6>.
+# parsing original r1cs...
+# xlist: (x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 x14 x15 x16 x17 x18 x19).
+# alt-xlist (x0 y1 y2 y3 y4 y5 y6 x7 x8 x9 x10 x11 x12 x13 x14 x15 x16 x17 y18 y19).
+# parsing alternative r1cs...
+# configuring precondition...
+# unique: #<set:>.
+# initial known-set #<set: 17 7 8 9 10 11 12 13 14 15 0 16>
+# initial unknown-set #<set: 1 4 5 6 2 18 3 19>
+# refined known-set: #<set: 17 7 8 9 10 11 12 13 14 15 0 16>
+# refined unknown-set: #<set: 1 4 5 6 2 18 3 19>
+  # propagation (linear lemma): #<set: 18 5> added.
+  # propagation (linear lemma): #<set: 1 19> added.
+  # propagation (linear lemma): #<set: 2 6> added.
+  # propagation (linear lemma): #<set: 3 4> added.
+  # propagation (linear lemma): none.
+  # propagation (binary01 lemma): none.
+  # propagation (basis2 lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (linear lemma): none.
+  # propagation (binary01 lemma): none.
+  # propagation (basis2 lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (aboz lemma): none.
+# final unknown set #<set:>.
+# weak uniqueness: safe.

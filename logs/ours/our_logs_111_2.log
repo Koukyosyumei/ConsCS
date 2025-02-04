@@ -1,0 +1,704 @@
+** filename: GreaterEqThan@comparators@circomlib_16.circom 
+** result: CONSTRAINED! 
+** time: 0.005055 
+
+** filename: BabyCheck@babyjub@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.000305 
+
+** filename: Num2BitsNeg@bitify@circomlib_256.circom 
+** result: CONSTRAINED! 
+** time: 0.160557 
+
+** filename: GreaterEqThan@comparators@circomlib_32.circom 
+** result: CONSTRAINED! 
+** time: 0.010688 
+
+** filename: Num2BitsNeg@bitify@circomlib_16.circom 
+** result: CONSTRAINED! 
+** time: 0.004873 
+
+** filename: Num2Bits@bitify@circomlib_1.circom 
+** result: CONSTRAINED! 
+** time: 0.000743 
+
+** filename: T1@t1@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 2.696364 
+
+** filename: Main@main@circomlib.circom 
+** result: TIMEOUT 
+** time: 30.056893348693848 
+
+** filename: Bits2Num@bitify@circomlib_256.circom 
+** result: CONSTRAINED! 
+** time: 0.014655 
+
+** filename: BabyPbk@babyjub@circomlib.circom 
+** result: TIMEOUT 
+** time: 30.004214763641357 
+
+** filename: Sigma@poseidon@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.000634 
+
+** filename: EdDSAPoseidonVerifier@eddsaposeidon@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 3.126017 
+
+** filename: BabyAdd@babyjub@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 8.608941 
+
+** filename: Point2Bits_Strict@pointbits@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 13.462862 
+
+** filename: Bits2Num@bitify@circomlib_32.circom 
+** result: CONSTRAINED! 
+** time: 0.000794 
+
+** filename: Mux4@mux4@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.016086 
+
+** filename: GreaterThan@comparators@circomlib_32.circom 
+** result: CONSTRAINED! 
+** time: 0.010748 
+
+** filename: Point2Bits@pointbits@circomlib.circom 
+** result: UNDER-CONSTRAINED! 
+** time: 0.0171 
+
+** filename: BitElementMulAny@escalarmulany@circomlib.circom 
+** result: NOT SURE 
+** time: 32.703296 
+
+** filename: LessEqThan@comparators@circomlib_32.circom 
+** result: CONSTRAINED! 
+** time: 0.008803 
+
+** filename: Pedersen@pedersen@circomlib_32.circom 
+** result: NOT SURE 
+** time: 22.167995 
+
+** filename: Sha256_2@sha256_2@circomlib.circom 
+** result: TIMEOUT 
+** time: 30.057029008865356 
+
+** filename: AND@gates@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.000346 
+
+** filename: Num2BitsNeg@bitify@circomlib_64.circom 
+** result: CONSTRAINED! 
+** time: 0.019822 
+
+** filename: Bits2Num@bitify@circomlib_128.circom 
+** result: CONSTRAINED! 
+** time: 0.004654 
+
+** filename: Num2Bits@bitify@circomlib_64.circom 
+** result: CONSTRAINED! 
+** time: 0.021124 
+
+** filename: Num2BitsNeg@bitify@circomlib_32.circom 
+** result: CONSTRAINED! 
+** time: 0.010874 
+
+** filename: GreaterEqThan@comparators@circomlib_8.circom 
+** result: CONSTRAINED! 
+** time: 0.003362 
+
+** filename: EdDSAMiMCSpongeVerifier@eddsamimcsponge@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 3.903368 
+
+** filename: Pedersen@pedersen@circomlib_8.circom 
+** result: TIMEOUT 
+** time: 64.07109475135803 
+
+** filename: SMTVerifierLevel@smtverifierlevel@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.582476 
+
+** filename: SMTHash1@smthash_mimc@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.592387 
+
+** filename: OR@gates@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.000221 
+
+** filename: BinSum@binsum@circomlib_32_5.circom 
+** result: CONSTRAINED! 
+** time: 0.023415 
+
+** filename: NAND@gates@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.000336 
+
+** filename: Num2Bits@bitify@circomlib_254.circom 
+** result: CONSTRAINED! 
+** time: 0.155168 
+
+** filename: Pedersen@pedersen@circomlib_253.circom 
+** result: TIMEOUT 
+** time: 30.00240445137024 
+
+** filename: SMTHash1@smthash_poseidon@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 1.8623 
+
+** filename: Num2BitsNeg@bitify@circomlib_128.circom 
+** result: CONSTRAINED! 
+** time: 0.05301 
+
+** filename: SMTHash2@smthash_mimc@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.482066 
+
+** filename: Pedersen@pedersen@circomlib_16.circom 
+** result: NOT SURE 
+** time: 20.655423 
+
+** filename: Edwards2Montgomery@montgomery@circomlib.circom 
+** result: UNDER-CONSTRAINED! 
+** time: 2.206974 
+
+** filename: IsEqual@comparators@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.001619 
+
+** filename: NOR@gates@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.000225 
+
+** filename: Pedersen@pedersen_old@circomlib_254.circom 
+** result: TIMEOUT 
+** time: 30.000957012176514 
+
+** filename: MontgomeryAdd@montgomery@circomlib.circom 
+** result: UNDER-CONSTRAINED! 
+** time: 2.515619 
+
+** filename: BabyDbl@babyjub@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 3.489189 
+
+** filename: Num2Bits@bitify@circomlib_32.circom 
+** result: CONSTRAINED! 
+** time: 0.007181 
+
+** filename: SigmaPlus@sigmaplus@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 4.395171 
+
+** filename: T2@t2@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 1.753305 
+
+** filename: Num2Bits_strict@bitify@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 2.874265 
+
+** filename: Num2BitsNeg@bitify@circomlib_253.circom 
+** result: CONSTRAINED! 
+** time: 0.158051 
+
+** filename: ForceEqualIfEnabled@comparators@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.000234 
+
+** filename: Pedersen@pedersen_old@circomlib_32.circom 
+** result: NOT SURE 
+** time: 22.605042 
+
+** filename: Num2BitsNeg@bitify@circomlib_8.circom 
+** result: CONSTRAINED! 
+** time: 0.003158 
+
+** filename: MontgomeryDouble@montgomery@circomlib.circom 
+** result: NOT SURE 
+** time: 26.100588 
+
+** filename: GreaterThan@comparators@circomlib_8.circom 
+** result: CONSTRAINED! 
+** time: 0.004167 
+
+** filename: Pedersen@pedersen_old@circomlib_64.circom 
+** result: NOT SURE 
+** time: 25.653836 
+
+** filename: Bits2Num@bitify@circomlib_16.circom 
+** result: CONSTRAINED! 
+** time: 0.000371 
+
+** filename: Num2Bits@bitify@circomlib_253.circom 
+** result: CONSTRAINED! 
+** time: 0.152263 
+
+** filename: AliasCheck@aliascheck@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.02801 
+
+** filename: Mux2@mux2@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.004343 
+
+** filename: Bits2Num@bitify@circomlib_64.circom 
+** result: CONSTRAINED! 
+** time: 0.00138 
+
+** filename: Mux3@mux3@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.007905 
+
+** filename: Bits2Num@bitify@circomlib_8.circom 
+** result: CONSTRAINED! 
+** time: 0.000266 
+
+** filename: Pedersen@pedersen@circomlib_64.circom 
+** result: NOT SURE 
+** time: 29.21267 
+
+** filename: Pedersen@pedersen_old@circomlib_128.circom 
+** result: NOT SURE 
+** time: 39.906545 
+
+** filename: Montgomery2Edwards@montgomery@circomlib.circom 
+** result: UNDER-CONSTRAINED! 
+** time: 0.158231 
+
+** filename: Multiplexor2@escalarmulany@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.000337 
+
+** filename: Num2BitsNeg@bitify@circomlib_1.circom 
+** result: CONSTRAINED! 
+** time: 0.002251 
+
+** filename: Bits2Num_strict@bitify@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 3.107388 
+
+** filename: EdDSAMiMCVerifier@eddsamimc@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 3.200852 
+
+** filename: Mux1@mux1@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.001283 
+
+** filename: Sign@sign@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.814583 
+
+** filename: Bits2Num@bitify@circomlib_1.circom 
+** result: CONSTRAINED! 
+** time: 0.000315 
+
+** filename: Switcher@switcher@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.000349 
+
+** filename: SMTProcessorLevel@smtprocessorlevel@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 1.993396 
+
+** filename: WindowMulFix@escalarmulfix@circomlib.circom 
+** result: NOT SURE 
+** time: 20.204416 
+
+** filename: Window4@pedersen@circomlib.circom 
+** result: NOT SURE 
+** time: 20.885718 
+
+** filename: Bits2Num@bitify@circomlib_253.circom 
+** result: CONSTRAINED! 
+** time: 0.01407 
+
+** filename: Num2Bits@bitify@circomlib_16.circom 
+** result: CONSTRAINED! 
+** time: 0.003297 
+
+** filename: Pedersen@pedersen_old@circomlib_1.circom 
+** result: CONSTRAINED! 
+** time: 0.031189 
+
+** filename: Pedersen@pedersen@circomlib_1.circom 
+** result: NOT SURE 
+** time: 5.107714 
+
+** filename: Sigma@poseidon_old@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.000489 
+
+** filename: LessEqThan@comparators@circomlib_8.circom 
+** result: CONSTRAINED! 
+** time: 0.004115 
+
+** filename: SMTVerifierSM@smtverifiersm@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.001177 
+
+** filename: BinSub@binsub@circomlib_16.circom 
+** result: CONSTRAINED! 
+** time: 0.005585 
+
+** filename: SMTHash2@smthash_poseidon@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 1.036126 
+
+** filename: BinSum@binsum@circomlib_32_2.circom 
+** result: CONSTRAINED! 
+** time: 0.013522 
+
+** filename: XOR@gates@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.000216 
+
+** filename: Pedersen@pedersen_old@circomlib_253.circom 
+** result: TIMEOUT 
+** time: 30.012956380844116 
+
+** filename: Bits2Point@pointbits@circomlib.circom 
+** result: UNDER-CONSTRAINED! 
+** time: 0.031601 
+
+** filename: Bits2Num@bitify@circomlib_254.circom 
+** result: CONSTRAINED! 
+** time: 0.014105 
+
+** filename: Pedersen@pedersen@circomlib_128.circom 
+** result: TIMEOUT 
+** time: 44.95459008216858 
+
+** filename: Sha256compression@sha256compression@circomlib.circom 
+** result: TIMEOUT 
+** time: 30.051968574523926 
+
+** filename: Num2BitsNeg@bitify@circomlib_254.circom 
+** result: CONSTRAINED! 
+** time: 0.191551 
+
+** filename: GreaterThan@comparators@circomlib_16.circom 
+** result: CONSTRAINED! 
+** time: 0.00513 
+
+** filename: NOT@gates@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.000422 
+
+** filename: Pedersen@pedersen@circomlib_254.circom 
+** result: TIMEOUT 
+** time: 30.01241707801819 
+
+** filename: Num2Bits@bitify@circomlib_8.circom 
+** result: CONSTRAINED! 
+** time: 0.002123 
+
+** filename: Pedersen@pedersen_old@circomlib_16.circom 
+** result: NOT SURE 
+** time: 21.790537 
+
+** filename: Num2Bits@bitify@circomlib_256.circom 
+** result: CONSTRAINED! 
+** time: 0.154343 
+
+** filename: IsZero@comparators@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.000786 
+
+** filename: Pedersen@pedersen_old@circomlib_256.circom 
+** result: TIMEOUT 
+** time: 30.00029444694519 
+
+** filename: LessEqThan@comparators@circomlib_16.circom 
+** result: CONSTRAINED! 
+** time: 0.006182 
+
+** filename: SMTProcessorSM@smtprocessorsm@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.001393 
+
+** filename: Bits2Point_Strict@pointbits@circomlib.circom 
+** result: TIMEOUT 
+** time: 34.67374610900879 
+
+** filename: Num2Bits@bitify@circomlib_128.circom 
+** result: CONSTRAINED! 
+** time: 0.05008 
+
+** filename: Pedersen@pedersen_old@circomlib_8.circom 
+** result: NOT SURE 
+** time: 20.321657 
+
+** filename: Pedersen@pedersen@circomlib_256.circom 
+** result: TIMEOUT 
+** time: 30.001229286193848 
+
+** filename: GreaterThan@comparators.circom 
+** result: CONSTRAINED! 
+** time: 0.002681 
+
+** filename: Segment@pedersen.circom 
+** result: NOT SURE 
+** time: 21.091112 
+
+** filename: BabyCheck@babyjub.circom 
+** result: CONSTRAINED! 
+** time: 0.000225 
+
+** filename: Poseidon@poseidon.circom 
+** result: CONSTRAINED! 
+** time: 1.049196 
+
+** filename: Pedersen@pedersen_old.circom 
+** result: CONSTRAINED! 
+** time: 0.037267 
+
+** filename: Num2BitsNeg@bitify.circom 
+** result: CONSTRAINED! 
+** time: 0.002005 
+
+** filename: SegmentMulAny@escalarmulany.circom 
+** result: NOT SURE 
+** time: 23.061292 
+
+** filename: MiMCFeistel@mimcsponge.circom 
+** result: CONSTRAINED! 
+** time: 0.0015 
+
+** filename: BabyAdd@babyjub.circom 
+** result: CONSTRAINED! 
+** time: 8.646564 
+
+** filename: MultiAND@gates.circom 
+** result: CONSTRAINED! 
+** time: 0.001735 
+
+** filename: BabyPbk@babyjub.circom 
+** result: TIMEOUT 
+** time: 30.003466367721558 
+
+** filename: Multiplexer@multiplexer.circom 
+** result: CONSTRAINED! 
+** time: 0.009306 
+
+** filename: Bits2Num_strict@bitify.circom 
+** result: CONSTRAINED! 
+** time: 3.177491 
+
+** filename: Point2Bits_Strict@pointbits.circom 
+** result: CONSTRAINED! 
+** time: 13.450443 
+
+** filename: BinSum@binsum.circom 
+** result: CONSTRAINED! 
+** time: 0.001031 
+
+** filename: Bits2Point_Strict@pointbits.circom 
+** result: TIMEOUT 
+** time: 34.710190773010254 
+
+** filename: MultiMux4@mux4.circom 
+** result: CONSTRAINED! 
+** time: 0.011494 
+
+** filename: EdDSAMiMCSpongeVerifier@eddsamimcsponge.circom 
+** result: CONSTRAINED! 
+** time: 3.95689 
+
+** filename: OR@gates.circom 
+** result: CONSTRAINED! 
+** time: 0.000297 
+
+** filename: Mux2@mux2.circom 
+** result: CONSTRAINED! 
+** time: 0.003491 
+
+** filename: Switcher@switcher.circom 
+** result: CONSTRAINED! 
+** time: 0.000459 
+
+** filename: BabyDbl@babyjub.circom 
+** result: CONSTRAINED! 
+** time: 3.485739 
+
+** filename: XOR@gates.circom 
+** result: CONSTRAINED! 
+** time: 0.000304 
+
+** filename: EscalarProduct@multiplexer.circom 
+** result: CONSTRAINED! 
+** time: 0.000798 
+
+** filename: IsEqual@comparators.circom 
+** result: CONSTRAINED! 
+** time: 0.002026 
+
+** filename: IsZero@comparators.circom 
+** result: CONSTRAINED! 
+** time: 0.000784 
+
+** filename: MontgomeryDouble@montgomery.circom 
+** result: NOT SURE 
+** time: 26.144366 
+
+** filename: Mux4@mux4.circom 
+** result: CONSTRAINED! 
+** time: 0.019513 
+
+** filename: EscalarMulAny@escalarmulany.circom 
+** result: TIMEOUT 
+** time: 35.220231771469116 
+
+** filename: MultiMux3@mux3.circom 
+** result: CONSTRAINED! 
+** time: 0.003494 
+
+** filename: Montgomery2Edwards@montgomery.circom 
+** result: UNDER-CONSTRAINED! 
+** time: 0.200275 
+
+** filename: NOR@gates.circom 
+** result: CONSTRAINED! 
+** time: 0.000222 
+
+** filename: BitElementMulAny@escalarmulany.circom 
+** result: NOT SURE 
+** time: 32.687361 
+
+** filename: MiMCSponge@mimcsponge.circom 
+** result: CONSTRAINED! 
+** time: 0.010533 
+
+** filename: GreaterEqThan@comparators.circom 
+** result: CONSTRAINED! 
+** time: 0.002196 
+
+** filename: Sign@sign.circom 
+** result: CONSTRAINED! 
+** time: 0.981414 
+
+** filename: Mux3@mux3.circom 
+** result: CONSTRAINED! 
+** time: 0.006452 
+
+** filename: AND@gates.circom 
+** result: CONSTRAINED! 
+** time: 0.00046 
+
+** filename: NAND@gates.circom 
+** result: CONSTRAINED! 
+** time: 0.000338 
+
+** filename: ForceEqualIfEnabled@comparators.circom 
+** result: CONSTRAINED! 
+** time: 0.000311 
+
+** filename: MultiMux1@mux1.circom 
+** result: CONSTRAINED! 
+** time: 0.000446 
+
+** filename: EdDSAVerifier@eddsa.circom 
+** result: CONSTRAINED! 
+** time: 12.548693 
+
+** filename: WindowMulFix@escalarmulfix.circom 
+** result: NOT SURE 
+** time: 20.249794 
+
+** filename: Multiplexor2@escalarmulany.circom 
+** result: CONSTRAINED! 
+** time: 0.000338 
+
+** filename: AliasCheck@aliascheck.circom 
+** result: CONSTRAINED! 
+** time: 0.033539 
+
+** filename: NOT@gates.circom 
+** result: CONSTRAINED! 
+** time: 0.000316 
+
+** filename: LessEqThan@comparators.circom 
+** result: CONSTRAINED! 
+** time: 0.002181 
+
+** filename: MontgomeryAdd@montgomery.circom 
+** result: UNDER-CONSTRAINED! 
+** time: 2.506084 
+
+** filename: MiMC7@mimc.circom 
+** result: CONSTRAINED! 
+** time: 0.001107 
+
+** filename: MultiMiMC7@mimc.circom 
+** result: CONSTRAINED! 
+** time: 0.004669 
+
+** filename: Decoder@multiplexer.circom 
+** result: UNDER-CONSTRAINED! 
+** time: 0.207636 
+
+** filename: MultiMux2@mux2.circom 
+** result: CONSTRAINED! 
+** time: 0.001927 
+
+** filename: Mux1@mux1.circom 
+** result: CONSTRAINED! 
+** time: 0.001291 
+
+** filename: Bits2Num@bitify.circom 
+** result: CONSTRAINED! 
+** time: 0.000196 
+
+** filename: Sigma@poseidon.circom 
+** result: CONSTRAINED! 
+** time: 0.000497 
+
+** filename: Window4@pedersen.circom 
+** result: NOT SURE 
+** time: 20.816983 
+
+** filename: EdDSAPoseidonVerifier@eddsaposeidon.circom 
+** result: CONSTRAINED! 
+** time: 2.922791 
+
+** filename: Num2Bits_strict@bitify.circom 
+** result: CONSTRAINED! 
+** time: 3.048482 
+
+** filename: CompConstant@compconstant.circom 
+** result: CONSTRAINED! 
+** time: 0.170368 
+
+** filename: BinSub@binsub.circom 
+** result: CONSTRAINED! 
+** time: 0.000821 
+
+** filename: LessThan@comparators.circom 
+** result: CONSTRAINED! 
+** time: 0.001361 
+
+** filename: SegmentMulFix@escalarmulfix.circom 
+** result: NOT SURE 
+** time: 115.22043 
+
+** filename: EdDSAMiMCVerifier@eddsamimc.circom 
+** result: CONSTRAINED! 
+** time: 3.171813 
+
+** filename: Pedersen@pedersen.circom 
+** result: UNDER-CONSTRAINED! 
+** time: 0.825915 
+
+** filename: Edwards2Montgomery@montgomery.circom 
+** result: UNDER-CONSTRAINED! 
+** time: 2.190752 
+
+** filename: Num2Bits@bitify.circom 
+** result: CONSTRAINED! 
+** time: 0.0006 
+

@@ -1,0 +1,55 @@
+# r1cs file: ./benchmarks/circomlib-cff5ab6/MiMCSponge@mimcsponge.r1cs
+# timeout: 5000
+# solver: cvc5
+# selector: counter
+# precondition: ()
+# propagation on: #t
+# solver on: #t
+# smt: #f
+# weak: #t
+# map: #f
+# number of wires: 39
+# number of constraints: 35
+# field size (how many bytes): 32
+# inputs: (0 3 4 5).
+# outputs: (1 2).
+# targets: #<set: 1 2>.
+# parsing original r1cs...
+# xlist: (x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 x14 x15 x16 x17 x18 x19 x20 x21 x22 x23 x24 x25 x26 x27 x28 x29 x30 x31 x32 x33 x34 x35 x36 x37 x38).
+# alt-xlist (x0 y1 y2 x3 x4 x5 y6 y7 y8 y9 y10 y11 y12 y13 y14 y15 y16 y17 y18 y19 y20 y21 y22 y23 y24 y25 y26 y27 y28 y29 y30 y31 y32 y33 y34 y35 y36 y37 y38).
+# parsing alternative r1cs...
+# configuring precondition...
+# unique: #<set:>.
+# initial known-set #<set: 0 3 4 5>
+# initial unknown-set #<set: 16 32 1 17 33 2 18 34 19 35 20 36 21 37 6 22 38 7 23 8 24 9 25 10 26 11 27 12 28 13 29 14 30 15 31>
+# refined known-set: #<set: 0 3 4 5>
+# refined unknown-set: #<set: 16 32 1 17 33 2 18 34 19 35 20 36 21 37 6 22 38 7 23 8 24 9 25 10 26 11 27 12 28 13 29 14 30 15 31>
+  # propagation (linear lemma): #<set: 32 21 8 9 10> added.
+  # propagation (linear lemma): #<set: 16 11> added.
+  # propagation (linear lemma): #<set: 13> added.
+  # propagation (linear lemma): #<set: 15> added.
+  # propagation (linear lemma): #<set: 6 12> added.
+  # propagation (linear lemma): #<set: 19 14> added.
+  # propagation (linear lemma): #<set: 22 7 27> added.
+  # propagation (linear lemma): #<set: 20 24> added.
+  # propagation (linear lemma): #<set: 26> added.
+  # propagation (linear lemma): #<set: 17 23> added.
+  # propagation (linear lemma): #<set: 1 25 30> added.
+  # propagation (linear lemma): #<set: 33 18 38> added.
+  # propagation (linear lemma): #<set: 35 31> added.
+  # propagation (linear lemma): #<set: 37> added.
+  # propagation (linear lemma): #<set: 34 28> added.
+  # propagation (linear lemma): #<set: 2 36> added.
+  # propagation (linear lemma): #<set: 29> added.
+  # propagation (linear lemma): none.
+  # propagation (binary01 lemma): none.
+  # propagation (basis2 lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (linear lemma): none.
+  # propagation (binary01 lemma): none.
+  # propagation (basis2 lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (aboz lemma): none.
+# final unknown set #<set:>.
+# weak uniqueness: safe.

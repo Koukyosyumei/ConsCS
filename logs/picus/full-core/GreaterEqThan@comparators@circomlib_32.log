@@ -1,0 +1,47 @@
+# r1cs file: ./benchmarks/circomlibex-cff5ab6/GreaterEqThan@comparators@circomlib_32.r1cs
+# timeout: 5000
+# solver: cvc5
+# selector: counter
+# precondition: ()
+# propagation on: #t
+# solver on: #t
+# smt: #f
+# weak: #t
+# map: #f
+# number of wires: 41
+# number of constraints: 39
+# field size (how many bytes): 32
+# inputs: (0 2 3).
+# outputs: (1).
+# targets: #<set: 1>.
+# parsing original r1cs...
+# xlist: (x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 x14 x15 x16 x17 x18 x19 x20 x21 x22 x23 x24 x25 x26 x27 x28 x29 x30 x31 x32 x33 x34 x35 x36 x37 x38 x39 x40).
+# alt-xlist (x0 y1 x2 x3 y4 y5 y6 y7 y8 y9 y10 y11 y12 y13 y14 y15 y16 y17 y18 y19 y20 y21 y22 y23 y24 y25 y26 y27 y28 y29 y30 y31 y32 y33 y34 y35 y36 y37 y38 y39 y40).
+# parsing alternative r1cs...
+# configuring precondition...
+# unique: #<set:>.
+# initial known-set #<set: 0 2 3>
+# initial unknown-set #<set: 16 32 1 17 33 18 34 19 35 4 20 36 5 21 37 6 22 38 7 23 39 8 24 40 9 25 10 26 11 27 12 28 13 29 14 30 15 31>
+# refined known-set: #<set: 0 2 3>
+# refined unknown-set: #<set: 16 32 1 17 33 18 34 19 35 4 20 36 5 21 37 6 22 38 7 23 39 8 24 40 9 25 10 26 11 27 12 28 13 29 14 30 15 31>
+  # propagation (linear lemma): #<set: 5 6> added.
+  # propagation (linear lemma): #<set: 40> added.
+  # propagation (linear lemma): none.
+  # propagation (binary01 lemma): none.
+  # propagation (basis2 lemma): #<set: 16 32 17 33 18 34 19 35 20 36 21 37 22 38 7 23 39 8 24 9 25 10 26 11 27 12 28 13 29 14 30 15 31> added.
+  # propagation (aboz lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (linear lemma): #<set: 4> added.
+  # propagation (linear lemma): #<set: 1> added.
+  # propagation (linear lemma): none.
+  # propagation (binary01 lemma): none.
+  # propagation (basis2 lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (linear lemma): none.
+  # propagation (binary01 lemma): none.
+  # propagation (basis2 lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (aboz lemma): none.
+# final unknown set #<set:>.
+# weak uniqueness: safe.

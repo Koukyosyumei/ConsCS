@@ -1,0 +1,107 @@
+# r1cs file: ./benchmarks/circomlibex-cff5ab6/WindowMulFix@escalarmulfix@circomlib.r1cs
+# timeout: 5000
+# solver: cvc5
+# selector: counter
+# precondition: ()
+# propagation on: #t
+# solver on: #t
+# smt: #f
+# weak: #t
+# map: #f
+# number of wires: 96
+# number of constraints: 90
+# field size (how many bytes): 32
+# inputs: (0 5 6 7 8 9).
+# outputs: (1 2 3 4).
+# targets: #<set: 1 2 3 4>.
+# parsing original r1cs...
+# xlist: (x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 x14 x15 x16 x17 x18 x19 x20 x21 x22 x23 x24 x25 x26 x27 x28 x29 x30 x31 x32 x33 x34 x35 x36 x37 x38 x39 x40 x41 x42 x43 x44 x45 x46 x47 x48 x49 x50 x51 x52 x53 x54 x55 x56 x57 x58 x59 x60 x61 x62 x63 x64 x65 x66 x67 x68 x69 x70 x71 x72 x73 x74 x75 x76 x77 x78 x79 x80 x81 x82 x83 x84 x85 x86 x87 x88 x89 x90 x91 x92 x93 x94 x95).
+# alt-xlist (x0 y1 y2 y3 y4 x5 x6 x7 x8 x9 y10 y11 y12 y13 y14 y15 y16 y17 y18 y19 y20 y21 y22 y23 y24 y25 y26 y27 y28 y29 y30 y31 y32 y33 y34 y35 y36 y37 y38 y39 y40 y41 y42 y43 y44 y45 y46 y47 y48 y49 y50 y51 y52 y53 y54 y55 y56 y57 y58 y59 y60 y61 y62 y63 y64 y65 y66 y67 y68 y69 y70 y71 y72 y73 y74 y75 y76 y77 y78 y79 y80 y81 y82 y83 y84 y85 y86 y87 y88 y89 y90 y91 y92 y93 y94 y95).
+# parsing alternative r1cs...
+# configuring precondition...
+# unique: #<set:>.
+# initial known-set #<set: 0 5 6 7 8 9>
+# initial unknown-set #<set: 16 32 48 64 80 1 17 33 49 65 81 2 18 34 50 66 82 3 19 35 51 67 83 4 20 36 52 68 84 21 37 53 69 85 22 38 54 70 86 23 39 55 71 87 24 40 56 72 88 25 41 57 73 89 10 26 42 58 74 90 11 27 43 59 75 91 12 28 44 60 76 92 13 29 45 61 77 93 14 30 46 62 78 94 15 31 47 63 79 95>
+# refined known-set: #<set: 0 5 6 7 8 9>
+# refined unknown-set: #<set: 16 32 48 64 80 1 17 33 49 65 81 2 18 34 50 66 82 3 19 35 51 67 83 4 20 36 52 68 84 21 37 53 69 85 22 38 54 70 86 23 39 55 71 87 24 40 56 72 88 25 41 57 73 89 10 26 42 58 74 90 11 27 43 59 75 91 12 28 44 60 76 92 13 29 45 61 77 93 14 30 46 62 78 94 15 31 47 63 79 95>
+  # propagation (linear lemma): #<set: 48 33 34 19 54 55 40 41 26 27 78 47 20 68 12 60 76 13 77> added.
+  # propagation (linear lemma): #<set: 57 93 94 95> added.
+  # propagation (linear lemma): none.
+  # propagation (binary01 lemma): none.
+  # propagation (basis2 lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (linear lemma): none.
+  # propagation (binary01 lemma): none.
+  # propagation (basis2 lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (aboz lemma): none.
+  # checking: (x16 y16), skip.
+  # checking: (x23 y23), skip.
+  # checking: (x30 y30), skip.
+  # checking: (x85 y85), skip.
+  # checking: (x86 y86), skip.
+  # checking: (x37 y37), skip.
+  # checking: (x44 y44), skip.
+  # checking: (x51 y51), skip.
+  # checking: (x64 y64), skip.
+  # checking: (x72 y72), skip.
+  # checking: (x56 y56), skip.
+  # checking: (x69 y69), skip.
+  # checking: (x70 y70), skip.
+  # checking: (x10 y10), skip.
+  # checking: (x14 y14), skip.
+  # checking: (x79 y79), skip.
+  # checking: (x80 y80), skip.
+  # checking: (x81 y81), skip.
+  # checking: (x17 y17), skip.
+  # checking: (x82 y82), skip.
+  # checking: (x83 y83), skip.
+  # checking: (x84 y84), skip.
+  # checking: (x21 y21), skip.
+  # checking: (x24 y24), skip.
+  # checking: (x28 y28), skip.
+  # checking: (x31 y31), skip.
+  # checking: (x35 y35), skip.
+  # checking: (x38 y38), skip.
+  # checking: (x42 y42), skip.
+  # checking: (x45 y45), skip.
+  # checking: (x49 y49), skip.
+  # checking: (x58 y58), skip.
+  # checking: (x59 y59), skip.
+  # checking: (x61 y61), skip.
+  # checking: (x62 y62), skip.
+  # checking: (x52 y52), skip.
+  # checking: (x87 y87), skip.
+  # checking: (x88 y88), skip.
+  # checking: (x89 y89), skip.
+  # checking: (x90 y90), skip.
+  # checking: (x91 y91), skip.
+  # checking: (x92 y92), skip.
+  # checking: (x65 y65), skip.
+  # checking: (x66 y66), skip.
+  # checking: (x71 y71), skip.
+  # checking: (x73 y73), skip.
+  # checking: (x74 y74), skip.
+  # checking: (x63 y63), skip.
+  # checking: (x32 y32), skip.
+  # checking: (x67 y67), skip.
+  # checking: (x36 y36), skip.
+  # checking: (x50 y50), skip.
+  # checking: (x18 y18), skip.
+  # checking: (x53 y53), skip.
+  # checking: (x22 y22), skip.
+  # checking: (x39 y39), skip.
+  # checking: (x25 y25), skip.
+  # checking: (x75 y75), skip.
+  # checking: (x11 y11), skip.
+  # checking: (x43 y43), skip.
+  # checking: (x29 y29), skip.
+  # checking: (x46 y46), skip.
+  # checking: (x15 y15), skip.
+  # checking: (x1 y1), skip.
+  # checking: (x2 y2), skip.
+  # checking: (x3 y3), skip.
+  # checking: (x4 y4), skip.
+# final unknown set #<set: 16 32 64 80 1 17 49 65 81 2 18 50 66 82 3 35 51 67 83 4 36 52 84 21 37 53 69 85 22 38 70 86 23 39 71 87 24 56 72 88 25 73 89 10 42 58 74 90 11 43 59 75 91 28 44 92 29 45 61 14 30 46 62 15 31 63 79>.
+# weak uniqueness: unknown.

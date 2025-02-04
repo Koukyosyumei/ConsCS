@@ -1,0 +1,1342 @@
+** filename: GreaterEqThan@comparators@circomlib_16.circom 
+** result: NOT SURE 
+** time: 0.001399 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 4 
+    ****** simple_replacement_expression_CONS_propogation: 2 
+    ****** multi_con_to_single_uncon: 1 
+
+** filename: BabyCheck@babyjub@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.000302 
+    ** contribution counts: 
+    ****** single_to_double: 2 
+
+** filename: Num2BitsNeg@bitify@circomlib_256.circom 
+** result: NOT SURE 
+** time: 0.051766 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 1 
+    ****** simple_replacement_expression_CONS_propogation: 1 
+    ****** multi_con_to_single_uncon: 1 
+
+** filename: GreaterEqThan@comparators@circomlib_32.circom 
+** result: NOT SURE 
+** time: 0.002551 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 4 
+    ****** simple_replacement_expression_CONS_propogation: 2 
+    ****** multi_con_to_single_uncon: 1 
+
+** filename: Num2BitsNeg@bitify@circomlib_16.circom 
+** result: NOT SURE 
+** time: 0.001303 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 1 
+    ****** simple_replacement_expression_CONS_propogation: 1 
+    ****** multi_con_to_single_uncon: 1 
+
+** filename: Num2Bits@bitify@circomlib_1.circom 
+** result: CONSTRAINED! 
+** time: 0.000233 
+    ** contribution counts: 
+    ****** single_to_double: 1 
+    ****** multi_con_to_single_uncon: 1 
+
+** filename: T1@t1@circomlib.circom 
+** result: NOT SURE 
+** time: 1.524679 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 640 
+    ****** simple_replacement_expression_CONS_propogation: 416 
+    ****** single_to_double: 416 
+    ****** multi_con_to_single_uncon: 122 
+
+** filename: Main@main@circomlib.circom 
+** result: TIMEOUT 
+** time: 30.015860557556152 
+    ** contribution counts: 
+
+** filename: Bits2Num@bitify@circomlib_256.circom 
+** result: CONSTRAINED! 
+** time: 0.013993 
+    ** contribution counts: 
+    ****** multi_con_to_single_uncon: 1 
+
+** filename: BabyPbk@babyjub@circomlib.circom 
+** result: TIMEOUT 
+** time: 30.14122247695923 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 5324 
+    ****** simple_replacement_expression_CONS_propogation: 1 
+    ****** simple_replacement_constant: 3300 
+    ****** multi_con_to_single_uncon: 213 
+    ****** single_to_double: 2880 
+
+** filename: Sigma@poseidon@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.000398 
+    ** contribution counts: 
+    ****** single_to_double: 3 
+    ****** multi_con_to_single_uncon: 3 
+
+** filename: EdDSAPoseidonVerifier@eddsaposeidon@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 2.92168 
+    ** contribution counts: 
+
+** filename: BabyAdd@babyjub@circomlib.circom 
+** result: NOT SURE 
+** time: 0.000679 
+    ** contribution counts: 
+    ****** single_to_double: 5 
+    ****** multi_con_to_single_uncon: 4 
+
+** filename: Point2Bits_Strict@pointbits@circomlib.circom 
+** result: NOT SURE 
+** time: 1.861784 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 1531 
+    ****** simple_replacement_expression_CONS_propogation: 2 
+    ****** simple_replacement_constant: 5 
+    ****** single_to_double: 2 
+
+** filename: Bits2Num@bitify@circomlib_32.circom 
+** result: CONSTRAINED! 
+** time: 0.000752 
+    ** contribution counts: 
+    ****** multi_con_to_single_uncon: 1 
+
+** filename: Mux4@mux4@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.009726 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 22 
+    ****** simple_replacement_expression_CONS_propogation: 21 
+    ****** single_to_double: 128 
+    ****** multi_con_to_single_uncon: 20 
+
+** filename: GreaterThan@comparators@circomlib_32.circom 
+** result: NOT SURE 
+** time: 0.002602 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 4 
+    ****** simple_replacement_expression_CONS_propogation: 2 
+    ****** multi_con_to_single_uncon: 1 
+
+** filename: Point2Bits@pointbits@circomlib.circom 
+** result: NOT SURE 
+** time: 0.000502 
+    ** contribution counts: 
+
+** filename: BitElementMulAny@escalarmulany@circomlib.circom 
+** result: NOT SURE 
+** time: 0.003551 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 15 
+    ****** simple_replacement_expression_CONS_propogation: 7 
+    ****** single_to_double: 5 
+    ****** multi_con_to_single_uncon: 2 
+
+** filename: LessEqThan@comparators@circomlib_32.circom 
+** result: NOT SURE 
+** time: 0.002064 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 4 
+    ****** simple_replacement_expression_CONS_propogation: 2 
+    ****** multi_con_to_single_uncon: 1 
+
+** filename: Pedersen@pedersen@circomlib_32.circom 
+** result: NOT SURE 
+** time: 0.987834 
+    ** contribution counts: 
+    ****** simple_replacement_constant: 377 
+    ****** simple_replacement_expression: 515 
+    ****** simple_replacement_expression_CONS_propogation: 176 
+    ****** single_to_double: 918 
+    ****** multi_con_to_single_uncon: 85 
+
+** filename: Sha256_2@sha256_2@circomlib.circom 
+** result: TIMEOUT 
+** time: 30.004433393478394 
+    ** contribution counts: 
+
+** filename: AND@gates@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.000269 
+    ** contribution counts: 
+    ****** single_to_double: 1 
+    ****** multi_con_to_single_uncon: 1 
+
+** filename: Num2BitsNeg@bitify@circomlib_64.circom 
+** result: NOT SURE 
+** time: 0.005644 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 1 
+    ****** simple_replacement_expression_CONS_propogation: 1 
+    ****** multi_con_to_single_uncon: 1 
+
+** filename: Bits2Num@bitify@circomlib_128.circom 
+** result: CONSTRAINED! 
+** time: 0.004401 
+    ** contribution counts: 
+    ****** multi_con_to_single_uncon: 1 
+
+** filename: Num2Bits@bitify@circomlib_64.circom 
+** result: NOT SURE 
+** time: 0.005193 
+    ** contribution counts: 
+
+** filename: Num2BitsNeg@bitify@circomlib_32.circom 
+** result: NOT SURE 
+** time: 0.003057 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 1 
+    ****** simple_replacement_expression_CONS_propogation: 1 
+    ****** multi_con_to_single_uncon: 1 
+
+** filename: GreaterEqThan@comparators@circomlib_8.circom 
+** result: NOT SURE 
+** time: 0.001102 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 4 
+    ****** simple_replacement_expression_CONS_propogation: 2 
+    ****** multi_con_to_single_uncon: 1 
+
+** filename: EdDSAMiMCSpongeVerifier@eddsamimcsponge@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 3.947893 
+    ** contribution counts: 
+
+** filename: Pedersen@pedersen@circomlib_8.circom 
+** result: NOT SURE 
+** time: 0.078818 
+    ** contribution counts: 
+    ****** simple_replacement_constant: 93 
+    ****** simple_replacement_expression: 127 
+    ****** simple_replacement_expression_CONS_propogation: 44 
+    ****** single_to_double: 225 
+    ****** multi_con_to_single_uncon: 19 
+
+** filename: SMTVerifierLevel@smtverifierlevel@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.467534 
+    ** contribution counts: 
+    ****** single_to_double: 1285 
+    ****** simple_replacement_expression: 12 
+    ****** simple_replacement_expression_CONS_propogation: 3 
+    ****** multi_con_to_single_uncon: 737 
+    ****** simple_replacement_constant: 3 
+
+** filename: SMTHash1@smthash_mimc@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.422971 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 7 
+    ****** simple_replacement_expression_CONS_propogation: 4 
+    ****** simple_replacement_constant: 3 
+    ****** single_to_double: 1278 
+    ****** multi_con_to_single_uncon: 732 
+
+** filename: OR@gates@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.000199 
+    ** contribution counts: 
+    ****** single_to_double: 1 
+    ****** multi_con_to_single_uncon: 1 
+
+** filename: BinSum@binsum@circomlib_32_5.circom 
+** result: NOT SURE 
+** time: 0.007517 
+    ** contribution counts: 
+
+** filename: NAND@gates@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.000189 
+    ** contribution counts: 
+    ****** single_to_double: 1 
+    ****** multi_con_to_single_uncon: 1 
+
+** filename: Num2Bits@bitify@circomlib_254.circom 
+** result: NOT SURE 
+** time: 0.049004 
+    ** contribution counts: 
+
+** filename: Pedersen@pedersen@circomlib_253.circom 
+** result: TIMEOUT 
+** time: 30.0106098651886 
+    ** contribution counts: 
+    ****** simple_replacement_constant: 2310 
+    ****** simple_replacement_expression: 3415 
+    ****** simple_replacement_expression_CONS_propogation: 1176 
+    ****** single_to_double: 5846 
+    ****** multi_con_to_single_uncon: 544 
+
+** filename: SMTHash1@smthash_poseidon@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.920618 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 408 
+    ****** simple_replacement_expression_CONS_propogation: 6 
+    ****** simple_replacement_constant: 11 
+    ****** single_to_double: 354 
+    ****** multi_con_to_single_uncon: 562 
+
+** filename: Num2BitsNeg@bitify@circomlib_128.circom 
+** result: NOT SURE 
+** time: 0.015717 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 1 
+    ****** simple_replacement_expression_CONS_propogation: 1 
+    ****** multi_con_to_single_uncon: 1 
+
+** filename: SMTHash2@smthash_mimc@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.435612 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 7 
+    ****** simple_replacement_expression_CONS_propogation: 4 
+    ****** simple_replacement_constant: 3 
+    ****** single_to_double: 1278 
+    ****** multi_con_to_single_uncon: 732 
+
+** filename: Pedersen@pedersen@circomlib_16.circom 
+** result: NOT SURE 
+** time: 0.248814 
+    ** contribution counts: 
+    ****** simple_replacement_constant: 185 
+    ****** simple_replacement_expression: 259 
+    ****** simple_replacement_expression_CONS_propogation: 88 
+    ****** single_to_double: 454 
+    ****** multi_con_to_single_uncon: 47 
+
+** filename: Edwards2Montgomery@montgomery@circomlib.circom 
+** result: NOT SURE 
+** time: 0.000218 
+    ** contribution counts: 
+
+** filename: IsEqual@comparators@circomlib.circom 
+** result: NOT SURE 
+** time: 0.000473 
+    ** contribution counts: 
+    ****** multi_con_to_single_uncon: 2 
+    ****** simple_replacement_expression: 1 
+
+** filename: NOR@gates@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.000205 
+    ** contribution counts: 
+    ****** single_to_double: 1 
+    ****** multi_con_to_single_uncon: 1 
+
+** filename: Pedersen@pedersen_old@circomlib_254.circom 
+** result: TIMEOUT 
+** time: 30.00160050392151 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 2728 
+    ****** simple_replacement_expression_CONS_propogation: 2050 
+    ****** simple_replacement_constant: 1995 
+    ****** single_to_double: 9276 
+    ****** multi_con_to_single_uncon: 338 
+
+** filename: MontgomeryAdd@montgomery@circomlib.circom 
+** result: NOT SURE 
+** time: 0.000298 
+    ** contribution counts: 
+
+** filename: BabyDbl@babyjub@circomlib.circom 
+** result: NOT SURE 
+** time: 0.001393 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 6 
+    ****** simple_replacement_expression_CONS_propogation: 4 
+    ****** single_to_double: 9 
+    ****** multi_con_to_single_uncon: 4 
+
+** filename: Num2Bits@bitify@circomlib_32.circom 
+** result: NOT SURE 
+** time: 0.002641 
+    ** contribution counts: 
+
+** filename: SigmaPlus@sigmaplus@circomlib.circom 
+** result: NOT SURE 
+** time: 2.032615 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 851 
+    ****** simple_replacement_expression_CONS_propogation: 499 
+    ****** single_to_double: 576 
+    ****** simple_replacement_constant: 26 
+    ****** multi_con_to_single_uncon: 175 
+
+** filename: T2@t2@circomlib.circom 
+** result: NOT SURE 
+** time: 1.169562 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 544 
+    ****** simple_replacement_expression_CONS_propogation: 320 
+    ****** single_to_double: 544 
+    ****** multi_con_to_single_uncon: 151 
+
+** filename: Num2Bits_strict@bitify@circomlib.circom 
+** result: NOT SURE 
+** time: 0.709755 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 764 
+    ****** simple_replacement_expression_CONS_propogation: 1 
+    ****** simple_replacement_constant: 2 
+    ****** single_to_double: 1 
+
+** filename: Num2BitsNeg@bitify@circomlib_253.circom 
+** result: NOT SURE 
+** time: 0.05051 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 1 
+    ****** simple_replacement_expression_CONS_propogation: 1 
+    ****** multi_con_to_single_uncon: 1 
+
+** filename: ForceEqualIfEnabled@comparators@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.000317 
+    ** contribution counts: 
+
+** filename: Pedersen@pedersen_old@circomlib_32.circom 
+** result: NOT SURE 
+** time: 0.734102 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 386 
+    ****** simple_replacement_expression_CONS_propogation: 290 
+    ****** simple_replacement_constant: 296 
+    ****** single_to_double: 1356 
+    ****** multi_con_to_single_uncon: 56 
+
+** filename: Num2BitsNeg@bitify@circomlib_8.circom 
+** result: NOT SURE 
+** time: 0.001046 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 1 
+    ****** simple_replacement_expression_CONS_propogation: 1 
+    ****** multi_con_to_single_uncon: 1 
+
+** filename: MontgomeryDouble@montgomery@circomlib.circom 
+** result: NOT SURE 
+** time: 0.000359 
+    ** contribution counts: 
+    ****** single_to_double: 1 
+    ****** multi_con_to_single_uncon: 2 
+
+** filename: GreaterThan@comparators@circomlib_8.circom 
+** result: NOT SURE 
+** time: 0.001415 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 4 
+    ****** simple_replacement_expression_CONS_propogation: 2 
+    ****** multi_con_to_single_uncon: 1 
+
+** filename: Pedersen@pedersen_old@circomlib_64.circom 
+** result: NOT SURE 
+** time: 2.934249 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 770 
+    ****** simple_replacement_expression_CONS_propogation: 578 
+    ****** simple_replacement_constant: 584 
+    ****** single_to_double: 2700 
+    ****** multi_con_to_single_uncon: 104 
+
+** filename: Bits2Num@bitify@circomlib_16.circom 
+** result: CONSTRAINED! 
+** time: 0.000338 
+    ** contribution counts: 
+    ****** multi_con_to_single_uncon: 1 
+
+** filename: Num2Bits@bitify@circomlib_253.circom 
+** result: NOT SURE 
+** time: 0.048954 
+    ** contribution counts: 
+
+** filename: AliasCheck@aliascheck@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.027528 
+    ** contribution counts: 
+
+** filename: Mux2@mux2@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.001865 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 8 
+    ****** simple_replacement_expression_CONS_propogation: 7 
+    ****** single_to_double: 18 
+    ****** multi_con_to_single_uncon: 5 
+
+** filename: Bits2Num@bitify@circomlib_64.circom 
+** result: CONSTRAINED! 
+** time: 0.001308 
+    ** contribution counts: 
+    ****** multi_con_to_single_uncon: 1 
+
+** filename: Mux3@mux3@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.003697 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 13 
+    ****** simple_replacement_expression_CONS_propogation: 12 
+    ****** single_to_double: 42 
+    ****** multi_con_to_single_uncon: 9 
+
+** filename: Bits2Num@bitify@circomlib_8.circom 
+** result: CONSTRAINED! 
+** time: 0.000247 
+    ** contribution counts: 
+    ****** multi_con_to_single_uncon: 1 
+
+** filename: Pedersen@pedersen@circomlib_64.circom 
+** result: NOT SURE 
+** time: 3.068599 
+    ** contribution counts: 
+    ****** simple_replacement_constant: 755 
+    ****** simple_replacement_expression: 1033 
+    ****** simple_replacement_expression_CONS_propogation: 352 
+    ****** single_to_double: 1844 
+    ****** multi_con_to_single_uncon: 173 
+
+** filename: Pedersen@pedersen_old@circomlib_128.circom 
+** result: NOT SURE 
+** time: 9.744218 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 1538 
+    ****** simple_replacement_expression_CONS_propogation: 1154 
+    ****** simple_replacement_constant: 1160 
+    ****** single_to_double: 5388 
+    ****** multi_con_to_single_uncon: 200 
+
+** filename: Montgomery2Edwards@montgomery@circomlib.circom 
+** result: NOT SURE 
+** time: 0.000236 
+    ** contribution counts: 
+    ****** multi_con_to_single_uncon: 1 
+
+** filename: Multiplexor2@escalarmulany@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.000306 
+    ** contribution counts: 
+    ****** single_to_double: 4 
+    ****** multi_con_to_single_uncon: 2 
+
+** filename: Num2BitsNeg@bitify@circomlib_1.circom 
+** result: NOT SURE 
+** time: 0.000461 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 1 
+    ****** simple_replacement_expression_CONS_propogation: 1 
+    ****** multi_con_to_single_uncon: 1 
+
+** filename: Bits2Num_strict@bitify@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 1.381713 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 764 
+    ****** simple_replacement_expression_CONS_propogation: 763 
+    ****** single_to_double: 255 
+    ****** simple_replacement_constant: 2 
+    ****** multi_con_to_single_uncon: 129 
+
+** filename: EdDSAMiMCVerifier@eddsamimc@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 3.164847 
+    ** contribution counts: 
+
+** filename: Mux1@mux1@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.000738 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 4 
+    ****** simple_replacement_expression_CONS_propogation: 3 
+    ****** single_to_double: 4 
+    ****** multi_con_to_single_uncon: 1 
+
+** filename: Sign@sign@circomlib.circom 
+** result: NOT SURE 
+** time: 0.277669 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 257 
+    ****** simple_replacement_expression_CONS_propogation: 255 
+    ****** single_to_double: 254 
+    ****** multi_con_to_single_uncon: 128 
+
+** filename: Bits2Num@bitify@circomlib_1.circom 
+** result: CONSTRAINED! 
+** time: 0.000166 
+    ** contribution counts: 
+    ****** multi_con_to_single_uncon: 1 
+
+** filename: Switcher@switcher@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.000329 
+    ** contribution counts: 
+    ****** single_to_double: 2 
+    ****** multi_con_to_single_uncon: 3 
+
+** filename: SMTProcessorLevel@smtprocessorlevel@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 1.744461 
+    ** contribution counts: 
+    ****** single_to_double: 2575 
+    ****** simple_replacement_expression: 22 
+    ****** simple_replacement_expression_CONS_propogation: 4 
+    ****** multi_con_to_single_uncon: 1477 
+    ****** simple_replacement_constant: 6 
+
+** filename: WindowMulFix@escalarmulfix@circomlib.circom 
+** result: NOT SURE 
+** time: 0.013801 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 51 
+    ****** simple_replacement_expression_CONS_propogation: 21 
+    ****** single_to_double: 15 
+    ****** multi_con_to_single_uncon: 3 
+
+** filename: Window4@pedersen@circomlib.circom 
+** result: NOT SURE 
+** time: 0.013781 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 50 
+    ****** simple_replacement_expression_CONS_propogation: 21 
+    ****** single_to_double: 15 
+    ****** multi_con_to_single_uncon: 3 
+
+** filename: Bits2Num@bitify@circomlib_253.circom 
+** result: CONSTRAINED! 
+** time: 0.011536 
+    ** contribution counts: 
+    ****** multi_con_to_single_uncon: 1 
+
+** filename: Num2Bits@bitify@circomlib_16.circom 
+** result: NOT SURE 
+** time: 0.000994 
+    ** contribution counts: 
+
+** filename: Pedersen@pedersen_old@circomlib_1.circom 
+** result: CONSTRAINED! 
+** time: 0.018158 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 18 
+    ****** simple_replacement_expression_CONS_propogation: 8 
+    ****** simple_replacement_constant: 78 
+    ****** single_to_double: 138 
+    ****** multi_con_to_single_uncon: 5 
+
+** filename: Pedersen@pedersen@circomlib_1.circom 
+** result: NOT SURE 
+** time: 0.024417 
+    ** contribution counts: 
+    ****** simple_replacement_constant: 63 
+    ****** simple_replacement_expression: 49 
+    ****** simple_replacement_expression_CONS_propogation: 9 
+    ****** single_to_double: 90 
+    ****** multi_con_to_single_uncon: 8 
+
+** filename: Sigma@poseidon_old@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.000302 
+    ** contribution counts: 
+    ****** single_to_double: 3 
+    ****** multi_con_to_single_uncon: 3 
+
+** filename: LessEqThan@comparators@circomlib_8.circom 
+** result: NOT SURE 
+** time: 0.001117 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 4 
+    ****** simple_replacement_expression_CONS_propogation: 2 
+    ****** multi_con_to_single_uncon: 1 
+
+** filename: SMTVerifierSM@smtverifiersm@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.000627 
+    ** contribution counts: 
+    ****** single_to_double: 4 
+    ****** multi_con_to_single_uncon: 7 
+
+** filename: BinSub@binsub@circomlib_16.circom 
+** result: NOT SURE 
+** time: 0.001435 
+    ** contribution counts: 
+
+** filename: SMTHash2@smthash_poseidon@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.507452 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 326 
+    ****** simple_replacement_expression_CONS_propogation: 6 
+    ****** simple_replacement_constant: 5 
+    ****** single_to_double: 326 
+    ****** multi_con_to_single_uncon: 452 
+
+** filename: BinSum@binsum@circomlib_32_2.circom 
+** result: NOT SURE 
+** time: 0.003367 
+    ** contribution counts: 
+
+** filename: XOR@gates@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.000201 
+    ** contribution counts: 
+    ****** single_to_double: 1 
+    ****** multi_con_to_single_uncon: 1 
+
+** filename: Pedersen@pedersen_old@circomlib_253.circom 
+** result: TIMEOUT 
+** time: 30.004446029663086 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 2685 
+    ****** simple_replacement_expression_CONS_propogation: 2017 
+    ****** simple_replacement_constant: 1954 
+    ****** single_to_double: 9084 
+    ****** multi_con_to_single_uncon: 332 
+
+** filename: Bits2Point@pointbits@circomlib.circom 
+** result: NOT SURE 
+** time: 0.009358 
+    ** contribution counts: 
+
+** filename: Bits2Num@bitify@circomlib_254.circom 
+** result: CONSTRAINED! 
+** time: 0.011435 
+    ** contribution counts: 
+    ****** multi_con_to_single_uncon: 1 
+
+** filename: Pedersen@pedersen@circomlib_128.circom 
+** result: NOT SURE 
+** time: 11.955973 
+    ** contribution counts: 
+    ****** simple_replacement_constant: 1512 
+    ****** simple_replacement_expression: 2068 
+    ****** simple_replacement_expression_CONS_propogation: 704 
+    ****** single_to_double: 3697 
+    ****** multi_con_to_single_uncon: 348 
+
+** filename: Sha256compression@sha256compression@circomlib.circom 
+** result: TIMEOUT 
+** time: 30.038464784622192 
+    ** contribution counts: 
+
+** filename: Num2BitsNeg@bitify@circomlib_254.circom 
+** result: NOT SURE 
+** time: 0.062384 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 1 
+    ****** simple_replacement_expression_CONS_propogation: 1 
+    ****** multi_con_to_single_uncon: 1 
+
+** filename: GreaterThan@comparators@circomlib_16.circom 
+** result: NOT SURE 
+** time: 0.001419 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 4 
+    ****** simple_replacement_expression_CONS_propogation: 2 
+    ****** multi_con_to_single_uncon: 1 
+
+** filename: NOT@gates@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.000169 
+    ** contribution counts: 
+    ****** multi_con_to_single_uncon: 1 
+
+** filename: Pedersen@pedersen@circomlib_254.circom 
+** result: TIMEOUT 
+** time: 30.01003122329712 
+    ** contribution counts: 
+    ****** simple_replacement_constant: 2305 
+    ****** simple_replacement_expression: 3347 
+    ****** simple_replacement_expression_CONS_propogation: 1150 
+    ****** single_to_double: 5840 
+    ****** multi_con_to_single_uncon: 502 
+
+** filename: Num2Bits@bitify@circomlib_8.circom 
+** result: NOT SURE 
+** time: 0.000679 
+    ** contribution counts: 
+
+** filename: Pedersen@pedersen_old@circomlib_16.circom 
+** result: NOT SURE 
+** time: 0.227712 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 194 
+    ****** simple_replacement_expression_CONS_propogation: 146 
+    ****** simple_replacement_constant: 152 
+    ****** single_to_double: 684 
+    ****** multi_con_to_single_uncon: 32 
+
+** filename: Num2Bits@bitify@circomlib_256.circom 
+** result: NOT SURE 
+** time: 0.06113 
+    ** contribution counts: 
+
+** filename: IsZero@comparators@circomlib.circom 
+** result: NOT SURE 
+** time: 0.00032 
+    ** contribution counts: 
+    ****** multi_con_to_single_uncon: 1 
+
+** filename: Pedersen@pedersen_old@circomlib_256.circom 
+** result: TIMEOUT 
+** time: 30.008285522460938 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 2718 
+    ****** simple_replacement_expression_CONS_propogation: 2040 
+    ****** simple_replacement_constant: 1988 
+    ****** single_to_double: 9248 
+    ****** multi_con_to_single_uncon: 337 
+
+** filename: LessEqThan@comparators@circomlib_16.circom 
+** result: NOT SURE 
+** time: 0.001778 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 4 
+    ****** simple_replacement_expression_CONS_propogation: 2 
+    ****** multi_con_to_single_uncon: 1 
+
+** filename: SMTProcessorSM@smtprocessorsm@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.000777 
+    ** contribution counts: 
+    ****** single_to_double: 6 
+    ****** multi_con_to_single_uncon: 8 
+
+** filename: Bits2Point_Strict@pointbits@circomlib.circom 
+** result: NOT SURE 
+** time: 3.283435 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 1533 
+    ****** simple_replacement_expression_CONS_propogation: 765 
+    ****** simple_replacement_constant: 5 
+    ****** single_to_double: 258 
+    ****** multi_con_to_single_uncon: 131 
+
+** filename: Num2Bits@bitify@circomlib_128.circom 
+** result: NOT SURE 
+** time: 0.014966 
+    ** contribution counts: 
+
+** filename: Pedersen@pedersen_old@circomlib_8.circom 
+** result: NOT SURE 
+** time: 0.078666 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 98 
+    ****** simple_replacement_expression_CONS_propogation: 74 
+    ****** simple_replacement_constant: 80 
+    ****** single_to_double: 348 
+    ****** multi_con_to_single_uncon: 20 
+
+** filename: Pedersen@pedersen@circomlib_256.circom 
+** result: TIMEOUT 
+** time: 30.00470519065857 
+    ** contribution counts: 
+    ****** simple_replacement_constant: 2307 
+    ****** simple_replacement_expression: 3417 
+    ****** simple_replacement_expression_CONS_propogation: 1178 
+    ****** single_to_double: 5846 
+    ****** multi_con_to_single_uncon: 522 
+
+** filename: GreaterThan@comparators.circom 
+** result: NOT SURE 
+** time: 0.001079 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 4 
+    ****** simple_replacement_expression_CONS_propogation: 2 
+    ****** multi_con_to_single_uncon: 1 
+
+** filename: Segment@pedersen.circom 
+** result: NOT SURE 
+** time: 0.029467 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 126 
+    ****** simple_replacement_expression_CONS_propogation: 16 
+    ****** single_to_double: 4 
+    ****** multi_con_to_single_uncon: 2 
+
+** filename: BabyCheck@babyjub.circom 
+** result: CONSTRAINED! 
+** time: 0.000299 
+    ** contribution counts: 
+    ****** single_to_double: 2 
+
+** filename: Poseidon@poseidon.circom 
+** result: CONSTRAINED! 
+** time: 0.529087 
+    ** contribution counts: 
+    ****** simple_replacement_constant: 5 
+    ****** simple_replacement_expression: 323 
+    ****** simple_replacement_expression_CONS_propogation: 4 
+    ****** single_to_double: 326 
+    ****** multi_con_to_single_uncon: 473 
+
+** filename: Pedersen@pedersen_old.circom 
+** result: CONSTRAINED! 
+** time: 0.02626 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 28 
+    ****** simple_replacement_expression_CONS_propogation: 17 
+    ****** simple_replacement_constant: 67 
+    ****** single_to_double: 147 
+    ****** multi_con_to_single_uncon: 7 
+
+** filename: Num2BitsNeg@bitify.circom 
+** result: NOT SURE 
+** time: 0.000509 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 1 
+    ****** simple_replacement_expression_CONS_propogation: 1 
+    ****** multi_con_to_single_uncon: 1 
+
+** filename: SegmentMulAny@escalarmulany.circom 
+** result: NOT SURE 
+** time: 0.007649 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 37 
+    ****** simple_replacement_expression_CONS_propogation: 7 
+
+** filename: MiMCFeistel@mimcsponge.circom 
+** result: CONSTRAINED! 
+** time: 0.001057 
+    ** contribution counts: 
+    ****** single_to_double: 11 
+    ****** multi_con_to_single_uncon: 6 
+    ****** simple_replacement_expression: 2 
+    ****** simple_replacement_expression_CONS_propogation: 1 
+
+** filename: BabyAdd@babyjub.circom 
+** result: NOT SURE 
+** time: 0.000665 
+    ** contribution counts: 
+    ****** single_to_double: 5 
+    ****** multi_con_to_single_uncon: 4 
+
+** filename: MultiAND@gates.circom 
+** result: CONSTRAINED! 
+** time: 0.000563 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 3 
+    ****** simple_replacement_expression_CONS_propogation: 2 
+    ****** single_to_double: 2 
+    ****** multi_con_to_single_uncon: 1 
+
+** filename: BabyPbk@babyjub.circom 
+** result: TIMEOUT 
+** time: 30.00095510482788 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 5246 
+    ****** simple_replacement_expression_CONS_propogation: 1 
+    ****** simple_replacement_constant: 3222 
+    ****** multi_con_to_single_uncon: 209 
+    ****** single_to_double: 2805 
+
+** filename: Multiplexer@multiplexer.circom 
+** result: CONSTRAINED! 
+** time: 0.003189 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 12 
+    ****** simple_replacement_expression_CONS_propogation: 5 
+    ****** single_to_double: 5 
+    ****** simple_replacement_constant: 1 
+    ****** multi_con_to_single_uncon: 13 
+
+** filename: Bits2Num_strict@bitify.circom 
+** result: CONSTRAINED! 
+** time: 1.518095 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 764 
+    ****** simple_replacement_expression_CONS_propogation: 763 
+    ****** single_to_double: 255 
+    ****** simple_replacement_constant: 2 
+    ****** multi_con_to_single_uncon: 129 
+
+** filename: Point2Bits_Strict@pointbits.circom 
+** result: NOT SURE 
+** time: 2.043264 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 1531 
+    ****** simple_replacement_expression_CONS_propogation: 2 
+    ****** simple_replacement_constant: 5 
+    ****** single_to_double: 2 
+
+** filename: BinSum@binsum.circom 
+** result: NOT SURE 
+** time: 0.000305 
+    ** contribution counts: 
+
+** filename: Bits2Point_Strict@pointbits.circom 
+** result: NOT SURE 
+** time: 3.016523 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 1533 
+    ****** simple_replacement_expression_CONS_propogation: 765 
+    ****** simple_replacement_constant: 5 
+    ****** single_to_double: 258 
+    ****** multi_con_to_single_uncon: 131 
+
+** filename: MultiMux4@mux4.circom 
+** result: CONSTRAINED! 
+** time: 0.009235 
+    ** contribution counts: 
+    ****** single_to_double: 124 
+    ****** multi_con_to_single_uncon: 36 
+    ****** simple_replacement_expression: 2 
+    ****** simple_replacement_expression_CONS_propogation: 2 
+
+** filename: EdDSAMiMCSpongeVerifier@eddsamimcsponge.circom 
+** result: CONSTRAINED! 
+** time: 3.792166 
+    ** contribution counts: 
+
+** filename: OR@gates.circom 
+** result: CONSTRAINED! 
+** time: 0.000281 
+    ** contribution counts: 
+    ****** single_to_double: 1 
+    ****** multi_con_to_single_uncon: 1 
+
+** filename: Mux2@mux2.circom 
+** result: CONSTRAINED! 
+** time: 0.00191 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 8 
+    ****** simple_replacement_expression_CONS_propogation: 7 
+    ****** single_to_double: 18 
+    ****** multi_con_to_single_uncon: 5 
+
+** filename: Switcher@switcher.circom 
+** result: CONSTRAINED! 
+** time: 0.00042 
+    ** contribution counts: 
+    ****** single_to_double: 2 
+    ****** multi_con_to_single_uncon: 3 
+
+** filename: BabyDbl@babyjub.circom 
+** result: NOT SURE 
+** time: 0.00138 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 6 
+    ****** simple_replacement_expression_CONS_propogation: 4 
+    ****** single_to_double: 9 
+    ****** multi_con_to_single_uncon: 4 
+
+** filename: XOR@gates.circom 
+** result: CONSTRAINED! 
+** time: 0.000272 
+    ** contribution counts: 
+    ****** single_to_double: 1 
+    ****** multi_con_to_single_uncon: 1 
+
+** filename: EscalarProduct@multiplexer.circom 
+** result: CONSTRAINED! 
+** time: 0.00031 
+    ** contribution counts: 
+    ****** single_to_double: 2 
+    ****** multi_con_to_single_uncon: 3 
+
+** filename: IsEqual@comparators.circom 
+** result: NOT SURE 
+** time: 0.000591 
+    ** contribution counts: 
+    ****** multi_con_to_single_uncon: 2 
+    ****** simple_replacement_expression: 1 
+
+** filename: IsZero@comparators.circom 
+** result: NOT SURE 
+** time: 0.000228 
+    ** contribution counts: 
+    ****** multi_con_to_single_uncon: 1 
+
+** filename: MontgomeryDouble@montgomery.circom 
+** result: NOT SURE 
+** time: 0.000473 
+    ** contribution counts: 
+    ****** single_to_double: 1 
+    ****** multi_con_to_single_uncon: 2 
+
+** filename: Mux4@mux4.circom 
+** result: CONSTRAINED! 
+** time: 0.009717 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 22 
+    ****** simple_replacement_expression_CONS_propogation: 21 
+    ****** single_to_double: 128 
+    ****** multi_con_to_single_uncon: 20 
+
+** filename: EscalarMulAny@escalarmulany.circom 
+** result: NOT SURE 
+** time: 0.006995 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 40 
+    ****** simple_replacement_expression_CONS_propogation: 6 
+    ****** multi_con_to_single_uncon: 1 
+
+** filename: MultiMux3@mux3.circom 
+** result: CONSTRAINED! 
+** time: 0.002732 
+    ** contribution counts: 
+    ****** single_to_double: 41 
+    ****** multi_con_to_single_uncon: 17 
+    ****** simple_replacement_expression: 2 
+    ****** simple_replacement_expression_CONS_propogation: 2 
+
+** filename: Montgomery2Edwards@montgomery.circom 
+** result: NOT SURE 
+** time: 0.000323 
+    ** contribution counts: 
+    ****** multi_con_to_single_uncon: 1 
+
+** filename: NOR@gates.circom 
+** result: CONSTRAINED! 
+** time: 0.000199 
+    ** contribution counts: 
+    ****** single_to_double: 1 
+    ****** multi_con_to_single_uncon: 1 
+
+** filename: BitElementMulAny@escalarmulany.circom 
+** result: NOT SURE 
+** time: 0.003534 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 15 
+    ****** simple_replacement_expression_CONS_propogation: 7 
+    ****** single_to_double: 5 
+    ****** multi_con_to_single_uncon: 2 
+
+** filename: MiMCSponge@mimcsponge.circom 
+** result: CONSTRAINED! 
+** time: 0.00572 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 15 
+    ****** single_to_double: 46 
+    ****** simple_replacement_expression_CONS_propogation: 7 
+    ****** simple_replacement_constant: 1 
+    ****** multi_con_to_single_uncon: 20 
+
+** filename: GreaterEqThan@comparators.circom 
+** result: NOT SURE 
+** time: 0.001073 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 4 
+    ****** simple_replacement_expression_CONS_propogation: 2 
+    ****** multi_con_to_single_uncon: 1 
+
+** filename: Sign@sign.circom 
+** result: NOT SURE 
+** time: 0.271975 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 257 
+    ****** simple_replacement_expression_CONS_propogation: 255 
+    ****** single_to_double: 254 
+    ****** multi_con_to_single_uncon: 128 
+
+** filename: Mux3@mux3.circom 
+** result: CONSTRAINED! 
+** time: 0.004577 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 13 
+    ****** simple_replacement_expression_CONS_propogation: 12 
+    ****** single_to_double: 42 
+    ****** multi_con_to_single_uncon: 9 
+
+** filename: AND@gates.circom 
+** result: CONSTRAINED! 
+** time: 0.000189 
+    ** contribution counts: 
+    ****** single_to_double: 1 
+    ****** multi_con_to_single_uncon: 1 
+
+** filename: NAND@gates.circom 
+** result: CONSTRAINED! 
+** time: 0.000189 
+    ** contribution counts: 
+    ****** single_to_double: 1 
+    ****** multi_con_to_single_uncon: 1 
+
+** filename: ForceEqualIfEnabled@comparators.circom 
+** result: CONSTRAINED! 
+** time: 0.000308 
+    ** contribution counts: 
+
+** filename: MultiMux1@mux1.circom 
+** result: CONSTRAINED! 
+** time: 0.000308 
+    ** contribution counts: 
+    ****** single_to_double: 4 
+    ****** multi_con_to_single_uncon: 2 
+
+** filename: EdDSAVerifier@eddsa.circom 
+** result: CONSTRAINED! 
+** time: 12.658768 
+    ** contribution counts: 
+
+** filename: WindowMulFix@escalarmulfix.circom 
+** result: NOT SURE 
+** time: 0.016873 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 51 
+    ****** simple_replacement_expression_CONS_propogation: 21 
+    ****** single_to_double: 15 
+    ****** multi_con_to_single_uncon: 3 
+
+** filename: Multiplexor2@escalarmulany.circom 
+** result: CONSTRAINED! 
+** time: 0.000412 
+    ** contribution counts: 
+    ****** single_to_double: 4 
+    ****** multi_con_to_single_uncon: 2 
+
+** filename: AliasCheck@aliascheck.circom 
+** result: CONSTRAINED! 
+** time: 0.03371 
+    ** contribution counts: 
+
+** filename: NOT@gates.circom 
+** result: CONSTRAINED! 
+** time: 0.00017 
+    ** contribution counts: 
+    ****** multi_con_to_single_uncon: 1 
+
+** filename: LessEqThan@comparators.circom 
+** result: NOT SURE 
+** time: 0.001047 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 4 
+    ****** simple_replacement_expression_CONS_propogation: 2 
+    ****** multi_con_to_single_uncon: 1 
+
+** filename: MontgomeryAdd@montgomery.circom 
+** result: NOT SURE 
+** time: 0.000294 
+    ** contribution counts: 
+
+** filename: MiMC7@mimc.circom 
+** result: CONSTRAINED! 
+** time: 0.000907 
+    ** contribution counts: 
+    ****** single_to_double: 13 
+    ****** multi_con_to_single_uncon: 8 
+
+** filename: MultiMiMC7@mimc.circom 
+** result: CONSTRAINED! 
+** time: 0.002871 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 6 
+    ****** simple_replacement_expression_CONS_propogation: 4 
+    ****** single_to_double: 35 
+    ****** multi_con_to_single_uncon: 18 
+
+** filename: Decoder@multiplexer.circom 
+** result: NOT SURE 
+** time: 0.0004 
+    ** contribution counts: 
+    ****** multi_con_to_single_uncon: 1 
+
+** filename: MultiMux2@mux2.circom 
+** result: CONSTRAINED! 
+** time: 0.0016 
+    ** contribution counts: 
+    ****** single_to_double: 17 
+    ****** multi_con_to_single_uncon: 9 
+    ****** simple_replacement_expression: 2 
+    ****** simple_replacement_expression_CONS_propogation: 2 
+
+** filename: Mux1@mux1.circom 
+** result: CONSTRAINED! 
+** time: 0.000734 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 4 
+    ****** simple_replacement_expression_CONS_propogation: 3 
+    ****** single_to_double: 4 
+    ****** multi_con_to_single_uncon: 1 
+
+** filename: Bits2Num@bitify.circom 
+** result: CONSTRAINED! 
+** time: 0.000258 
+    ** contribution counts: 
+    ****** multi_con_to_single_uncon: 1 
+
+** filename: Sigma@poseidon.circom 
+** result: CONSTRAINED! 
+** time: 0.000301 
+    ** contribution counts: 
+    ****** single_to_double: 3 
+    ****** multi_con_to_single_uncon: 3 
+
+** filename: Window4@pedersen.circom 
+** result: NOT SURE 
+** time: 0.016575 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 50 
+    ****** simple_replacement_expression_CONS_propogation: 21 
+    ****** single_to_double: 15 
+    ****** multi_con_to_single_uncon: 3 
+
+** filename: EdDSAPoseidonVerifier@eddsaposeidon.circom 
+** result: CONSTRAINED! 
+** time: 2.95679 
+    ** contribution counts: 
+
+** filename: Num2Bits_strict@bitify.circom 
+** result: NOT SURE 
+** time: 0.697683 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 764 
+    ****** simple_replacement_expression_CONS_propogation: 1 
+    ****** simple_replacement_constant: 2 
+    ****** single_to_double: 1 
+
+** filename: CompConstant@compconstant.circom 
+** result: NOT SURE 
+** time: 0.064079 
+    ** contribution counts: 
+    ****** single_to_double: 127 
+    ****** multi_con_to_single_uncon: 128 
+    ****** simple_replacement_expression: 2 
+    ****** simple_replacement_expression_CONS_propogation: 1 
+
+** filename: BinSub@binsub.circom 
+** result: NOT SURE 
+** time: 0.000307 
+    ** contribution counts: 
+
+** filename: LessThan@comparators.circom 
+** result: NOT SURE 
+** time: 0.000484 
+    ** contribution counts: 
+    ****** multi_con_to_single_uncon: 1 
+    ****** simple_replacement_expression: 1 
+
+** filename: SegmentMulFix@escalarmulfix.circom 
+** result: NOT SURE 
+** time: 0.035187 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 144 
+    ****** simple_replacement_expression_CONS_propogation: 14 
+    ****** single_to_double: 4 
+    ****** multi_con_to_single_uncon: 2 
+
+** filename: EdDSAMiMCVerifier@eddsamimc.circom 
+** result: CONSTRAINED! 
+** time: 3.076012 
+    ** contribution counts: 
+
+** filename: Pedersen@pedersen.circom 
+** result: NOT SURE 
+** time: 0.028203 
+    ** contribution counts: 
+    ****** simple_replacement_constant: 52 
+    ****** simple_replacement_expression: 57 
+    ****** simple_replacement_expression_CONS_propogation: 17 
+    ****** single_to_double: 99 
+    ****** multi_con_to_single_uncon: 10 
+
+** filename: Edwards2Montgomery@montgomery.circom 
+** result: NOT SURE 
+** time: 0.000215 
+    ** contribution counts: 
+
+** filename: Num2Bits@bitify.circom 
+** result: NOT SURE 
+** time: 0.000235 
+    ** contribution counts: 
+

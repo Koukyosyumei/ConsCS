@@ -1,0 +1,191 @@
+# r1cs file: ./benchmarks/circomlib-cff5ab6/EscalarMulAny@escalarmulany.r1cs
+# timeout: 5000
+# solver: cvc5
+# selector: counter
+# precondition: ()
+# propagation on: #t
+# solver on: #t
+# smt: #f
+# weak: #t
+# map: #f
+# number of wires: 72
+# number of constraints: 67
+# field size (how many bytes): 32
+# inputs: (0 3 4 5 6).
+# outputs: (1 2).
+# targets: #<set: 1 2>.
+# parsing original r1cs...
+# xlist: (x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 x14 x15 x16 x17 x18 x19 x20 x21 x22 x23 x24 x25 x26 x27 x28 x29 x30 x31 x32 x33 x34 x35 x36 x37 x38 x39 x40 x41 x42 x43 x44 x45 x46 x47 x48 x49 x50 x51 x52 x53 x54 x55 x56 x57 x58 x59 x60 x61 x62 x63 x64 x65 x66 x67 x68 x69 x70 x71).
+# alt-xlist (x0 y1 y2 x3 x4 x5 x6 y7 y8 y9 y10 y11 y12 y13 y14 y15 y16 y17 y18 y19 y20 y21 y22 y23 y24 y25 y26 y27 y28 y29 y30 y31 y32 y33 y34 y35 y36 y37 y38 y39 y40 y41 y42 y43 y44 y45 y46 y47 y48 y49 y50 y51 y52 y53 y54 y55 y56 y57 y58 y59 y60 y61 y62 y63 y64 y65 y66 y67 y68 y69 y70 y71).
+# parsing alternative r1cs...
+# configuring precondition...
+# unique: #<set:>.
+# initial known-set #<set: 0 3 4 5 6>
+# initial unknown-set #<set: 16 32 48 64 1 17 33 49 65 2 18 34 50 66 19 35 51 67 20 36 52 68 21 37 53 69 22 38 54 70 7 23 39 55 71 8 24 40 56 9 25 41 57 10 26 42 58 11 27 43 59 12 28 44 60 13 29 45 61 14 30 46 62 15 31 47 63>
+# refined known-set: #<set: 0 3 4 5 6>
+# refined unknown-set: #<set: 16 32 48 64 1 17 33 49 65 2 18 34 50 66 19 35 51 67 20 36 52 68 21 37 53 69 22 38 54 70 7 23 39 55 71 8 24 40 56 9 25 41 57 10 26 42 58 11 27 43 59 12 28 44 60 13 29 45 61 14 30 46 62 15 31 47 63>
+  # propagation (linear lemma): #<set: 70 11 12> added.
+  # propagation (linear lemma): #<set: 19 60> added.
+  # propagation (linear lemma): #<set: 39> added.
+  # propagation (linear lemma): none.
+  # propagation (binary01 lemma): none.
+  # propagation (basis2 lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (linear lemma): none.
+  # propagation (binary01 lemma): none.
+  # propagation (basis2 lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (aboz lemma): none.
+  # checking: (x26 y26), skip.
+  # checking: (x30 y30), skip.
+  # checking: (x35 y35), skip.
+  # checking: (x24 y24), skip.
+  # checking: (x28 y28), verified.
+  # propagation (linear lemma): #<set: 22> added.
+  # propagation (linear lemma): #<set: 40 44> added.
+  # propagation (linear lemma): #<set: 20> added.
+  # propagation (linear lemma): #<set: 33> added.
+  # propagation (linear lemma): #<set: 36> added.
+  # propagation (linear lemma): none.
+  # propagation (binary01 lemma): none.
+  # propagation (basis2 lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (linear lemma): none.
+  # propagation (binary01 lemma): none.
+  # propagation (basis2 lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (aboz lemma): none.
+  # checking: (x26 y26), verified.
+  # propagation (linear lemma): #<set: 31> added.
+  # propagation (linear lemma): #<set: 15> added.
+  # propagation (linear lemma): #<set: 9> added.
+  # propagation (linear lemma): none.
+  # propagation (binary01 lemma): none.
+  # propagation (basis2 lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (linear lemma): none.
+  # propagation (binary01 lemma): none.
+  # propagation (basis2 lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (aboz lemma): none.
+  # checking: (x30 y30), skip.
+  # checking: (x35 y35), verified.
+  # propagation (linear lemma): none.
+  # propagation (binary01 lemma): none.
+  # propagation (basis2 lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (aboz lemma): none.
+  # checking: (x30 y30), skip.
+  # checking: (x57 y57), skip.
+  # checking: (x69 y69), verified.
+  # propagation (linear lemma): #<set: 13 14> added.
+  # propagation (linear lemma): #<set: 52 53 46 47> added.
+  # propagation (linear lemma): none.
+  # propagation (binary01 lemma): none.
+  # propagation (basis2 lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (linear lemma): none.
+  # propagation (binary01 lemma): none.
+  # propagation (basis2 lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (aboz lemma): none.
+  # checking: (x24 y24), skip.
+  # checking: (x30 y30), skip.
+  # checking: (x34 y34), verified.
+  # propagation (linear lemma): #<set: 32 21> added.
+  # propagation (linear lemma): #<set: 16 27 45> added.
+  # propagation (linear lemma): #<set: 23 10> added.
+  # propagation (linear lemma): #<set: 41 29> added.
+  # propagation (linear lemma): none.
+  # propagation (binary01 lemma): none.
+  # propagation (basis2 lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (linear lemma): none.
+  # propagation (binary01 lemma): none.
+  # propagation (basis2 lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (aboz lemma): none.
+  # checking: (x49 y49), skip.
+  # checking: (x54 y54), skip.
+  # checking: (x55 y55), skip.
+  # checking: (x57 y57), skip.
+  # checking: (x48 y48), skip.
+  # checking: (x50 y50), skip.
+  # checking: (x51 y51), skip.
+  # checking: (x24 y24), verified.
+  # propagation (linear lemma): #<set: 42> added.
+  # propagation (linear lemma): #<set: 37> added.
+  # propagation (linear lemma): #<set: 17> added.
+  # propagation (linear lemma): #<set: 67> added.
+  # propagation (linear lemma): none.
+  # propagation (binary01 lemma): none.
+  # propagation (basis2 lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (linear lemma): none.
+  # propagation (binary01 lemma): none.
+  # propagation (basis2 lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (aboz lemma): none.
+  # checking: (x49 y49), skip.
+  # checking: (x54 y54), skip.
+  # checking: (x55 y55), verified.
+  # propagation (linear lemma): none.
+  # propagation (binary01 lemma): none.
+  # propagation (basis2 lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (aboz lemma): none.
+  # checking: (x57 y57), skip.
+  # checking: (x30 y30), verified.
+  # propagation (linear lemma): #<set: 25> added.
+  # propagation (linear lemma): #<set: 43> added.
+  # propagation (linear lemma): #<set: 38> added.
+  # propagation (linear lemma): #<set: 18> added.
+  # propagation (linear lemma): #<set: 68> added.
+  # propagation (linear lemma): none.
+  # propagation (binary01 lemma): none.
+  # propagation (basis2 lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (linear lemma): none.
+  # propagation (binary01 lemma): none.
+  # propagation (basis2 lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (aboz lemma): none.
+  # checking: (x64 y64), verified.
+  # propagation (linear lemma): #<set: 66> added.
+  # propagation (linear lemma): #<set: 51> added.
+  # propagation (linear lemma): none.
+  # propagation (binary01 lemma): none.
+  # propagation (basis2 lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (linear lemma): none.
+  # propagation (binary01 lemma): none.
+  # propagation (basis2 lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (aboz lemma): none.
+  # checking: (x65 y65), skip.
+  # checking: (x48 y48), skip.
+  # checking: (x49 y49), skip.
+  # checking: (x50 y50), skip.
+  # checking: (x54 y54), skip.
+  # checking: (x7 y7), skip.
+  # checking: (x8 y8), skip.
+  # checking: (x56 y56), skip.
+  # checking: (x57 y57), skip.
+  # checking: (x61 y61), skip.
+  # checking: (x62 y62), skip.
+  # checking: (x63 y63), skip.
+  # checking: (x58 y58), skip.
+  # checking: (x59 y59), skip.
+  # checking: (x71 y71), skip.
+  # checking: (x1 y1), skip.
+  # checking: (x2 y2), skip.
+# final unknown set #<set: 48 54 57 58 59 61 62 63 1 49 65 2 50 7 71 8 56>.
+# weak uniqueness: unknown.

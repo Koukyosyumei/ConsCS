@@ -1,0 +1,1925 @@
+Running command: circom ./circomlib-cff5ab6/AND@gates.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 1
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> All components satisfy weak safety :)
+  * Number of verified components (weak-safety): 1
+  * Number of failed components (weak-safety): 0
+  * Number of timeout components (weak-safety): 0
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 0.056146860122680664 seconds
+
+Running command: circom ./circomlib-cff5ab6/MiMCSponge@mimcsponge.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 2
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> All components satisfy weak safety :)
+  * Number of verified components (weak-safety): 2
+  * Number of failed components (weak-safety): 0
+  * Number of timeout components (weak-safety): 0
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 0.08063292503356934 seconds
+
+Running command: circom ./circomlib-cff5ab6/EdDSAPoseidonVerifier@eddsaposeidon.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 99
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> CIVER could not verify weak safety of all components
+Components that do not satisfy weak safety: 
+    - MontgomeryAdd(), 
+    - Edwards2Montgomery(), 
+    - Montgomery2Edwards(), 
+Components timeout when checking weak-safety: 
+    - MontgomeryDouble(), 
+    - Num2Bits(254), 
+    - Num2Bits(253), 
+    - Num2Bits(135), 
+    - BabyAdd(), 
+  * Number of verified components (weak-safety): 91
+  * Number of failed components (weak-safety): 3
+  * Number of timeout components (weak-safety): 5
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 33.18923354148865 seconds
+
+Running command: circom ./circomlib-cff5ab6/Point2Bits@pointbits.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 1
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> CIVER could not verify weak safety of all components
+Components that do not satisfy weak safety: 
+    - Point2Bits(), 
+  * Number of verified components (weak-safety): 0
+  * Number of failed components (weak-safety): 1
+  * Number of timeout components (weak-safety): 0
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 0.09209895133972168 seconds
+
+Running command: circom ./circomlib-cff5ab6/Num2Bits@bitify.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 1
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> All components satisfy weak safety :)
+  * Number of verified components (weak-safety): 1
+  * Number of failed components (weak-safety): 0
+  * Number of timeout components (weak-safety): 0
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 0.03787851333618164 seconds
+
+Running command: circom ./circomlib-cff5ab6/XOR@gates.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 1
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> All components satisfy weak safety :)
+  * Number of verified components (weak-safety): 1
+  * Number of failed components (weak-safety): 0
+  * Number of timeout components (weak-safety): 0
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 0.029942989349365234 seconds
+
+Running command: circom ./circomlib-cff5ab6/MultiMux1@mux1.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 1
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> All components satisfy weak safety :)
+  * Number of verified components (weak-safety): 1
+  * Number of failed components (weak-safety): 0
+  * Number of timeout components (weak-safety): 0
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 0.0276031494140625 seconds
+
+Running command: circom ./circomlib-cff5ab6/EscalarMulFix@escalarmulfix.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+
+Standard Error:
+[0m[1m[38;5;9merror[T2032][0m[1m: Typing error found[0m
+    [0m[34m┌─[0m "/media/Disk8T/jinan/compiling_circom/Picus/benchmarks/libs/circomlib-cff5ab6/escalarmulfix.circom":268:37
+    [0m[34m│[0m
+[0m[34m268[0m [0m[34m│[0m             segments[s].base[0] <== [0m[31mBASE[0][0m;
+    [0m[34m│[0m                                     [0m[31m^^^^^^^[0m [0m[31mArray access does not match the dimensions of the expression. 
+ Expected 0 dimensions, given 1.[0m
+
+[0m[1m[38;5;9merror[T2032][0m[1m: Typing error found[0m
+    [0m[34m┌─[0m "/media/Disk8T/jinan/compiling_circom/Picus/benchmarks/libs/circomlib-cff5ab6/escalarmulfix.circom":269:37
+    [0m[34m│[0m
+[0m[34m269[0m [0m[34m│[0m             segments[s].base[1] <== [0m[31mBASE[1][0m;
+    [0m[34m│[0m                                     [0m[31m^^^^^^^[0m [0m[31mArray access does not match the dimensions of the expression. 
+ Expected 0 dimensions, given 1.[0m
+
+[31mprevious errors were found[0m
+
+Time taken: 0.027424335479736328 seconds
+
+Running command: circom ./circomlib-cff5ab6/Mux3@mux3.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 2
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> All components satisfy weak safety :)
+  * Number of verified components (weak-safety): 2
+  * Number of failed components (weak-safety): 0
+  * Number of timeout components (weak-safety): 0
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 0.05709099769592285 seconds
+
+Running command: circom ./circomlib-cff5ab6/Ark@poseidon.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+
+Standard Error:
+[0m[1m[38;5;9merror[T2032][0m[1m: Typing error found[0m
+   [0m[34m┌─[0m "/media/Disk8T/jinan/compiling_circom/Picus/benchmarks/libs/circomlib-cff5ab6/poseidon.circom":23:28
+   [0m[34m│[0m
+[0m[34m23[0m [0m[34m│[0m         out[i] <== in[i] + [0m[31mC[i + r][0m;
+   [0m[34m│[0m                            [0m[31m^^^^^^^^[0m [0m[31mArray access does not match the dimensions of the expression. 
+ Expected 0 dimensions, given 1.[0m
+
+[31mprevious errors were found[0m
+
+Time taken: 0.10950994491577148 seconds
+
+Running command: circom ./circomlib-cff5ab6/BinSum@binsum.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 1
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> All components satisfy weak safety :)
+  * Number of verified components (weak-safety): 1
+  * Number of failed components (weak-safety): 0
+  * Number of timeout components (weak-safety): 0
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 0.04032611846923828 seconds
+
+Running command: circom ./circomlib-cff5ab6/Num2Bits_strict@bitify.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 5
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> CIVER could not verify weak safety of all components
+Components timeout when checking weak-safety: 
+    - Num2Bits(135), 
+    - Num2Bits(254), 
+  * Number of verified components (weak-safety): 3
+  * Number of failed components (weak-safety): 0
+  * Number of timeout components (weak-safety): 2
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 10.50149130821228 seconds
+
+Running command: circom ./circomlib-cff5ab6/EdDSAVerifier@eddsa.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 33
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> CIVER could not verify weak safety of all components
+Components that do not satisfy weak safety: 
+    - Edwards2Montgomery(), 
+    - MontgomeryAdd(), 
+    - Montgomery2Edwards(), 
+Components timeout when checking weak-safety: 
+    - Bits2Point_Strict(), 
+    - Num2Bits(254), 
+    - BabyAdd(), 
+    - MontgomeryDouble(), 
+    - Num2Bits(135), 
+  * Number of verified components (weak-safety): 24
+  * Number of failed components (weak-safety): 3
+  * Number of timeout components (weak-safety): 5
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 44.57644557952881 seconds
+
+Running command: circom ./circomlib-cff5ab6/MultiMux2@mux2.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 1
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> All components satisfy weak safety :)
+  * Number of verified components (weak-safety): 1
+  * Number of failed components (weak-safety): 0
+  * Number of timeout components (weak-safety): 0
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 0.05218696594238281 seconds
+
+Running command: circom ./circomlib-cff5ab6/NOR@gates.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 1
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> All components satisfy weak safety :)
+  * Number of verified components (weak-safety): 1
+  * Number of failed components (weak-safety): 0
+  * Number of timeout components (weak-safety): 0
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 0.03929877281188965 seconds
+
+Running command: circom ./circomlib-cff5ab6/MontgomeryAdd@montgomery.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 1
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> CIVER could not verify weak safety of all components
+Components that do not satisfy weak safety: 
+    - MontgomeryAdd(), 
+  * Number of verified components (weak-safety): 0
+  * Number of failed components (weak-safety): 1
+  * Number of timeout components (weak-safety): 0
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 2.04788875579834 seconds
+
+Running command: circom ./circomlib-cff5ab6/SegmentMulFix@escalarmulfix.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 8
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> CIVER could not verify weak safety of all components
+Components that do not satisfy weak safety: 
+    - Edwards2Montgomery(), 
+    - MontgomeryAdd(), 
+    - Montgomery2Edwards(), 
+Components timeout when checking weak-safety: 
+    - MontgomeryDouble(), 
+    - BabyAdd(), 
+  * Number of verified components (weak-safety): 3
+  * Number of failed components (weak-safety): 3
+  * Number of timeout components (weak-safety): 2
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 12.208940267562866 seconds
+
+Running command: circom ./circomlib-cff5ab6/LessThan@comparators.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 2
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> All components satisfy weak safety :)
+  * Number of verified components (weak-safety): 2
+  * Number of failed components (weak-safety): 0
+  * Number of timeout components (weak-safety): 0
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 0.07063531875610352 seconds
+
+Running command: circom ./circomlib-cff5ab6/Num2BitsNeg@bitify.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 2
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> All components satisfy weak safety :)
+  * Number of verified components (weak-safety): 2
+  * Number of failed components (weak-safety): 0
+  * Number of timeout components (weak-safety): 0
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 0.07302427291870117 seconds
+
+Running command: circom ./circomlib-cff5ab6/LessEqThan@comparators.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 3
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> All components satisfy weak safety :)
+  * Number of verified components (weak-safety): 3
+  * Number of failed components (weak-safety): 0
+  * Number of timeout components (weak-safety): 0
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 0.09843254089355469 seconds
+
+Running command: circom ./circomlib-cff5ab6/Bits2Point@pointbits.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 1
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> CIVER could not verify weak safety of all components
+Components that do not satisfy weak safety: 
+    - Bits2Point(), 
+  * Number of verified components (weak-safety): 0
+  * Number of failed components (weak-safety): 1
+  * Number of timeout components (weak-safety): 0
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 0.09246182441711426 seconds
+
+Running command: circom ./circomlib-cff5ab6/Multiplexer@multiplexer.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 3
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> CIVER could not verify weak safety of all components
+Components that do not satisfy weak safety: 
+    - Decoder(2), 
+  * Number of verified components (weak-safety): 2
+  * Number of failed components (weak-safety): 1
+  * Number of timeout components (weak-safety): 0
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 0.0881502628326416 seconds
+
+Running command: circom ./circomlib-cff5ab6/Sigma@poseidon.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 1
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> All components satisfy weak safety :)
+  * Number of verified components (weak-safety): 1
+  * Number of failed components (weak-safety): 0
+  * Number of timeout components (weak-safety): 0
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 0.18231844902038574 seconds
+
+Running command: circom ./circomlib-cff5ab6/EscalarProduct@multiplexer.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 1
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> All components satisfy weak safety :)
+  * Number of verified components (weak-safety): 1
+  * Number of failed components (weak-safety): 0
+  * Number of timeout components (weak-safety): 0
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 0.045084476470947266 seconds
+
+Running command: circom ./circomlib-cff5ab6/Mux4@mux4.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 2
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> All components satisfy weak safety :)
+  * Number of verified components (weak-safety): 2
+  * Number of failed components (weak-safety): 0
+  * Number of timeout components (weak-safety): 0
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 0.08792304992675781 seconds
+
+Running command: circom ./circomlib-cff5ab6/Montgomery2Edwards@montgomery.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 1
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> CIVER could not verify weak safety of all components
+Components that do not satisfy weak safety: 
+    - Montgomery2Edwards(), 
+  * Number of verified components (weak-safety): 0
+  * Number of failed components (weak-safety): 1
+  * Number of timeout components (weak-safety): 0
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 0.06162381172180176 seconds
+
+Running command: circom ./circomlib-cff5ab6/Bits2Num_strict@bitify.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 5
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> CIVER could not verify weak safety of all components
+Components timeout when checking weak-safety: 
+    - Num2Bits(135), 
+  * Number of verified components (weak-safety): 4
+  * Number of failed components (weak-safety): 0
+  * Number of timeout components (weak-safety): 1
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 5.494622230529785 seconds
+
+Running command: circom ./circomlib-cff5ab6/EscalarMul@escalarmul.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+
+Standard Error:
+[0m[1m[38;5;9merror[T2000][0m[1m: Typing error found[0m
+   [0m[34m┌─[0m "/media/Disk8T/jinan/compiling_circom/Picus/benchmarks/libs/circomlib-cff5ab6/escalarmulw4table.circom":37:5
+   [0m[34m│[0m
+[0m[34m37[0m [0m[34m│[0m     [0m[31mvar dbl[2] = base[0m;
+   [0m[34m│[0m     [0m[31m^^^^^^^^^^^^^^^^^[0m [0m[31mAssignee and assigned types do not match. 
+ Expected dimensions: 1, found 0[0m
+
+[31mprevious errors were found[0m
+
+Time taken: 0.045218706130981445 seconds
+
+Running command: circom ./circomlib-cff5ab6/CompConstant@compconstant.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 2
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> CIVER could not verify weak safety of all components
+Components timeout when checking weak-safety: 
+    - Num2Bits(135), 
+  * Number of verified components (weak-safety): 1
+  * Number of failed components (weak-safety): 0
+  * Number of timeout components (weak-safety): 1
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 5.283079147338867 seconds
+
+Running command: circom ./circomlib-cff5ab6/Pedersen@pedersen.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 8
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> CIVER could not verify weak safety of all components
+Components that do not satisfy weak safety: 
+    - MontgomeryAdd(), 
+    - Edwards2Montgomery(), 
+    - Montgomery2Edwards(), 
+Components timeout when checking weak-safety: 
+    - MontgomeryDouble(), 
+  * Number of verified components (weak-safety): 4
+  * Number of failed components (weak-safety): 3
+  * Number of timeout components (weak-safety): 1
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 7.214323997497559 seconds
+
+Running command: circom ./circomlib-cff5ab6/Switcher@switcher.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 1
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> All components satisfy weak safety :)
+  * Number of verified components (weak-safety): 1
+  * Number of failed components (weak-safety): 0
+  * Number of timeout components (weak-safety): 0
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 0.04191851615905762 seconds
+
+Running command: circom ./circomlib-cff5ab6/Bits2Point_Strict@pointbits.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 8
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> CIVER could not verify weak safety of all components
+Components timeout when checking weak-safety: 
+    - Bits2Point_Strict(), 
+    - Num2Bits(254), 
+    - Num2Bits(135), 
+  * Number of verified components (weak-safety): 5
+  * Number of failed components (weak-safety): 0
+  * Number of timeout components (weak-safety): 3
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 27.04324698448181 seconds
+
+Running command: circom ./circomlib-cff5ab6/AliasCheck@aliascheck.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 3
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> CIVER could not verify weak safety of all components
+Components timeout when checking weak-safety: 
+    - Num2Bits(135), 
+  * Number of verified components (weak-safety): 2
+  * Number of failed components (weak-safety): 0
+  * Number of timeout components (weak-safety): 1
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 5.317592144012451 seconds
+
+Running command: circom ./circomlib-cff5ab6/tags_specifications.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+
+Standard Error:
+[0m[1m[38;5;9merror[P1001][0m[1m: No main specified in the project structure[0m
+
+[31mprevious errors were found[0m
+
+Time taken: 0.007234811782836914 seconds
+
+Running command: circom ./circomlib-cff5ab6/Pedersen@pedersen_old.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 5
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> CIVER could not verify weak safety of all components
+Components timeout when checking weak-safety: 
+    - BabyAdd(), 
+  * Number of verified components (weak-safety): 4
+  * Number of failed components (weak-safety): 0
+  * Number of timeout components (weak-safety): 1
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 5.163149833679199 seconds
+
+Running command: circom ./circomlib-cff5ab6/WindowMulFix@escalarmulfix.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 4
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> CIVER could not verify weak safety of all components
+Components that do not satisfy weak safety: 
+    - MontgomeryAdd(), 
+Components timeout when checking weak-safety: 
+    - MontgomeryDouble(), 
+  * Number of verified components (weak-safety): 2
+  * Number of failed components (weak-safety): 1
+  * Number of timeout components (weak-safety): 1
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 7.145262718200684 seconds
+
+Running command: circom ./circomlib-cff5ab6/MiMC7@mimc.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 1
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> All components satisfy weak safety :)
+  * Number of verified components (weak-safety): 1
+  * Number of failed components (weak-safety): 0
+  * Number of timeout components (weak-safety): 0
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 0.04927492141723633 seconds
+
+Running command: circom ./circomlib-cff5ab6/BabyPbk@babyjub.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 12
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> CIVER could not verify weak safety of all components
+Components that do not satisfy weak safety: 
+    - Montgomery2Edwards(), 
+    - MontgomeryAdd(), 
+    - Edwards2Montgomery(), 
+Components timeout when checking weak-safety: 
+    - BabyAdd(), 
+    - Num2Bits(253), 
+    - MontgomeryDouble(), 
+  * Number of verified components (weak-safety): 6
+  * Number of failed components (weak-safety): 3
+  * Number of timeout components (weak-safety): 3
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 20.03261375427246 seconds
+
+Running command: circom ./circomlib-cff5ab6/Mux1@mux1.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 2
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> All components satisfy weak safety :)
+  * Number of verified components (weak-safety): 2
+  * Number of failed components (weak-safety): 0
+  * Number of timeout components (weak-safety): 0
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 0.04483175277709961 seconds
+
+Running command: circom ./circomlib-cff5ab6/BabyCheck@babyjub.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 1
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> All components satisfy weak safety :)
+  * Number of verified components (weak-safety): 1
+  * Number of failed components (weak-safety): 0
+  * Number of timeout components (weak-safety): 0
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 0.04525566101074219 seconds
+
+Running command: circom ./circomlib-cff5ab6/BinSub@binsub.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 1
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> All components satisfy weak safety :)
+  * Number of verified components (weak-safety): 1
+  * Number of failed components (weak-safety): 0
+  * Number of timeout components (weak-safety): 0
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 0.02770543098449707 seconds
+
+Running command: circom ./circomlib-cff5ab6/ForceEqualIfEnabled@comparators.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 2
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> All components satisfy weak safety :)
+  * Number of verified components (weak-safety): 2
+  * Number of failed components (weak-safety): 0
+  * Number of timeout components (weak-safety): 0
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 0.04935264587402344 seconds
+
+Running command: circom ./circomlib-cff5ab6/EdDSAMiMCSpongeVerifier@eddsamimcsponge.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 28
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> CIVER could not verify weak safety of all components
+Components that do not satisfy weak safety: 
+    - Edwards2Montgomery(), 
+    - MontgomeryAdd(), 
+    - Montgomery2Edwards(), 
+Components timeout when checking weak-safety: 
+    - Num2Bits(135), 
+    - Num2Bits(254), 
+    - BabyAdd(), 
+    - Num2Bits(253), 
+    - MontgomeryDouble(), 
+  * Number of verified components (weak-safety): 20
+  * Number of failed components (weak-safety): 3
+  * Number of timeout components (weak-safety): 5
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 33.34318137168884 seconds
+
+Running command: circom ./circomlib-cff5ab6/Window4@pedersen.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 4
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> CIVER could not verify weak safety of all components
+Components that do not satisfy weak safety: 
+    - MontgomeryAdd(), 
+Components timeout when checking weak-safety: 
+    - MontgomeryDouble(), 
+  * Number of verified components (weak-safety): 2
+  * Number of failed components (weak-safety): 1
+  * Number of timeout components (weak-safety): 1
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 7.255738735198975 seconds
+
+Running command: circom ./circomlib-cff5ab6/MultiMux4@mux4.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 1
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> All components satisfy weak safety :)
+  * Number of verified components (weak-safety): 1
+  * Number of failed components (weak-safety): 0
+  * Number of timeout components (weak-safety): 0
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 0.07028532028198242 seconds
+
+Running command: circom ./circomlib-cff5ab6/NAND@gates.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 1
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> All components satisfy weak safety :)
+  * Number of verified components (weak-safety): 1
+  * Number of failed components (weak-safety): 0
+  * Number of timeout components (weak-safety): 0
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 0.04008746147155762 seconds
+
+Running command: circom ./circomlib-cff5ab6/MiMCFeistel@mimcsponge.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 1
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> All components satisfy weak safety :)
+  * Number of verified components (weak-safety): 1
+  * Number of failed components (weak-safety): 0
+  * Number of timeout components (weak-safety): 0
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 0.04679560661315918 seconds
+
+Running command: circom ./circomlib-cff5ab6/Decoder@multiplexer.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 1
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> CIVER could not verify weak safety of all components
+Components that do not satisfy weak safety: 
+    - Decoder(2), 
+  * Number of verified components (weak-safety): 0
+  * Number of failed components (weak-safety): 1
+  * Number of timeout components (weak-safety): 0
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 0.03815937042236328 seconds
+
+Running command: circom ./circomlib-cff5ab6/MultiMiMC7@mimc.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 2
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> All components satisfy weak safety :)
+  * Number of verified components (weak-safety): 2
+  * Number of failed components (weak-safety): 0
+  * Number of timeout components (weak-safety): 0
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 0.06508660316467285 seconds
+
+Running command: circom ./circomlib-cff5ab6/Bits2Num@bitify.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 1
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> All components satisfy weak safety :)
+  * Number of verified components (weak-safety): 1
+  * Number of failed components (weak-safety): 0
+  * Number of timeout components (weak-safety): 0
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 0.04018688201904297 seconds
+
+Running command: circom ./circomlib-cff5ab6/Poseidon@poseidon.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 70
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> All components satisfy weak safety :)
+  * Number of verified components (weak-safety): 70
+  * Number of failed components (weak-safety): 0
+  * Number of timeout components (weak-safety): 0
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 1.2390005588531494 seconds
+
+Running command: circom ./circomlib-cff5ab6/Multiplexor2@escalarmulany.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 1
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> All components satisfy weak safety :)
+  * Number of verified components (weak-safety): 1
+  * Number of failed components (weak-safety): 0
+  * Number of timeout components (weak-safety): 0
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 0.09409403800964355 seconds
+
+Running command: circom ./circomlib-cff5ab6/IsEqual@comparators.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 2
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> All components satisfy weak safety :)
+  * Number of verified components (weak-safety): 2
+  * Number of failed components (weak-safety): 0
+  * Number of timeout components (weak-safety): 0
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 0.06895995140075684 seconds
+
+Running command: circom ./circomlib-cff5ab6/SegmentMulAny@escalarmulany.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 8
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> CIVER could not verify weak safety of all components
+Components that do not satisfy weak safety: 
+    - MontgomeryAdd(), 
+    - Montgomery2Edwards(), 
+    - Edwards2Montgomery(), 
+Components timeout when checking weak-safety: 
+    - BabyAdd(), 
+    - MontgomeryDouble(), 
+  * Number of verified components (weak-safety): 3
+  * Number of failed components (weak-safety): 3
+  * Number of timeout components (weak-safety): 2
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 12.21315336227417 seconds
+
+Running command: circom ./circomlib-cff5ab6/GreaterThan@comparators.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 3
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> All components satisfy weak safety :)
+  * Number of verified components (weak-safety): 3
+  * Number of failed components (weak-safety): 0
+  * Number of timeout components (weak-safety): 0
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 0.06716394424438477 seconds
+
+Running command: circom ./circomlib-cff5ab6/EscalarMulWindow@escalarmul.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+
+Standard Error:
+[0m[1m[38;5;9merror[T2000][0m[1m: Typing error found[0m
+   [0m[34m┌─[0m "/media/Disk8T/jinan/compiling_circom/Picus/benchmarks/libs/circomlib-cff5ab6/escalarmulw4table.circom":37:5
+   [0m[34m│[0m
+[0m[34m37[0m [0m[34m│[0m     [0m[31mvar dbl[2] = base[0m;
+   [0m[34m│[0m     [0m[31m^^^^^^^^^^^^^^^^^[0m [0m[31mAssignee and assigned types do not match. 
+ Expected dimensions: 1, found 0[0m
+
+[31mprevious errors were found[0m
+
+Time taken: 0.04562854766845703 seconds
+
+Running command: circom ./circomlib-cff5ab6/NOT@gates.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 1
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> All components satisfy weak safety :)
+  * Number of verified components (weak-safety): 1
+  * Number of failed components (weak-safety): 0
+  * Number of timeout components (weak-safety): 0
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 0.04086709022521973 seconds
+
+Running command: circom ./circomlib-cff5ab6/OR@gates.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 1
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> All components satisfy weak safety :)
+  * Number of verified components (weak-safety): 1
+  * Number of failed components (weak-safety): 0
+  * Number of timeout components (weak-safety): 0
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 0.03983712196350098 seconds
+
+Running command: circom ./circomlib-cff5ab6/Sign@sign.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 3
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> CIVER could not verify weak safety of all components
+Components timeout when checking weak-safety: 
+    - Num2Bits(135), 
+  * Number of verified components (weak-safety): 2
+  * Number of failed components (weak-safety): 0
+  * Number of timeout components (weak-safety): 1
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 5.324469566345215 seconds
+
+Running command: circom ./circomlib-cff5ab6/EdDSAMiMCVerifier@eddsamimc.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 28
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> CIVER could not verify weak safety of all components
+Components that do not satisfy weak safety: 
+    - Montgomery2Edwards(), 
+    - MontgomeryAdd(), 
+    - Edwards2Montgomery(), 
+Components timeout when checking weak-safety: 
+    - MontgomeryDouble(), 
+    - Num2Bits(135), 
+    - Num2Bits(254), 
+    - BabyAdd(), 
+    - Num2Bits(253), 
+  * Number of verified components (weak-safety): 20
+  * Number of failed components (weak-safety): 3
+  * Number of timeout components (weak-safety): 5
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 32.04296517372131 seconds
+
+Running command: circom ./circomlib-cff5ab6/MultiAND@gates.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 2
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> All components satisfy weak safety :)
+  * Number of verified components (weak-safety): 2
+  * Number of failed components (weak-safety): 0
+  * Number of timeout components (weak-safety): 0
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 0.06162142753601074 seconds
+
+Running command: circom ./circomlib-cff5ab6/Mux2@mux2.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 2
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> All components satisfy weak safety :)
+  * Number of verified components (weak-safety): 2
+  * Number of failed components (weak-safety): 0
+  * Number of timeout components (weak-safety): 0
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 0.06154036521911621 seconds
+
+Running command: circom ./circomlib-cff5ab6/Point2Bits_Strict@pointbits.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 6
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> CIVER could not verify weak safety of all components
+Components timeout when checking weak-safety: 
+    - Num2Bits(135), 
+    - Num2Bits(254), 
+  * Number of verified components (weak-safety): 4
+  * Number of failed components (weak-safety): 0
+  * Number of timeout components (weak-safety): 2
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 10.754987478256226 seconds
+
+Running command: circom ./circomlib-cff5ab6/Segment@pedersen.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 7
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> CIVER could not verify weak safety of all components
+Components that do not satisfy weak safety: 
+    - MontgomeryAdd(), 
+    - Edwards2Montgomery(), 
+    - Montgomery2Edwards(), 
+Components timeout when checking weak-safety: 
+    - MontgomeryDouble(), 
+  * Number of verified components (weak-safety): 3
+  * Number of failed components (weak-safety): 3
+  * Number of timeout components (weak-safety): 1
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 7.198866128921509 seconds
+
+Running command: circom ./circomlib-cff5ab6/IsZero@comparators.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 1
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> All components satisfy weak safety :)
+  * Number of verified components (weak-safety): 1
+  * Number of failed components (weak-safety): 0
+  * Number of timeout components (weak-safety): 0
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 0.06903886795043945 seconds
+
+Running command: circom ./circomlib-cff5ab6/EscalarMulAny@escalarmulany.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 10
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> CIVER could not verify weak safety of all components
+Components that do not satisfy weak safety: 
+    - Edwards2Montgomery(), 
+    - Montgomery2Edwards(), 
+    - MontgomeryAdd(), 
+Components timeout when checking weak-safety: 
+    - MontgomeryDouble(), 
+    - BabyAdd(), 
+  * Number of verified components (weak-safety): 5
+  * Number of failed components (weak-safety): 3
+  * Number of timeout components (weak-safety): 2
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 12.20185399055481 seconds
+
+Running command: circom ./circomlib-cff5ab6/Edwards2Montgomery@montgomery.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 1
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> CIVER could not verify weak safety of all components
+Components that do not satisfy weak safety: 
+    - Edwards2Montgomery(), 
+  * Number of verified components (weak-safety): 0
+  * Number of failed components (weak-safety): 1
+  * Number of timeout components (weak-safety): 0
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 0.05625009536743164 seconds
+
+Running command: circom ./circomlib-cff5ab6/Mix@poseidon.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+
+Standard Error:
+[0m[1m[38;5;9merror[T2032][0m[1m: Typing error found[0m
+   [0m[34m┌─[0m "/media/Disk8T/jinan/compiling_circom/Picus/benchmarks/libs/circomlib-cff5ab6/poseidon.circom":35:19
+   [0m[34m│[0m
+[0m[34m35[0m [0m[34m│[0m             lc += [0m[31mM[j][i][0m*in[j];
+   [0m[34m│[0m                   [0m[31m^^^^^^^[0m [0m[31mArray access does not match the dimensions of the expression. 
+ Expected 0 dimensions, given 2.[0m
+
+[31mprevious errors were found[0m
+
+Time taken: 0.1285710334777832 seconds
+
+Running command: circom ./circomlib-cff5ab6/GreaterEqThan@comparators.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 3
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> All components satisfy weak safety :)
+  * Number of verified components (weak-safety): 3
+  * Number of failed components (weak-safety): 0
+  * Number of timeout components (weak-safety): 0
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 0.09496378898620605 seconds
+
+Running command: circom ./circomlib-cff5ab6/MultiMux3@mux3.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 1
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> All components satisfy weak safety :)
+  * Number of verified components (weak-safety): 1
+  * Number of failed components (weak-safety): 0
+  * Number of timeout components (weak-safety): 0
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 0.06527090072631836 seconds
+
+Running command: circom ./circomlib-cff5ab6/BabyAdd@babyjub.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 1
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> CIVER could not verify weak safety of all components
+Components timeout when checking weak-safety: 
+    - BabyAdd(), 
+  * Number of verified components (weak-safety): 0
+  * Number of failed components (weak-safety): 0
+  * Number of timeout components (weak-safety): 1
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 5.06030011177063 seconds
+
+Running command: circom ./circomlib-cff5ab6/BabyDbl@babyjub.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 2
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> CIVER could not verify weak safety of all components
+Components timeout when checking weak-safety: 
+    - BabyAdd(), 
+  * Number of verified components (weak-safety): 1
+  * Number of failed components (weak-safety): 0
+  * Number of timeout components (weak-safety): 1
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 5.077747344970703 seconds
+
+Running command: circom ./circomlib-cff5ab6/BitElementMulAny@escalarmulany.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 4
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> CIVER could not verify weak safety of all components
+Components that do not satisfy weak safety: 
+    - MontgomeryAdd(), 
+Components timeout when checking weak-safety: 
+    - MontgomeryDouble(), 
+  * Number of verified components (weak-safety): 2
+  * Number of failed components (weak-safety): 1
+  * Number of timeout components (weak-safety): 1
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 7.12539005279541 seconds
+
+Running command: circom ./circomlib-cff5ab6/MontgomeryDouble@montgomery.circom --civer tags_specifications.circom --check_safety
+Standard Output:
+[32mtemplate instances[0m: 1
+
+--------------------------------------------
+--------------------------------------------
+-------- CIVER VERIFICATION RESULTS --------
+--------------------------------------------
+--------------------------------------------
+
+-> CIVER could not verify weak safety of all components
+Components timeout when checking weak-safety: 
+    - MontgomeryDouble(), 
+  * Number of verified components (weak-safety): 0
+  * Number of failed components (weak-safety): 0
+  * Number of timeout components (weak-safety): 1
+
+
+--------------------------------------------
+--------------------------------------------
+
+[32mEverything went okay, circom safe[0m
+
+Standard Error:
+
+Time taken: 5.033106803894043 seconds
+

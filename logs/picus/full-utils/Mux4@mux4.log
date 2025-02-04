@@ -1,0 +1,44 @@
+# r1cs file: ./benchmarks/circomlib-cff5ab6/Mux4@mux4.r1cs
+# timeout: 5000
+# solver: cvc5
+# selector: counter
+# precondition: ()
+# propagation on: #t
+# solver on: #t
+# smt: #f
+# weak: #t
+# map: #f
+# number of wires: 63
+# number of constraints: 42
+# field size (how many bytes): 32
+# inputs: (0 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21).
+# outputs: (1).
+# targets: #<set: 1>.
+# parsing original r1cs...
+# xlist: (x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 x14 x15 x16 x17 x18 x19 x20 x21 x22 x23 x24 x25 x26 x27 x28 x29 x30 x31 x32 x33 x34 x35 x36 x37 x38 x39 x40 x41 x42 x43 x44 x45 x46 x47 x48 x49 x50 x51 x52 x53 x54 x55 x56 x57 x58 x59 x60 x61 x62).
+# alt-xlist (x0 y1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 x14 x15 x16 x17 x18 x19 x20 x21 y22 y23 y24 y25 y26 y27 y28 y29 y30 y31 y32 y33 y34 y35 y36 y37 y38 y39 y40 y41 y42 y43 y44 y45 y46 y47 y48 y49 y50 y51 y52 y53 y54 y55 y56 y57 y58 y59 y60 y61 y62).
+# parsing alternative r1cs...
+# configuring precondition...
+# unique: #<set:>.
+# initial known-set #<set: 17 6 7 8 9 10 11 12 13 14 15 0 16 2 18 3 19 4 20 5 21>
+# initial unknown-set #<set: 32 48 1 33 49 34 50 35 51 36 52 37 53 22 38 54 23 39 55 24 40 56 25 41 57 26 42 58 27 43 59 28 44 60 29 45 61 30 46 62 31 47>
+# refined known-set: #<set: 17 6 7 8 9 10 11 12 13 14 15 0 16 2 18 3 19 4 20 5 21>
+# refined unknown-set: #<set: 32 48 1 33 49 34 50 35 51 36 52 37 53 22 38 54 23 39 55 24 40 56 25 41 57 26 42 58 27 43 59 28 44 60 29 45 61 30 46 62 31 47>
+  # propagation (linear lemma): #<set: 32 33 34 35 36 37 38 27 28 29 30 31 23 39 24 40 25 41 26 42> added.
+  # propagation (linear lemma): #<set: 48 49 50 55 56 57 58 59 60 61 47> added.
+  # propagation (linear lemma): #<set: 52 53 54 44 45 46 62> added.
+  # propagation (linear lemma): #<set: 51 43> added.
+  # propagation (linear lemma): #<set: 22> added.
+  # propagation (linear lemma): #<set: 1> added.
+  # propagation (linear lemma): none.
+  # propagation (binary01 lemma): none.
+  # propagation (basis2 lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (linear lemma): none.
+  # propagation (binary01 lemma): none.
+  # propagation (basis2 lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (aboz lemma): none.
+# final unknown set #<set:>.
+# weak uniqueness: safe.

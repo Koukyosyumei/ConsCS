@@ -1,0 +1,2119 @@
+** filename: GreaterEqThan@comparators@circomlib_16.circom 
+** result: CONSTRAINED! 
+** time: 0.005992 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 4 
+    ****** simple_replacement_expression_CONS_propogation: 2 
+    ****** bpg_edges: 132 
+    ****** bpg_nodes: 94 
+    ****** multi_con_to_single_uncon: 2 
+    ****** BPG_binary: 18 
+    ****** bpg_time_records: {0.0012431144714355469} 
+    ****** binary_expression: 17 
+    ****** single_to_double: 17 
+
+** filename: BabyCheck@babyjub@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.0003 
+    ** contribution counts: 
+    ****** single_to_double: 2 
+    ****** bpg_time_records: {4.291534423828125e-06} 
+
+** filename: Num2BitsNeg@bitify@circomlib_256.circom 
+** result: CONSTRAINED! 
+** time: 0.193192 
+    ** contribution counts: 
+    ****** bpg_edges: 538 
+    ****** bpg_nodes: 1037 
+    ****** simple_replacement_expression: 1 
+    ****** simple_replacement_expression_CONS_propogation: 1 
+    ****** multi_con_to_single_uncon: 2 
+    ****** add_edge_to_assumptions: 2 
+    ****** BPG_constrained_both_solved: 1 
+    ****** BPG_binary: 257 
+    ****** bpg_time_records: {0.007351875305175781} 
+    ****** binary_expression: 256 
+    ****** single_to_double: 256 
+
+** filename: GreaterEqThan@comparators@circomlib_32.circom 
+** result: CONSTRAINED! 
+** time: 0.009767 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 4 
+    ****** simple_replacement_expression_CONS_propogation: 2 
+    ****** bpg_edges: 164 
+    ****** bpg_nodes: 158 
+    ****** multi_con_to_single_uncon: 2 
+    ****** BPG_binary: 34 
+    ****** bpg_time_records: {0.0016062259674072266} 
+    ****** binary_expression: 33 
+    ****** single_to_double: 33 
+
+** filename: Num2BitsNeg@bitify@circomlib_16.circom 
+** result: CONSTRAINED! 
+** time: 0.005969 
+    ** contribution counts: 
+    ****** bpg_edges: 58 
+    ****** bpg_nodes: 77 
+    ****** simple_replacement_expression: 1 
+    ****** simple_replacement_expression_CONS_propogation: 1 
+    ****** multi_con_to_single_uncon: 2 
+    ****** add_edge_to_assumptions: 2 
+    ****** BPG_constrained_both_solved: 1 
+    ****** BPG_binary: 17 
+    ****** bpg_time_records: {0.0009090900421142578} 
+    ****** binary_expression: 16 
+    ****** single_to_double: 16 
+
+** filename: Num2Bits@bitify@circomlib_1.circom 
+** result: CONSTRAINED! 
+** time: 0.000578 
+    ** contribution counts: 
+    ****** bpg_edges: 8 
+    ****** bpg_nodes: 8 
+    ****** single_to_double: 1 
+    ****** multi_con_to_single_uncon: 1 
+    ****** BPG_binary: 1 
+    ****** bpg_time_records: {0.00015354156494140625} 
+
+** filename: T1@t1@circomlib.circom 
+** result: TIMEOUT 
+** time: 90.90385913848877 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 640 
+    ****** simple_replacement_expression_CONS_propogation: 416 
+    ****** bpg_edges: 889458 
+    ****** bpg_nodes: 2787 
+    ****** single_to_double: 323 
+    ****** multi_con_to_single_uncon: 3 
+
+** filename: Main@main@circomlib.circom 
+** result: TIMEOUT 
+** time: 30.045191049575806 
+    ** contribution counts: 
+
+** filename: Bits2Num@bitify@circomlib_256.circom 
+** result: CONSTRAINED! 
+** time: 0.014282 
+    ** contribution counts: 
+    ****** multi_con_to_single_uncon: 1 
+    ****** bpg_time_records: {6.198883056640625e-06} 
+
+** filename: BabyPbk@babyjub@circomlib.circom 
+** result: TIMEOUT 
+** time: 49.88071894645691 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 1655 
+    ****** simple_replacement_expression_CONS_propogation: 1 
+    ****** bpg_edges: 663983 
+    ****** bpg_nodes: 8413 
+    ****** simple_replacement_constant: 47 
+    ****** multi_con_to_single_uncon: 5 
+    ****** single_to_double: 36 
+
+** filename: Sigma@poseidon@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.000628 
+    ** contribution counts: 
+    ****** single_to_double: 3 
+    ****** multi_con_to_single_uncon: 3 
+    ****** bpg_edges: 9 
+    ****** bpg_nodes: 8 
+    ****** bpg_time_records: {8.988380432128906e-05} 
+
+** filename: EdDSAPoseidonVerifier@eddsaposeidon@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 2.959142 
+    ** contribution counts: 
+    ****** bpg_time_records: {9.298324584960938e-06} 
+
+** filename: BabyAdd@babyjub@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 8.668419 
+    ** contribution counts: 
+    ****** single_to_double: 7 
+    ****** multi_con_to_single_uncon: 4 
+    ****** bpg_edges: 2145 
+    ****** bpg_nodes: 30 
+    ****** add_edge_to_assumptions: 2 
+    ****** bpg_time_records: {0.027794361114501953} 
+    ****** DO_ASSUMPTION_PHASE: 1 
+    ****** assumption_smt_count: 2 
+    ****** clause_learning: 1 
+    ****** Assumptions_grobner_early_conflict_cons: 2 
+    ****** solved_assumption_smt_count: 2 
+
+** filename: Point2Bits_Strict@pointbits@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 16.234052 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 1531 
+    ****** simple_replacement_expression_CONS_propogation: 2 
+    ****** bpg_edges: 34129 
+    ****** bpg_nodes: 11551 
+    ****** simple_replacement_constant: 5 
+    ****** single_to_double: 899 
+    ****** BPG_binary: 1422 
+    ****** bpg_time_records: {0.6411252021789551} 
+    ****** binary_expression: 643 
+    ****** multi_con_to_single_uncon: 924 
+
+** filename: Bits2Num@bitify@circomlib_32.circom 
+** result: CONSTRAINED! 
+** time: 0.000793 
+    ** contribution counts: 
+    ****** multi_con_to_single_uncon: 1 
+    ****** bpg_time_records: {5.9604644775390625e-06} 
+
+** filename: Mux4@mux4@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.193467 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 22 
+    ****** simple_replacement_expression_CONS_propogation: 21 
+    ****** bpg_edges: 2975 
+    ****** bpg_nodes: 161 
+    ****** single_to_double: 128 
+    ****** multi_con_to_single_uncon: 20 
+    ****** bpg_time_records: {0.0409243106842041} 
+
+** filename: GreaterThan@comparators@circomlib_32.circom 
+** result: CONSTRAINED! 
+** time: 0.011985 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 4 
+    ****** simple_replacement_expression_CONS_propogation: 2 
+    ****** bpg_edges: 164 
+    ****** bpg_nodes: 157 
+    ****** multi_con_to_single_uncon: 2 
+    ****** BPG_binary: 34 
+    ****** bpg_time_records: {0.0019352436065673828} 
+    ****** binary_expression: 33 
+    ****** single_to_double: 33 
+
+** filename: Point2Bits@pointbits@circomlib.circom 
+** result: UNDER-CONSTRAINED! 
+** time: 0.017038 
+    ** contribution counts: 
+    ****** bpg_time_records: {4.0531158447265625e-06} 
+    ****** DO_ASSUMPTION_PHASE: 1 
+    ****** NO_Assumptions_raw_SMT_UNDER: 256 
+
+** filename: BitElementMulAny@escalarmulany@circomlib.circom 
+** result: NOT SURE 
+** time: 32.805723 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 15 
+    ****** simple_replacement_expression_CONS_propogation: 7 
+    ****** bpg_edges: 2126 
+    ****** bpg_nodes: 91 
+    ****** single_to_double: 5 
+    ****** multi_con_to_single_uncon: 2 
+    ****** add_edge_to_assumptions: 1 
+    ****** bpg_time_records: {0.022026538848876953} 
+    ****** DO_ASSUMPTION_PHASE: 1 
+    ****** assumption_smt_count: 1 
+
+** filename: LessEqThan@comparators@circomlib_32.circom 
+** result: CONSTRAINED! 
+** time: 0.00977 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 4 
+    ****** simple_replacement_expression_CONS_propogation: 2 
+    ****** bpg_edges: 164 
+    ****** bpg_nodes: 158 
+    ****** multi_con_to_single_uncon: 2 
+    ****** BPG_binary: 34 
+    ****** bpg_time_records: {0.001603841781616211} 
+    ****** binary_expression: 33 
+    ****** single_to_double: 33 
+
+** filename: Pedersen@pedersen@circomlib_32.circom 
+** result: TIMEOUT 
+** time: 46.507901430130005 
+    ** contribution counts: 
+    ****** simple_replacement_constant: 51 
+    ****** bpg_edges: 461120 
+    ****** simple_replacement_expression: 183 
+    ****** simple_replacement_expression_CONS_propogation: 72 
+    ****** bpg_nodes: 1099 
+    ****** single_to_double: 107 
+    ****** multi_con_to_single_uncon: 10 
+
+** filename: Sha256_2@sha256_2@circomlib.circom 
+** result: TIMEOUT 
+** time: 30.002735137939453 
+    ** contribution counts: 
+
+** filename: AND@gates@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.000464 
+    ** contribution counts: 
+    ****** single_to_double: 1 
+    ****** multi_con_to_single_uncon: 1 
+    ****** bpg_edges: 9 
+    ****** bpg_nodes: 8 
+    ****** bpg_time_records: {9.274482727050781e-05} 
+
+** filename: Num2BitsNeg@bitify@circomlib_64.circom 
+** result: CONSTRAINED! 
+** time: 0.019795 
+    ** contribution counts: 
+    ****** bpg_edges: 154 
+    ****** bpg_nodes: 269 
+    ****** simple_replacement_expression: 1 
+    ****** simple_replacement_expression_CONS_propogation: 1 
+    ****** multi_con_to_single_uncon: 2 
+    ****** add_edge_to_assumptions: 2 
+    ****** BPG_constrained_both_solved: 1 
+    ****** BPG_binary: 65 
+    ****** bpg_time_records: {0.0017895698547363281} 
+    ****** binary_expression: 64 
+    ****** single_to_double: 64 
+
+** filename: Bits2Num@bitify@circomlib_128.circom 
+** result: CONSTRAINED! 
+** time: 0.004504 
+    ** contribution counts: 
+    ****** multi_con_to_single_uncon: 1 
+    ****** bpg_time_records: {6.198883056640625e-06} 
+
+** filename: Num2Bits@bitify@circomlib_64.circom 
+** result: CONSTRAINED! 
+** time: 0.017484 
+    ** contribution counts: 
+    ****** bpg_edges: 128 
+    ****** bpg_nodes: 256 
+    ****** BPG_binary: 64 
+    ****** bpg_time_records: {0.0012459754943847656} 
+    ****** binary_expression: 64 
+    ****** single_to_double: 64 
+
+** filename: Num2BitsNeg@bitify@circomlib_32.circom 
+** result: CONSTRAINED! 
+** time: 0.01104 
+    ** contribution counts: 
+    ****** bpg_edges: 90 
+    ****** bpg_nodes: 141 
+    ****** simple_replacement_expression: 1 
+    ****** simple_replacement_expression_CONS_propogation: 1 
+    ****** multi_con_to_single_uncon: 2 
+    ****** add_edge_to_assumptions: 2 
+    ****** BPG_constrained_both_solved: 1 
+    ****** BPG_binary: 33 
+    ****** bpg_time_records: {0.0013077259063720703} 
+    ****** binary_expression: 32 
+    ****** single_to_double: 32 
+
+** filename: GreaterEqThan@comparators@circomlib_8.circom 
+** result: CONSTRAINED! 
+** time: 0.004303 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 4 
+    ****** simple_replacement_expression_CONS_propogation: 2 
+    ****** bpg_edges: 116 
+    ****** bpg_nodes: 62 
+    ****** multi_con_to_single_uncon: 2 
+    ****** BPG_binary: 10 
+    ****** bpg_time_records: {0.001058816909790039} 
+    ****** binary_expression: 9 
+    ****** single_to_double: 9 
+
+** filename: EdDSAMiMCSpongeVerifier@eddsamimcsponge@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 3.968398 
+    ** contribution counts: 
+    ****** bpg_time_records: {7.867813110351562e-06} 
+
+** filename: Pedersen@pedersen@circomlib_8.circom 
+** result: TIMEOUT 
+** time: 43.89703869819641 
+    ** contribution counts: 
+    ****** simple_replacement_constant: 51 
+    ****** bpg_edges: 448074 
+    ****** simple_replacement_expression: 75 
+    ****** simple_replacement_expression_CONS_propogation: 24 
+    ****** bpg_nodes: 433 
+    ****** single_to_double: 110 
+    ****** multi_con_to_single_uncon: 6 
+
+** filename: SMTVerifierLevel@smtverifierlevel@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 24.661832 
+    ** contribution counts: 
+    ****** single_to_double: 1285 
+    ****** simple_replacement_expression: 12 
+    ****** simple_replacement_expression_CONS_propogation: 3 
+    ****** bpg_edges: 7870 
+    ****** bpg_nodes: 2275 
+    ****** multi_con_to_single_uncon: 737 
+    ****** simple_replacement_constant: 3 
+    ****** bpg_time_records: {0.08565759658813477} 
+
+** filename: SMTHash1@smthash_mimc@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 7.101817 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 7 
+    ****** simple_replacement_expression_CONS_propogation: 4 
+    ****** bpg_edges: 7243 
+    ****** bpg_nodes: 2229 
+    ****** simple_replacement_constant: 3 
+    ****** single_to_double: 1278 
+    ****** multi_con_to_single_uncon: 732 
+    ****** bpg_time_records: {0.0617525577545166} 
+
+** filename: OR@gates@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.001402 
+    ** contribution counts: 
+    ****** single_to_double: 1 
+    ****** multi_con_to_single_uncon: 1 
+    ****** bpg_edges: 44 
+    ****** bpg_nodes: 13 
+    ****** bpg_time_records: {0.00022220611572265625} 
+
+** filename: BinSum@binsum@circomlib_32_5.circom 
+** result: CONSTRAINED! 
+** time: 0.019556 
+    ** contribution counts: 
+    ****** bpg_edges: 70 
+    ****** bpg_nodes: 140 
+    ****** BPG_binary: 35 
+    ****** bpg_time_records: {0.0006895065307617188} 
+    ****** binary_expression: 35 
+    ****** single_to_double: 35 
+
+** filename: NAND@gates@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.000452 
+    ** contribution counts: 
+    ****** single_to_double: 1 
+    ****** multi_con_to_single_uncon: 1 
+    ****** bpg_edges: 9 
+    ****** bpg_nodes: 9 
+    ****** bpg_time_records: {9.179115295410156e-05} 
+
+** filename: Num2Bits@bitify@circomlib_254.circom 
+** result: CONSTRAINED! 
+** time: 0.154113 
+    ** contribution counts: 
+    ****** bpg_edges: 508 
+    ****** bpg_nodes: 1016 
+    ****** BPG_binary: 254 
+    ****** bpg_time_records: {0.004997968673706055} 
+    ****** binary_expression: 254 
+    ****** single_to_double: 254 
+
+** filename: Pedersen@pedersen@circomlib_253.circom 
+** result: TIMEOUT 
+** time: 48.390607833862305 
+    ** contribution counts: 
+    ****** simple_replacement_constant: 54 
+    ****** bpg_edges: 557489 
+    ****** simple_replacement_expression: 998 
+    ****** simple_replacement_expression_CONS_propogation: 461 
+    ****** bpg_nodes: 6115 
+    ****** single_to_double: 108 
+    ****** multi_con_to_single_uncon: 8 
+
+** filename: SMTHash1@smthash_poseidon@circomlib.circom 
+** result: TIMEOUT 
+** time: 30.877126216888428 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 408 
+    ****** simple_replacement_expression_CONS_propogation: 6 
+    ****** bpg_edges: 506978 
+    ****** bpg_nodes: 2446 
+    ****** simple_replacement_constant: 11 
+    ****** single_to_double: 175 
+    ****** multi_con_to_single_uncon: 273 
+
+** filename: Num2BitsNeg@bitify@circomlib_128.circom 
+** result: CONSTRAINED! 
+** time: 0.063706 
+    ** contribution counts: 
+    ****** bpg_edges: 282 
+    ****** bpg_nodes: 525 
+    ****** simple_replacement_expression: 1 
+    ****** simple_replacement_expression_CONS_propogation: 1 
+    ****** multi_con_to_single_uncon: 2 
+    ****** add_edge_to_assumptions: 2 
+    ****** BPG_constrained_both_solved: 1 
+    ****** BPG_binary: 129 
+    ****** bpg_time_records: {0.0037827491760253906} 
+    ****** binary_expression: 128 
+    ****** single_to_double: 128 
+
+** filename: SMTHash2@smthash_mimc@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 7.033589 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 7 
+    ****** simple_replacement_expression_CONS_propogation: 4 
+    ****** bpg_edges: 7246 
+    ****** bpg_nodes: 2224 
+    ****** simple_replacement_constant: 3 
+    ****** single_to_double: 1278 
+    ****** multi_con_to_single_uncon: 732 
+    ****** bpg_time_records: {0.06439471244812012} 
+
+** filename: Pedersen@pedersen@circomlib_16.circom 
+** result: TIMEOUT 
+** time: 43.59481477737427 
+    ** contribution counts: 
+    ****** simple_replacement_constant: 50 
+    ****** bpg_edges: 452353 
+    ****** simple_replacement_expression: 112 
+    ****** simple_replacement_expression_CONS_propogation: 40 
+    ****** bpg_nodes: 655 
+    ****** single_to_double: 109 
+    ****** multi_con_to_single_uncon: 6 
+
+** filename: Edwards2Montgomery@montgomery@circomlib.circom 
+** result: UNDER-CONSTRAINED! 
+** time: 2.206822 
+    ** contribution counts: 
+    ****** add_edge_to_assumptions: 2 
+    ****** bpg_edges: 11 
+    ****** bpg_nodes: 11 
+    ****** bpg_time_records: {8.511543273925781e-05, 9.870529174804688e-05} 
+    ****** DO_ASSUMPTION_PHASE: 1 
+    ****** assumption_smt_count: 2 
+    ****** clause_learning: 1 
+    ****** Assumptions_grobner_early_conflict_cons: 1 
+    ****** solved_assumption_smt_count: 1 
+    ****** single_to_double: 1 
+    ****** multi_con_to_single_uncon: 1 
+    ****** Assumptions_via_grobner_UNDER: 1 
+    ****** unsolved_assumption_smt_count: 1 
+
+** filename: IsEqual@comparators@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.00248 
+    ** contribution counts: 
+    ****** multi_con_to_single_uncon: 3 
+    ****** bpg_edges: 64 
+    ****** bpg_nodes: 20 
+    ****** simple_replacement_expression: 1 
+    ****** add_edge_to_assumptions: 2 
+    ****** BPG_constrained_both_solved: 1 
+    ****** BPG_binary: 2 
+    ****** bpg_time_records: {0.0005590915679931641} 
+
+** filename: NOR@gates@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.001075 
+    ** contribution counts: 
+    ****** single_to_double: 1 
+    ****** multi_con_to_single_uncon: 1 
+    ****** bpg_edges: 44 
+    ****** bpg_nodes: 14 
+    ****** bpg_time_records: {0.0001392364501953125} 
+
+** filename: Pedersen@pedersen_old@circomlib_254.circom 
+** result: TIMEOUT 
+** time: 30.02689814567566 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 2126 
+    ****** simple_replacement_expression_CONS_propogation: 1602 
+    ****** bpg_edges: 289713 
+    ****** bpg_nodes: 10249 
+    ****** simple_replacement_constant: 1446 
+    ****** single_to_double: 6634 
+    ****** multi_con_to_single_uncon: 243 
+    ****** add_edge_to_assumptions: 2 
+
+** filename: MontgomeryAdd@montgomery@circomlib.circom 
+** result: UNDER-CONSTRAINED! 
+** time: 2.549328 
+    ** contribution counts: 
+    ****** add_edge_to_assumptions: 1 
+    ****** bpg_edges: 604 
+    ****** bpg_nodes: 21 
+    ****** bpg_time_records: {0.0020904541015625} 
+    ****** DO_ASSUMPTION_PHASE: 1 
+    ****** assumption_smt_count: 1 
+    ****** Assumptions_via_grobner_UNDER: 3 
+    ****** unsolved_assumption_smt_count: 1 
+
+** filename: BabyDbl@babyjub@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 3.675872 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 6 
+    ****** simple_replacement_expression_CONS_propogation: 4 
+    ****** bpg_edges: 3933 
+    ****** bpg_nodes: 42 
+    ****** single_to_double: 11 
+    ****** multi_con_to_single_uncon: 4 
+    ****** add_edge_to_assumptions: 2 
+    ****** bpg_time_records: {0.07231688499450684} 
+    ****** DO_ASSUMPTION_PHASE: 1 
+    ****** assumption_smt_count: 2 
+    ****** clause_learning: 1 
+    ****** Assumptions_grobner_early_conflict_cons: 2 
+    ****** solved_assumption_smt_count: 2 
+
+** filename: Num2Bits@bitify@circomlib_32.circom 
+** result: CONSTRAINED! 
+** time: 0.0072 
+    ** contribution counts: 
+    ****** bpg_edges: 64 
+    ****** bpg_nodes: 128 
+    ****** BPG_binary: 32 
+    ****** bpg_time_records: {0.0006341934204101562} 
+    ****** binary_expression: 32 
+    ****** single_to_double: 32 
+
+** filename: SigmaPlus@sigmaplus@circomlib.circom 
+** result: TIMEOUT 
+** time: 90.64883279800415 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 541 
+    ****** simple_replacement_expression_CONS_propogation: 317 
+    ****** bpg_edges: 886491 
+    ****** bpg_nodes: 2307 
+    ****** single_to_double: 195 
+    ****** simple_replacement_constant: 3 
+    ****** multi_con_to_single_uncon: 3 
+
+** filename: T2@t2@circomlib.circom 
+** result: TIMEOUT 
+** time: 91.44279146194458 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 544 
+    ****** simple_replacement_expression_CONS_propogation: 320 
+    ****** bpg_edges: 888882 
+    ****** bpg_nodes: 2211 
+    ****** single_to_double: 387 
+    ****** multi_con_to_single_uncon: 3 
+
+** filename: Num2Bits_strict@bitify@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 3.87904 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 764 
+    ****** simple_replacement_expression_CONS_propogation: 1 
+    ****** bpg_edges: 13351 
+    ****** bpg_nodes: 5204 
+    ****** simple_replacement_constant: 2 
+    ****** single_to_double: 382 
+    ****** BPG_binary: 643 
+    ****** bpg_time_records: {0.2562892436981201} 
+    ****** binary_expression: 254 
+    ****** multi_con_to_single_uncon: 286 
+
+** filename: Num2BitsNeg@bitify@circomlib_253.circom 
+** result: CONSTRAINED! 
+** time: 0.191489 
+    ** contribution counts: 
+    ****** bpg_edges: 532 
+    ****** bpg_nodes: 1025 
+    ****** simple_replacement_expression: 1 
+    ****** simple_replacement_expression_CONS_propogation: 1 
+    ****** multi_con_to_single_uncon: 2 
+    ****** add_edge_to_assumptions: 2 
+    ****** BPG_constrained_both_solved: 1 
+    ****** BPG_binary: 254 
+    ****** bpg_time_records: {0.007107257843017578} 
+    ****** binary_expression: 253 
+    ****** single_to_double: 253 
+
+** filename: ForceEqualIfEnabled@comparators@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.000234 
+    ** contribution counts: 
+    ****** bpg_time_records: {3.5762786865234375e-06} 
+
+** filename: Pedersen@pedersen_old@circomlib_32.circom 
+** result: NOT SURE 
+** time: 26.273403 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 386 
+    ****** simple_replacement_expression_CONS_propogation: 290 
+    ****** bpg_edges: 56640 
+    ****** bpg_nodes: 1868 
+    ****** simple_replacement_constant: 296 
+    ****** single_to_double: 1356 
+    ****** multi_con_to_single_uncon: 56 
+    ****** add_edge_to_assumptions: 2 
+    ****** bpg_time_records: {1.1397888660430908} 
+    ****** DO_ASSUMPTION_PHASE: 1 
+    ****** assumption_smt_count: 1 
+
+** filename: Num2BitsNeg@bitify@circomlib_8.circom 
+** result: CONSTRAINED! 
+** time: 0.003877 
+    ** contribution counts: 
+    ****** bpg_edges: 42 
+    ****** bpg_nodes: 45 
+    ****** simple_replacement_expression: 1 
+    ****** simple_replacement_expression_CONS_propogation: 1 
+    ****** multi_con_to_single_uncon: 2 
+    ****** add_edge_to_assumptions: 2 
+    ****** BPG_constrained_both_solved: 1 
+    ****** BPG_binary: 9 
+    ****** bpg_time_records: {0.0007255077362060547} 
+    ****** binary_expression: 8 
+    ****** single_to_double: 8 
+
+** filename: MontgomeryDouble@montgomery@circomlib.circom 
+** result: NOT SURE 
+** time: 26.072046 
+    ** contribution counts: 
+    ****** single_to_double: 1 
+    ****** multi_con_to_single_uncon: 2 
+    ****** add_edge_to_assumptions: 1 
+    ****** bpg_edges: 292 
+    ****** bpg_nodes: 18 
+    ****** bpg_time_records: {0.0008890628814697266} 
+    ****** DO_ASSUMPTION_PHASE: 1 
+    ****** assumption_smt_count: 1 
+    ****** clause_learning: 1 
+
+** filename: GreaterThan@comparators@circomlib_8.circom 
+** result: CONSTRAINED! 
+** time: 0.005396 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 4 
+    ****** simple_replacement_expression_CONS_propogation: 2 
+    ****** bpg_edges: 116 
+    ****** bpg_nodes: 61 
+    ****** multi_con_to_single_uncon: 2 
+    ****** BPG_binary: 10 
+    ****** bpg_time_records: {0.0012865066528320312} 
+    ****** binary_expression: 9 
+    ****** single_to_double: 9 
+
+** filename: Pedersen@pedersen_old@circomlib_64.circom 
+** result: NOT SURE 
+** time: 32.428212 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 770 
+    ****** simple_replacement_expression_CONS_propogation: 578 
+    ****** bpg_edges: 115280 
+    ****** bpg_nodes: 3716 
+    ****** simple_replacement_constant: 584 
+    ****** single_to_double: 2700 
+    ****** multi_con_to_single_uncon: 104 
+    ****** add_edge_to_assumptions: 2 
+    ****** bpg_time_records: {2.527069568634033} 
+    ****** DO_ASSUMPTION_PHASE: 1 
+    ****** assumption_smt_count: 1 
+
+** filename: Bits2Num@bitify@circomlib_16.circom 
+** result: CONSTRAINED! 
+** time: 0.00048 
+    ** contribution counts: 
+    ****** multi_con_to_single_uncon: 1 
+    ****** bpg_time_records: {5.9604644775390625e-06} 
+
+** filename: Num2Bits@bitify@circomlib_253.circom 
+** result: CONSTRAINED! 
+** time: 0.152706 
+    ** contribution counts: 
+    ****** bpg_edges: 506 
+    ****** bpg_nodes: 1012 
+    ****** BPG_binary: 253 
+    ****** bpg_time_records: {0.004751920700073242} 
+    ****** binary_expression: 253 
+    ****** single_to_double: 253 
+
+** filename: AliasCheck@aliascheck@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.033572 
+    ** contribution counts: 
+    ****** bpg_time_records: {6.4373016357421875e-06} 
+
+** filename: Mux2@mux2@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.184199 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 8 
+    ****** simple_replacement_expression_CONS_propogation: 7 
+    ****** bpg_edges: 6330 
+    ****** bpg_nodes: 57 
+    ****** single_to_double: 18 
+    ****** multi_con_to_single_uncon: 5 
+    ****** bpg_time_records: {0.06091642379760742} 
+
+** filename: Bits2Num@bitify@circomlib_64.circom 
+** result: CONSTRAINED! 
+** time: 0.001348 
+    ** contribution counts: 
+    ****** multi_con_to_single_uncon: 1 
+    ****** bpg_time_records: {4.291534423828125e-06} 
+
+** filename: Mux3@mux3@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.131335 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 13 
+    ****** simple_replacement_expression_CONS_propogation: 12 
+    ****** bpg_edges: 1536 
+    ****** bpg_nodes: 91 
+    ****** single_to_double: 42 
+    ****** multi_con_to_single_uncon: 9 
+    ****** bpg_time_records: {0.025953054428100586} 
+
+** filename: Bits2Num@bitify@circomlib_8.circom 
+** result: CONSTRAINED! 
+** time: 0.000373 
+    ** contribution counts: 
+    ****** multi_con_to_single_uncon: 1 
+    ****** bpg_time_records: {5.9604644775390625e-06} 
+
+** filename: Pedersen@pedersen@circomlib_64.circom 
+** result: TIMEOUT 
+** time: 44.5148549079895 
+    ** contribution counts: 
+    ****** simple_replacement_constant: 51 
+    ****** bpg_edges: 478574 
+    ****** simple_replacement_expression: 327 
+    ****** simple_replacement_expression_CONS_propogation: 136 
+    ****** bpg_nodes: 1987 
+    ****** single_to_double: 108 
+    ****** multi_con_to_single_uncon: 7 
+
+** filename: Pedersen@pedersen_old@circomlib_128.circom 
+** result: TIMEOUT 
+** time: 42.25591039657593 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 1538 
+    ****** simple_replacement_expression_CONS_propogation: 1154 
+    ****** bpg_edges: 232560 
+    ****** bpg_nodes: 7412 
+    ****** simple_replacement_constant: 1160 
+    ****** single_to_double: 5388 
+    ****** multi_con_to_single_uncon: 200 
+    ****** add_edge_to_assumptions: 2 
+    ****** bpg_time_records: {6.8498194217681885} 
+    ****** DO_ASSUMPTION_PHASE: 1 
+    ****** assumption_smt_count: 1 
+
+** filename: Montgomery2Edwards@montgomery@circomlib.circom 
+** result: UNDER-CONSTRAINED! 
+** time: 0.203502 
+    ** contribution counts: 
+    ****** multi_con_to_single_uncon: 1 
+    ****** add_edge_to_assumptions: 2 
+    ****** bpg_edges: 11 
+    ****** bpg_nodes: 11 
+    ****** bpg_time_records: {8.916854858398438e-05} 
+    ****** DO_ASSUMPTION_PHASE: 1 
+    ****** assumption_smt_count: 1 
+    ****** clause_learning: 1 
+    ****** Assumptions_via_grobner_UNDER: 1 
+    ****** unsolved_assumption_smt_count: 1 
+
+** filename: Multiplexor2@escalarmulany@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.003512 
+    ** contribution counts: 
+    ****** single_to_double: 4 
+    ****** multi_con_to_single_uncon: 2 
+    ****** bpg_edges: 122 
+    ****** bpg_nodes: 23 
+    ****** bpg_time_records: {0.0005614757537841797} 
+
+** filename: Num2BitsNeg@bitify@circomlib_1.circom 
+** result: CONSTRAINED! 
+** time: 0.00378 
+    ** contribution counts: 
+    ****** bpg_edges: 64 
+    ****** bpg_nodes: 18 
+    ****** simple_replacement_expression: 1 
+    ****** simple_replacement_expression_CONS_propogation: 1 
+    ****** multi_con_to_single_uncon: 2 
+    ****** add_edge_to_assumptions: 2 
+    ****** single_to_double: 1 
+    ****** BPG_constrained_both_solved: 2 
+    ****** BPG_binary: 2 
+    ****** bpg_time_records: {0.0010230541229248047} 
+
+** filename: Bits2Num_strict@bitify@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 3.730551 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 764 
+    ****** simple_replacement_expression_CONS_propogation: 763 
+    ****** bpg_edges: 12335 
+    ****** bpg_nodes: 4412 
+    ****** single_to_double: 255 
+    ****** simple_replacement_constant: 2 
+    ****** multi_con_to_single_uncon: 129 
+    ****** BPG_binary: 135 
+    ****** bpg_time_records: {2.0957252979278564} 
+
+** filename: EdDSAMiMCVerifier@eddsamimc@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 3.211638 
+    ** contribution counts: 
+    ****** bpg_time_records: {7.867813110351562e-06} 
+
+** filename: Mux1@mux1@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.005736 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 4 
+    ****** simple_replacement_expression_CONS_propogation: 3 
+    ****** bpg_edges: 146 
+    ****** bpg_nodes: 28 
+    ****** single_to_double: 4 
+    ****** multi_con_to_single_uncon: 1 
+    ****** bpg_time_records: {0.002029895782470703} 
+
+** filename: Sign@sign@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 1.148944 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 257 
+    ****** simple_replacement_expression_CONS_propogation: 255 
+    ****** bpg_edges: 8950 
+    ****** bpg_nodes: 2900 
+    ****** single_to_double: 389 
+    ****** multi_con_to_single_uncon: 129 
+    ****** BPG_binary: 136 
+    ****** bpg_time_records: {0.5393087863922119} 
+    ****** binary_expression: 135 
+
+** filename: Bits2Num@bitify@circomlib_1.circom 
+** result: CONSTRAINED! 
+** time: 0.000314 
+    ** contribution counts: 
+    ****** multi_con_to_single_uncon: 1 
+    ****** bpg_edges: 6 
+    ****** bpg_nodes: 6 
+    ****** bpg_time_records: {9.393692016601562e-05} 
+
+** filename: Switcher@switcher@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.001279 
+    ** contribution counts: 
+    ****** single_to_double: 2 
+    ****** multi_con_to_single_uncon: 3 
+    ****** bpg_edges: 90 
+    ****** bpg_nodes: 18 
+    ****** bpg_time_records: {0.00019884109497070312} 
+
+** filename: SMTProcessorLevel@smtprocessorlevel@circomlib.circom 
+** result: TIMEOUT 
+** time: 30.02316641807556 
+    ** contribution counts: 
+    ****** single_to_double: 1297 
+    ****** simple_replacement_expression: 22 
+    ****** simple_replacement_expression_CONS_propogation: 4 
+    ****** bpg_edges: 10751 
+    ****** bpg_nodes: 3027 
+    ****** multi_con_to_single_uncon: 742 
+    ****** simple_replacement_constant: 6 
+
+** filename: WindowMulFix@escalarmulfix@circomlib.circom 
+** result: NOT SURE 
+** time: 21.012616 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 51 
+    ****** simple_replacement_expression_CONS_propogation: 21 
+    ****** bpg_edges: 10868 
+    ****** bpg_nodes: 269 
+    ****** single_to_double: 15 
+    ****** multi_con_to_single_uncon: 3 
+    ****** add_edge_to_assumptions: 1 
+    ****** bpg_time_records: {0.31250452995300293} 
+    ****** DO_ASSUMPTION_PHASE: 1 
+    ****** assumption_smt_count: 1 
+
+** filename: Window4@pedersen@circomlib.circom 
+** result: NOT SURE 
+** time: 21.696006 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 50 
+    ****** simple_replacement_expression_CONS_propogation: 21 
+    ****** bpg_edges: 10868 
+    ****** bpg_nodes: 270 
+    ****** single_to_double: 15 
+    ****** multi_con_to_single_uncon: 3 
+    ****** add_edge_to_assumptions: 1 
+    ****** bpg_time_records: {0.3074073791503906} 
+    ****** DO_ASSUMPTION_PHASE: 1 
+    ****** assumption_smt_count: 1 
+
+** filename: Bits2Num@bitify@circomlib_253.circom 
+** result: CONSTRAINED! 
+** time: 0.011369 
+    ** contribution counts: 
+    ****** multi_con_to_single_uncon: 1 
+    ****** bpg_time_records: {5.245208740234375e-06} 
+
+** filename: Num2Bits@bitify@circomlib_16.circom 
+** result: CONSTRAINED! 
+** time: 0.004083 
+    ** contribution counts: 
+    ****** bpg_edges: 32 
+    ****** bpg_nodes: 64 
+    ****** BPG_binary: 16 
+    ****** bpg_time_records: {0.00040841102600097656} 
+    ****** binary_expression: 16 
+    ****** single_to_double: 16 
+
+** filename: Pedersen@pedersen_old@circomlib_1.circom 
+** result: CONSTRAINED! 
+** time: 0.392734 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 18 
+    ****** simple_replacement_expression_CONS_propogation: 8 
+    ****** bpg_edges: 5356 
+    ****** bpg_nodes: 225 
+    ****** simple_replacement_constant: 78 
+    ****** single_to_double: 138 
+    ****** multi_con_to_single_uncon: 5 
+    ****** bpg_time_records: {0.12303996086120605} 
+
+** filename: Pedersen@pedersen@circomlib_1.circom 
+** result: NOT SURE 
+** time: 5.505982 
+    ** contribution counts: 
+    ****** simple_replacement_constant: 63 
+    ****** bpg_edges: 6536 
+    ****** simple_replacement_expression: 49 
+    ****** simple_replacement_expression_CONS_propogation: 9 
+    ****** bpg_nodes: 332 
+    ****** single_to_double: 93 
+    ****** multi_con_to_single_uncon: 8 
+    ****** add_edge_to_assumptions: 2 
+    ****** bpg_time_records: {0.13366913795471191} 
+    ****** DO_ASSUMPTION_PHASE: 1 
+    ****** assumption_smt_count: 2 
+    ****** clause_learning: 1 
+    ****** Assumptions_grobner_early_conflict_cons: 2 
+    ****** solved_assumption_smt_count: 2 
+
+** filename: Sigma@poseidon_old@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.000586 
+    ** contribution counts: 
+    ****** single_to_double: 3 
+    ****** multi_con_to_single_uncon: 3 
+    ****** bpg_edges: 9 
+    ****** bpg_nodes: 8 
+    ****** bpg_time_records: {9.179115295410156e-05} 
+
+** filename: LessEqThan@comparators@circomlib_8.circom 
+** result: CONSTRAINED! 
+** time: 0.005245 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 4 
+    ****** simple_replacement_expression_CONS_propogation: 2 
+    ****** bpg_edges: 116 
+    ****** bpg_nodes: 62 
+    ****** multi_con_to_single_uncon: 2 
+    ****** BPG_binary: 10 
+    ****** bpg_time_records: {0.0012786388397216797} 
+    ****** binary_expression: 9 
+    ****** single_to_double: 9 
+
+** filename: SMTVerifierSM@smtverifiersm@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.041179 
+    ** contribution counts: 
+    ****** single_to_double: 4 
+    ****** multi_con_to_single_uncon: 7 
+    ****** bpg_edges: 2987 
+    ****** bpg_nodes: 46 
+    ****** bpg_time_records: {0.009609460830688477} 
+
+** filename: BinSub@binsub@circomlib_16.circom 
+** result: CONSTRAINED! 
+** time: 0.005709 
+    ** contribution counts: 
+    ****** bpg_edges: 34 
+    ****** bpg_nodes: 68 
+    ****** BPG_binary: 17 
+    ****** bpg_time_records: {0.00042319297790527344} 
+    ****** binary_expression: 17 
+    ****** single_to_double: 17 
+
+** filename: SMTHash2@smthash_poseidon@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 5.491679 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 326 
+    ****** simple_replacement_expression_CONS_propogation: 6 
+    ****** bpg_edges: 57298 
+    ****** bpg_nodes: 2055 
+    ****** simple_replacement_constant: 5 
+    ****** single_to_double: 326 
+    ****** multi_con_to_single_uncon: 452 
+    ****** bpg_time_records: {1.5691447257995605} 
+
+** filename: BinSum@binsum@circomlib_32_2.circom 
+** result: CONSTRAINED! 
+** time: 0.011071 
+    ** contribution counts: 
+    ****** bpg_edges: 66 
+    ****** bpg_nodes: 132 
+    ****** BPG_binary: 33 
+    ****** bpg_time_records: {0.0006830692291259766} 
+    ****** binary_expression: 33 
+    ****** single_to_double: 33 
+
+** filename: XOR@gates@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.000964 
+    ** contribution counts: 
+    ****** single_to_double: 1 
+    ****** multi_con_to_single_uncon: 1 
+    ****** bpg_edges: 36 
+    ****** bpg_nodes: 9 
+    ****** bpg_time_records: {0.0001316070556640625} 
+
+** filename: Pedersen@pedersen_old@circomlib_253.circom 
+** result: TIMEOUT 
+** time: 30.00335192680359 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 2134 
+    ****** simple_replacement_expression_CONS_propogation: 1606 
+    ****** bpg_edges: 290704 
+    ****** bpg_nodes: 10297 
+    ****** simple_replacement_constant: 1447 
+    ****** single_to_double: 6716 
+    ****** multi_con_to_single_uncon: 246 
+    ****** add_edge_to_assumptions: 2 
+
+** filename: Bits2Point@pointbits@circomlib.circom 
+** result: UNDER-CONSTRAINED! 
+** time: 0.032108 
+    ** contribution counts: 
+    ****** bpg_time_records: {5.7220458984375e-06} 
+    ****** DO_ASSUMPTION_PHASE: 1 
+    ****** NO_Assumptions_raw_SMT_UNDER: 2 
+
+** filename: Bits2Num@bitify@circomlib_254.circom 
+** result: CONSTRAINED! 
+** time: 0.014381 
+    ** contribution counts: 
+    ****** multi_con_to_single_uncon: 1 
+    ****** bpg_time_records: {1.6450881958007812e-05} 
+
+** filename: Pedersen@pedersen@circomlib_128.circom 
+** result: TIMEOUT 
+** time: 45.89009737968445 
+    ** contribution counts: 
+    ****** simple_replacement_constant: 51 
+    ****** bpg_edges: 513821 
+    ****** simple_replacement_expression: 615 
+    ****** simple_replacement_expression_CONS_propogation: 264 
+    ****** bpg_nodes: 3763 
+    ****** single_to_double: 111 
+    ****** multi_con_to_single_uncon: 7 
+
+** filename: Sha256compression@sha256compression@circomlib.circom 
+** result: TIMEOUT 
+** time: 30.049415826797485 
+    ** contribution counts: 
+
+** filename: Num2BitsNeg@bitify@circomlib_254.circom 
+** result: CONSTRAINED! 
+** time: 0.193694 
+    ** contribution counts: 
+    ****** bpg_edges: 534 
+    ****** bpg_nodes: 1029 
+    ****** simple_replacement_expression: 1 
+    ****** simple_replacement_expression_CONS_propogation: 1 
+    ****** multi_con_to_single_uncon: 2 
+    ****** add_edge_to_assumptions: 2 
+    ****** BPG_constrained_both_solved: 1 
+    ****** BPG_binary: 255 
+    ****** bpg_time_records: {0.007250308990478516} 
+    ****** binary_expression: 254 
+    ****** single_to_double: 254 
+
+** filename: GreaterThan@comparators@circomlib_16.circom 
+** result: CONSTRAINED! 
+** time: 0.007379 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 4 
+    ****** simple_replacement_expression_CONS_propogation: 2 
+    ****** bpg_edges: 132 
+    ****** bpg_nodes: 93 
+    ****** multi_con_to_single_uncon: 2 
+    ****** BPG_binary: 18 
+    ****** bpg_time_records: {0.0015301704406738281} 
+    ****** binary_expression: 17 
+    ****** single_to_double: 17 
+
+** filename: NOT@gates@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.000426 
+    ** contribution counts: 
+    ****** multi_con_to_single_uncon: 1 
+    ****** bpg_edges: 6 
+    ****** bpg_nodes: 8 
+    ****** bpg_time_records: {0.00011444091796875} 
+
+** filename: Pedersen@pedersen@circomlib_254.circom 
+** result: TIMEOUT 
+** time: 48.20901322364807 
+    ** contribution counts: 
+    ****** simple_replacement_constant: 53 
+    ****** bpg_edges: 557494 
+    ****** simple_replacement_expression: 999 
+    ****** simple_replacement_expression_CONS_propogation: 462 
+    ****** bpg_nodes: 6121 
+    ****** single_to_double: 108 
+    ****** multi_con_to_single_uncon: 8 
+
+** filename: Num2Bits@bitify@circomlib_8.circom 
+** result: CONSTRAINED! 
+** time: 0.002189 
+    ** contribution counts: 
+    ****** bpg_edges: 16 
+    ****** bpg_nodes: 32 
+    ****** BPG_binary: 8 
+    ****** bpg_time_records: {0.00021648406982421875} 
+    ****** binary_expression: 8 
+    ****** single_to_double: 8 
+
+** filename: Pedersen@pedersen_old@circomlib_16.circom 
+** result: NOT SURE 
+** time: 23.536814 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 194 
+    ****** simple_replacement_expression_CONS_propogation: 146 
+    ****** bpg_edges: 27320 
+    ****** bpg_nodes: 944 
+    ****** simple_replacement_constant: 152 
+    ****** single_to_double: 684 
+    ****** multi_con_to_single_uncon: 32 
+    ****** add_edge_to_assumptions: 2 
+    ****** bpg_time_records: {0.5107214450836182} 
+    ****** DO_ASSUMPTION_PHASE: 1 
+    ****** assumption_smt_count: 1 
+
+** filename: Num2Bits@bitify@circomlib_256.circom 
+** result: CONSTRAINED! 
+** time: 0.189505 
+    ** contribution counts: 
+    ****** bpg_edges: 512 
+    ****** bpg_nodes: 1024 
+    ****** BPG_binary: 256 
+    ****** bpg_time_records: {0.00620579719543457} 
+    ****** binary_expression: 256 
+    ****** single_to_double: 256 
+
+** filename: IsZero@comparators@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 0.000788 
+    ** contribution counts: 
+    ****** bpg_edges: 11 
+    ****** bpg_nodes: 10 
+    ****** multi_con_to_single_uncon: 2 
+    ****** add_edge_to_assumptions: 2 
+    ****** BPG_constrained_both_solved: 1 
+    ****** BPG_binary: 1 
+    ****** bpg_time_records: {0.00017142295837402344} 
+
+** filename: Pedersen@pedersen_old@circomlib_256.circom 
+** result: TIMEOUT 
+** time: 30.044084787368774 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 2128 
+    ****** simple_replacement_expression_CONS_propogation: 1604 
+    ****** bpg_edges: 289778 
+    ****** bpg_nodes: 10268 
+    ****** simple_replacement_constant: 1446 
+    ****** single_to_double: 6700 
+    ****** multi_con_to_single_uncon: 246 
+    ****** add_edge_to_assumptions: 2 
+
+** filename: LessEqThan@comparators@circomlib_16.circom 
+** result: CONSTRAINED! 
+** time: 0.00595 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 4 
+    ****** simple_replacement_expression_CONS_propogation: 2 
+    ****** bpg_edges: 132 
+    ****** bpg_nodes: 94 
+    ****** multi_con_to_single_uncon: 2 
+    ****** BPG_binary: 18 
+    ****** bpg_time_records: {0.001249551773071289} 
+    ****** binary_expression: 17 
+    ****** single_to_double: 17 
+
+** filename: SMTProcessorSM@smtprocessorsm@circomlib.circom 
+** result: CONSTRAINED! 
+** time: 5.542685 
+    ** contribution counts: 
+    ****** single_to_double: 6 
+    ****** multi_con_to_single_uncon: 8 
+    ****** bpg_edges: 55989 
+    ****** bpg_nodes: 55 
+    ****** bpg_time_records: {2.1629505157470703} 
+
+** filename: Bits2Point_Strict@pointbits@circomlib.circom 
+** result: TIMEOUT 
+** time: 37.27698349952698 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 1533 
+    ****** simple_replacement_expression_CONS_propogation: 765 
+    ****** bpg_edges: 33125 
+    ****** bpg_nodes: 10765 
+    ****** simple_replacement_constant: 5 
+    ****** single_to_double: 258 
+    ****** multi_con_to_single_uncon: 131 
+    ****** add_edge_to_assumptions: 1 
+    ****** BPG_binary: 914 
+    ****** bpg_time_records: {4.951140403747559} 
+    ****** DO_ASSUMPTION_PHASE: 1 
+    ****** assumption_smt_count: 1 
+
+** filename: Num2Bits@bitify@circomlib_128.circom 
+** result: CONSTRAINED! 
+** time: 0.060656 
+    ** contribution counts: 
+    ****** bpg_edges: 256 
+    ****** bpg_nodes: 512 
+    ****** BPG_binary: 128 
+    ****** bpg_time_records: {0.003034353256225586} 
+    ****** binary_expression: 128 
+    ****** single_to_double: 128 
+
+** filename: Pedersen@pedersen_old@circomlib_8.circom 
+** result: NOT SURE 
+** time: 21.299904 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 98 
+    ****** simple_replacement_expression_CONS_propogation: 74 
+    ****** bpg_edges: 12660 
+    ****** bpg_nodes: 482 
+    ****** simple_replacement_constant: 80 
+    ****** single_to_double: 348 
+    ****** multi_con_to_single_uncon: 20 
+    ****** add_edge_to_assumptions: 2 
+    ****** bpg_time_records: {0.24736857414245605} 
+    ****** DO_ASSUMPTION_PHASE: 1 
+    ****** assumption_smt_count: 1 
+
+** filename: Pedersen@pedersen@circomlib_256.circom 
+** result: TIMEOUT 
+** time: 47.824865102767944 
+    ** contribution counts: 
+    ****** simple_replacement_constant: 51 
+    ****** bpg_edges: 557504 
+    ****** simple_replacement_expression: 1001 
+    ****** simple_replacement_expression_CONS_propogation: 464 
+    ****** bpg_nodes: 6133 
+    ****** single_to_double: 108 
+    ****** multi_con_to_single_uncon: 9 
+
+** filename: GreaterThan@comparators.circom 
+** result: CONSTRAINED! 
+** time: 0.035098 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 4 
+    ****** simple_replacement_expression_CONS_propogation: 2 
+    ****** bpg_edges: 680 
+    ****** bpg_nodes: 39 
+    ****** multi_con_to_single_uncon: 2 
+    ****** BPG_binary: 4 
+    ****** bpg_time_records: {0.008305072784423828} 
+    ****** binary_expression: 3 
+    ****** single_to_double: 3 
+
+** filename: Segment@pedersen.circom 
+** result: NOT SURE 
+** time: 22.023492 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 126 
+    ****** simple_replacement_expression_CONS_propogation: 16 
+    ****** bpg_edges: 23427 
+    ****** bpg_nodes: 665 
+    ****** add_edge_to_assumptions: 1 
+    ****** single_to_double: 4 
+    ****** multi_con_to_single_uncon: 2 
+    ****** bpg_time_records: {0.5622355937957764} 
+    ****** DO_ASSUMPTION_PHASE: 1 
+    ****** assumption_smt_count: 1 
+
+** filename: BabyCheck@babyjub.circom 
+** result: CONSTRAINED! 
+** time: 0.000306 
+    ** contribution counts: 
+    ****** single_to_double: 2 
+    ****** bpg_time_records: {5.0067901611328125e-06} 
+
+** filename: Poseidon@poseidon.circom 
+** result: CONSTRAINED! 
+** time: 5.429827 
+    ** contribution counts: 
+    ****** simple_replacement_constant: 5 
+    ****** bpg_edges: 57280 
+    ****** simple_replacement_expression: 323 
+    ****** simple_replacement_expression_CONS_propogation: 4 
+    ****** bpg_nodes: 2046 
+    ****** single_to_double: 326 
+    ****** multi_con_to_single_uncon: 473 
+    ****** bpg_time_records: {1.490586280822754} 
+
+** filename: Pedersen@pedersen_old.circom 
+** result: CONSTRAINED! 
+** time: 0.569784 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 28 
+    ****** simple_replacement_expression_CONS_propogation: 17 
+    ****** bpg_edges: 5823 
+    ****** bpg_nodes: 234 
+    ****** simple_replacement_constant: 67 
+    ****** single_to_double: 147 
+    ****** multi_con_to_single_uncon: 7 
+    ****** bpg_time_records: {0.17935895919799805} 
+
+** filename: Num2BitsNeg@bitify.circom 
+** result: CONSTRAINED! 
+** time: 0.017526 
+    ** contribution counts: 
+    ****** bpg_edges: 318 
+    ****** bpg_nodes: 23 
+    ****** simple_replacement_expression: 1 
+    ****** simple_replacement_expression_CONS_propogation: 1 
+    ****** multi_con_to_single_uncon: 2 
+    ****** add_edge_to_assumptions: 2 
+    ****** BPG_constrained_both_solved: 1 
+    ****** BPG_binary: 3 
+    ****** bpg_time_records: {0.003974199295043945} 
+    ****** binary_expression: 2 
+    ****** single_to_double: 2 
+
+** filename: SegmentMulAny@escalarmulany.circom 
+** result: NOT SURE 
+** time: 23.250787 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 37 
+    ****** simple_replacement_expression_CONS_propogation: 7 
+    ****** bpg_edges: 5063 
+    ****** bpg_nodes: 198 
+    ****** add_edge_to_assumptions: 1 
+    ****** bpg_time_records: {0.09866690635681152} 
+    ****** DO_ASSUMPTION_PHASE: 1 
+    ****** assumption_smt_count: 1 
+
+** filename: MiMCFeistel@mimcsponge.circom 
+** result: CONSTRAINED! 
+** time: 0.039234 
+    ** contribution counts: 
+    ****** single_to_double: 11 
+    ****** multi_con_to_single_uncon: 6 
+    ****** bpg_edges: 1124 
+    ****** bpg_nodes: 27 
+    ****** simple_replacement_expression: 2 
+    ****** simple_replacement_expression_CONS_propogation: 1 
+    ****** bpg_time_records: {0.0059435367584228516} 
+
+** filename: BabyAdd@babyjub.circom 
+** result: CONSTRAINED! 
+** time: 8.488323 
+    ** contribution counts: 
+    ****** single_to_double: 7 
+    ****** multi_con_to_single_uncon: 4 
+    ****** bpg_edges: 2145 
+    ****** bpg_nodes: 30 
+    ****** add_edge_to_assumptions: 2 
+    ****** bpg_time_records: {0.028208017349243164} 
+    ****** DO_ASSUMPTION_PHASE: 1 
+    ****** assumption_smt_count: 2 
+    ****** clause_learning: 1 
+    ****** Assumptions_grobner_early_conflict_cons: 2 
+    ****** solved_assumption_smt_count: 2 
+
+** filename: MultiAND@gates.circom 
+** result: CONSTRAINED! 
+** time: 0.001702 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 3 
+    ****** simple_replacement_expression_CONS_propogation: 2 
+    ****** bpg_edges: 36 
+    ****** bpg_nodes: 18 
+    ****** single_to_double: 2 
+    ****** multi_con_to_single_uncon: 1 
+    ****** bpg_time_records: {0.0006556510925292969} 
+
+** filename: BabyPbk@babyjub.circom 
+** result: TIMEOUT 
+** time: 50.02763628959656 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 1655 
+    ****** simple_replacement_expression_CONS_propogation: 1 
+    ****** bpg_edges: 663983 
+    ****** bpg_nodes: 8413 
+    ****** simple_replacement_constant: 47 
+    ****** multi_con_to_single_uncon: 5 
+    ****** single_to_double: 36 
+
+** filename: Multiplexer@multiplexer.circom 
+** result: CONSTRAINED! 
+** time: 0.016164 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 12 
+    ****** simple_replacement_expression_CONS_propogation: 5 
+    ****** bpg_edges: 333 
+    ****** bpg_nodes: 83 
+    ****** single_to_double: 5 
+    ****** simple_replacement_constant: 1 
+    ****** multi_con_to_single_uncon: 13 
+    ****** add_edge_to_assumptions: 2 
+    ****** BPG_binary: 1 
+    ****** bpg_time_records: {0.0073587894439697266} 
+
+** filename: Bits2Num_strict@bitify.circom 
+** result: CONSTRAINED! 
+** time: 3.870055 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 764 
+    ****** simple_replacement_expression_CONS_propogation: 763 
+    ****** bpg_edges: 12335 
+    ****** bpg_nodes: 4412 
+    ****** single_to_double: 255 
+    ****** simple_replacement_constant: 2 
+    ****** multi_con_to_single_uncon: 129 
+    ****** BPG_binary: 135 
+    ****** bpg_time_records: {2.0676779747009277} 
+
+** filename: Point2Bits_Strict@pointbits.circom 
+** result: CONSTRAINED! 
+** time: 16.471331 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 1531 
+    ****** simple_replacement_expression_CONS_propogation: 2 
+    ****** bpg_edges: 34129 
+    ****** bpg_nodes: 11551 
+    ****** simple_replacement_constant: 5 
+    ****** single_to_double: 899 
+    ****** BPG_binary: 1422 
+    ****** bpg_time_records: {0.6348204612731934} 
+    ****** binary_expression: 643 
+    ****** multi_con_to_single_uncon: 924 
+
+** filename: BinSum@binsum.circom 
+** result: CONSTRAINED! 
+** time: 48.661446 
+    ** contribution counts: 
+    ****** bpg_edges: 483846 
+    ****** bpg_nodes: 27 
+    ****** BPG_binary: 3 
+    ****** bpg_time_records: {10.697598695755005} 
+    ****** binary_expression: 3 
+    ****** single_to_double: 3 
+
+** filename: Bits2Point_Strict@pointbits.circom 
+** result: TIMEOUT 
+** time: 37.25900483131409 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 1533 
+    ****** simple_replacement_expression_CONS_propogation: 765 
+    ****** bpg_edges: 33125 
+    ****** bpg_nodes: 10765 
+    ****** simple_replacement_constant: 5 
+    ****** single_to_double: 258 
+    ****** multi_con_to_single_uncon: 131 
+    ****** add_edge_to_assumptions: 1 
+    ****** BPG_binary: 914 
+    ****** bpg_time_records: {4.938662052154541} 
+    ****** DO_ASSUMPTION_PHASE: 1 
+    ****** assumption_smt_count: 1 
+
+** filename: MultiMux4@mux4.circom 
+** result: CONSTRAINED! 
+** time: 0.165667 
+    ** contribution counts: 
+    ****** single_to_double: 124 
+    ****** multi_con_to_single_uncon: 36 
+    ****** bpg_edges: 2820 
+    ****** bpg_nodes: 134 
+    ****** simple_replacement_expression: 2 
+    ****** simple_replacement_expression_CONS_propogation: 2 
+    ****** bpg_time_records: {0.016680479049682617} 
+
+** filename: EdDSAMiMCSpongeVerifier@eddsamimcsponge.circom 
+** result: CONSTRAINED! 
+** time: 3.973948 
+    ** contribution counts: 
+    ****** bpg_time_records: {1.0013580322265625e-05} 
+
+** filename: OR@gates.circom 
+** result: CONSTRAINED! 
+** time: 0.001112 
+    ** contribution counts: 
+    ****** single_to_double: 1 
+    ****** multi_con_to_single_uncon: 1 
+    ****** bpg_edges: 44 
+    ****** bpg_nodes: 13 
+    ****** bpg_time_records: {0.00018334388732910156} 
+
+** filename: Mux2@mux2.circom 
+** result: CONSTRAINED! 
+** time: 0.136974 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 8 
+    ****** simple_replacement_expression_CONS_propogation: 7 
+    ****** bpg_edges: 6330 
+    ****** bpg_nodes: 57 
+    ****** single_to_double: 18 
+    ****** multi_con_to_single_uncon: 5 
+    ****** bpg_time_records: {0.04196476936340332} 
+
+** filename: Switcher@switcher.circom 
+** result: CONSTRAINED! 
+** time: 0.00127 
+    ** contribution counts: 
+    ****** single_to_double: 2 
+    ****** multi_con_to_single_uncon: 3 
+    ****** bpg_edges: 90 
+    ****** bpg_nodes: 18 
+    ****** bpg_time_records: {0.00019669532775878906} 
+
+** filename: BabyDbl@babyjub.circom 
+** result: CONSTRAINED! 
+** time: 3.69118 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 6 
+    ****** simple_replacement_expression_CONS_propogation: 4 
+    ****** bpg_edges: 3933 
+    ****** bpg_nodes: 42 
+    ****** single_to_double: 11 
+    ****** multi_con_to_single_uncon: 4 
+    ****** add_edge_to_assumptions: 2 
+    ****** bpg_time_records: {0.07029438018798828} 
+    ****** DO_ASSUMPTION_PHASE: 1 
+    ****** assumption_smt_count: 2 
+    ****** clause_learning: 1 
+    ****** Assumptions_grobner_early_conflict_cons: 2 
+    ****** solved_assumption_smt_count: 2 
+
+** filename: XOR@gates.circom 
+** result: CONSTRAINED! 
+** time: 0.000966 
+    ** contribution counts: 
+    ****** single_to_double: 1 
+    ****** multi_con_to_single_uncon: 1 
+    ****** bpg_edges: 36 
+    ****** bpg_nodes: 9 
+    ****** bpg_time_records: {0.0001289844512939453} 
+
+** filename: EscalarProduct@multiplexer.circom 
+** result: CONSTRAINED! 
+** time: 0.001035 
+    ** contribution counts: 
+    ****** single_to_double: 2 
+    ****** multi_con_to_single_uncon: 3 
+    ****** bpg_edges: 54 
+    ****** bpg_nodes: 21 
+    ****** bpg_time_records: {0.00026607513427734375} 
+
+** filename: IsEqual@comparators.circom 
+** result: CONSTRAINED! 
+** time: 0.002473 
+    ** contribution counts: 
+    ****** multi_con_to_single_uncon: 3 
+    ****** bpg_edges: 64 
+    ****** bpg_nodes: 20 
+    ****** simple_replacement_expression: 1 
+    ****** add_edge_to_assumptions: 2 
+    ****** BPG_constrained_both_solved: 1 
+    ****** BPG_binary: 2 
+    ****** bpg_time_records: {0.0005614757537841797} 
+
+** filename: IsZero@comparators.circom 
+** result: CONSTRAINED! 
+** time: 0.000795 
+    ** contribution counts: 
+    ****** bpg_edges: 11 
+    ****** bpg_nodes: 10 
+    ****** multi_con_to_single_uncon: 2 
+    ****** add_edge_to_assumptions: 2 
+    ****** BPG_constrained_both_solved: 1 
+    ****** BPG_binary: 1 
+    ****** bpg_time_records: {0.00017118453979492188} 
+
+** filename: MontgomeryDouble@montgomery.circom 
+** result: NOT SURE 
+** time: 25.88712 
+    ** contribution counts: 
+    ****** single_to_double: 1 
+    ****** multi_con_to_single_uncon: 2 
+    ****** add_edge_to_assumptions: 1 
+    ****** bpg_edges: 292 
+    ****** bpg_nodes: 18 
+    ****** bpg_time_records: {0.0006916522979736328} 
+    ****** DO_ASSUMPTION_PHASE: 1 
+    ****** assumption_smt_count: 1 
+    ****** clause_learning: 1 
+
+** filename: Mux4@mux4.circom 
+** result: CONSTRAINED! 
+** time: 0.193181 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 22 
+    ****** simple_replacement_expression_CONS_propogation: 21 
+    ****** bpg_edges: 2975 
+    ****** bpg_nodes: 161 
+    ****** single_to_double: 128 
+    ****** multi_con_to_single_uncon: 20 
+    ****** bpg_time_records: {0.0415802001953125} 
+
+** filename: EscalarMulAny@escalarmulany.circom 
+** result: TIMEOUT 
+** time: 35.64755439758301 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 40 
+    ****** simple_replacement_expression_CONS_propogation: 6 
+    ****** bpg_edges: 5233 
+    ****** bpg_nodes: 229 
+    ****** multi_con_to_single_uncon: 3 
+    ****** add_edge_to_assumptions: 3 
+    ****** single_to_double: 1 
+    ****** BPG_constrained_both_solved: 2 
+    ****** BPG_binary: 1 
+    ****** bpg_time_records: {0.1386394500732422, 0.10482668876647949} 
+    ****** DO_ASSUMPTION_PHASE: 1 
+    ****** assumption_smt_count: 2 
+
+** filename: MultiMux3@mux3.circom 
+** result: CONSTRAINED! 
+** time: 0.07785 
+    ** contribution counts: 
+    ****** single_to_double: 41 
+    ****** multi_con_to_single_uncon: 17 
+    ****** bpg_edges: 1461 
+    ****** bpg_nodes: 83 
+    ****** simple_replacement_expression: 2 
+    ****** simple_replacement_expression_CONS_propogation: 2 
+    ****** bpg_time_records: {0.008328676223754883} 
+
+** filename: Montgomery2Edwards@montgomery.circom 
+** result: UNDER-CONSTRAINED! 
+** time: 0.198487 
+    ** contribution counts: 
+    ****** multi_con_to_single_uncon: 1 
+    ****** add_edge_to_assumptions: 2 
+    ****** bpg_edges: 11 
+    ****** bpg_nodes: 11 
+    ****** bpg_time_records: {9.012222290039062e-05} 
+    ****** DO_ASSUMPTION_PHASE: 1 
+    ****** assumption_smt_count: 1 
+    ****** clause_learning: 1 
+    ****** Assumptions_via_grobner_UNDER: 1 
+    ****** unsolved_assumption_smt_count: 1 
+
+** filename: NOR@gates.circom 
+** result: CONSTRAINED! 
+** time: 0.00106 
+    ** contribution counts: 
+    ****** single_to_double: 1 
+    ****** multi_con_to_single_uncon: 1 
+    ****** bpg_edges: 44 
+    ****** bpg_nodes: 14 
+    ****** bpg_time_records: {0.0001366138458251953} 
+
+** filename: BitElementMulAny@escalarmulany.circom 
+** result: NOT SURE 
+** time: 32.974747 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 15 
+    ****** simple_replacement_expression_CONS_propogation: 7 
+    ****** bpg_edges: 2126 
+    ****** bpg_nodes: 91 
+    ****** single_to_double: 5 
+    ****** multi_con_to_single_uncon: 2 
+    ****** add_edge_to_assumptions: 1 
+    ****** bpg_time_records: {0.02807307243347168} 
+    ****** DO_ASSUMPTION_PHASE: 1 
+    ****** assumption_smt_count: 1 
+
+** filename: MiMCSponge@mimcsponge.circom 
+** result: CONSTRAINED! 
+** time: 0.179906 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 15 
+    ****** single_to_double: 46 
+    ****** simple_replacement_expression_CONS_propogation: 7 
+    ****** bpg_edges: 3729 
+    ****** bpg_nodes: 96 
+    ****** simple_replacement_constant: 1 
+    ****** multi_con_to_single_uncon: 20 
+    ****** bpg_time_records: {0.039444684982299805} 
+
+** filename: GreaterEqThan@comparators.circom 
+** result: CONSTRAINED! 
+** time: 0.034257 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 4 
+    ****** simple_replacement_expression_CONS_propogation: 2 
+    ****** bpg_edges: 680 
+    ****** bpg_nodes: 40 
+    ****** multi_con_to_single_uncon: 2 
+    ****** BPG_binary: 4 
+    ****** bpg_time_records: {0.008138656616210938} 
+    ****** binary_expression: 3 
+    ****** single_to_double: 3 
+
+** filename: Sign@sign.circom 
+** result: CONSTRAINED! 
+** time: 1.143666 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 257 
+    ****** simple_replacement_expression_CONS_propogation: 255 
+    ****** bpg_edges: 8950 
+    ****** bpg_nodes: 2900 
+    ****** single_to_double: 389 
+    ****** multi_con_to_single_uncon: 129 
+    ****** BPG_binary: 136 
+    ****** bpg_time_records: {0.5406639575958252} 
+    ****** binary_expression: 135 
+
+** filename: Mux3@mux3.circom 
+** result: CONSTRAINED! 
+** time: 0.123703 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 13 
+    ****** simple_replacement_expression_CONS_propogation: 12 
+    ****** bpg_edges: 1536 
+    ****** bpg_nodes: 91 
+    ****** single_to_double: 42 
+    ****** multi_con_to_single_uncon: 9 
+    ****** bpg_time_records: {0.02346038818359375} 
+
+** filename: AND@gates.circom 
+** result: CONSTRAINED! 
+** time: 0.000467 
+    ** contribution counts: 
+    ****** single_to_double: 1 
+    ****** multi_con_to_single_uncon: 1 
+    ****** bpg_edges: 9 
+    ****** bpg_nodes: 8 
+    ****** bpg_time_records: {9.632110595703125e-05} 
+
+** filename: NAND@gates.circom 
+** result: CONSTRAINED! 
+** time: 0.000341 
+    ** contribution counts: 
+    ****** single_to_double: 1 
+    ****** multi_con_to_single_uncon: 1 
+    ****** bpg_edges: 9 
+    ****** bpg_nodes: 9 
+    ****** bpg_time_records: {6.985664367675781e-05} 
+
+** filename: ForceEqualIfEnabled@comparators.circom 
+** result: CONSTRAINED! 
+** time: 0.000321 
+    ** contribution counts: 
+    ****** bpg_time_records: {5.0067901611328125e-06} 
+
+** filename: MultiMux1@mux1.circom 
+** result: CONSTRAINED! 
+** time: 0.002807 
+    ** contribution counts: 
+    ****** single_to_double: 4 
+    ****** multi_con_to_single_uncon: 2 
+    ****** bpg_edges: 122 
+    ****** bpg_nodes: 23 
+    ****** bpg_time_records: {0.0004630088806152344} 
+
+** filename: EdDSAVerifier@eddsa.circom 
+** result: CONSTRAINED! 
+** time: 12.988596 
+    ** contribution counts: 
+    ****** bpg_time_records: {1.2874603271484375e-05} 
+
+** filename: WindowMulFix@escalarmulfix.circom 
+** result: NOT SURE 
+** time: 21.271264 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 51 
+    ****** simple_replacement_expression_CONS_propogation: 21 
+    ****** bpg_edges: 10868 
+    ****** bpg_nodes: 269 
+    ****** single_to_double: 15 
+    ****** multi_con_to_single_uncon: 3 
+    ****** add_edge_to_assumptions: 1 
+    ****** bpg_time_records: {0.3917503356933594} 
+    ****** DO_ASSUMPTION_PHASE: 1 
+    ****** assumption_smt_count: 1 
+
+** filename: Multiplexor2@escalarmulany.circom 
+** result: CONSTRAINED! 
+** time: 0.003484 
+    ** contribution counts: 
+    ****** single_to_double: 4 
+    ****** multi_con_to_single_uncon: 2 
+    ****** bpg_edges: 122 
+    ****** bpg_nodes: 23 
+    ****** bpg_time_records: {0.0005409717559814453} 
+
+** filename: AliasCheck@aliascheck.circom 
+** result: CONSTRAINED! 
+** time: 0.027205 
+    ** contribution counts: 
+    ****** bpg_time_records: {3.814697265625e-06} 
+
+** filename: NOT@gates.circom 
+** result: CONSTRAINED! 
+** time: 0.000446 
+    ** contribution counts: 
+    ****** multi_con_to_single_uncon: 1 
+    ****** bpg_edges: 6 
+    ****** bpg_nodes: 8 
+    ****** bpg_time_records: {0.00011563301086425781} 
+
+** filename: LessEqThan@comparators.circom 
+** result: CONSTRAINED! 
+** time: 0.027918 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 4 
+    ****** simple_replacement_expression_CONS_propogation: 2 
+    ****** bpg_edges: 680 
+    ****** bpg_nodes: 40 
+    ****** multi_con_to_single_uncon: 2 
+    ****** BPG_binary: 4 
+    ****** bpg_time_records: {0.0066776275634765625} 
+    ****** binary_expression: 3 
+    ****** single_to_double: 3 
+
+** filename: MontgomeryAdd@montgomery.circom 
+** result: UNDER-CONSTRAINED! 
+** time: 2.556205 
+    ** contribution counts: 
+    ****** add_edge_to_assumptions: 1 
+    ****** bpg_edges: 604 
+    ****** bpg_nodes: 21 
+    ****** bpg_time_records: {0.0020666122436523438} 
+    ****** DO_ASSUMPTION_PHASE: 1 
+    ****** assumption_smt_count: 1 
+    ****** Assumptions_via_grobner_UNDER: 3 
+    ****** unsolved_assumption_smt_count: 1 
+
+** filename: MiMC7@mimc.circom 
+** result: CONSTRAINED! 
+** time: 0.031155 
+    ** contribution counts: 
+    ****** single_to_double: 13 
+    ****** multi_con_to_single_uncon: 8 
+    ****** bpg_edges: 222 
+    ****** bpg_nodes: 30 
+    ****** bpg_time_records: {0.001734018325805664} 
+
+** filename: MultiMiMC7@mimc.circom 
+** result: CONSTRAINED! 
+** time: 0.187505 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 6 
+    ****** simple_replacement_expression_CONS_propogation: 4 
+    ****** bpg_edges: 2040 
+    ****** bpg_nodes: 81 
+    ****** single_to_double: 35 
+    ****** multi_con_to_single_uncon: 18 
+    ****** bpg_time_records: {0.023781299591064453} 
+
+** filename: Decoder@multiplexer.circom 
+** result: UNDER-CONSTRAINED! 
+** time: 0.214223 
+    ** contribution counts: 
+    ****** multi_con_to_single_uncon: 1 
+    ****** add_edge_to_assumptions: 2 
+    ****** bpg_edges: 42 
+    ****** bpg_nodes: 15 
+    ****** BPG_binary: 1 
+    ****** bpg_time_records: {0.00035381317138671875} 
+    ****** DO_ASSUMPTION_PHASE: 1 
+    ****** assumption_smt_count: 1 
+    ****** Assumptions_via_grobner_UNDER: 2 
+    ****** unsolved_assumption_smt_count: 1 
+
+** filename: MultiMux2@mux2.circom 
+** result: CONSTRAINED! 
+** time: 0.221038 
+    ** contribution counts: 
+    ****** single_to_double: 17 
+    ****** multi_con_to_single_uncon: 9 
+    ****** bpg_edges: 12045 
+    ****** bpg_nodes: 63 
+    ****** simple_replacement_expression: 2 
+    ****** simple_replacement_expression_CONS_propogation: 2 
+    ****** bpg_time_records: {0.05175209045410156} 
+
+** filename: Mux1@mux1.circom 
+** result: CONSTRAINED! 
+** time: 0.004511 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 4 
+    ****** simple_replacement_expression_CONS_propogation: 3 
+    ****** bpg_edges: 146 
+    ****** bpg_nodes: 28 
+    ****** single_to_double: 4 
+    ****** multi_con_to_single_uncon: 1 
+    ****** bpg_time_records: {0.0015940666198730469} 
+
+** filename: Bits2Num@bitify.circom 
+** result: CONSTRAINED! 
+** time: 0.000539 
+    ** contribution counts: 
+    ****** multi_con_to_single_uncon: 1 
+    ****** bpg_edges: 36 
+    ****** bpg_nodes: 9 
+    ****** bpg_time_records: {9.226799011230469e-05} 
+
+** filename: Sigma@poseidon.circom 
+** result: CONSTRAINED! 
+** time: 0.000482 
+    ** contribution counts: 
+    ****** single_to_double: 3 
+    ****** multi_con_to_single_uncon: 3 
+    ****** bpg_edges: 9 
+    ****** bpg_nodes: 8 
+    ****** bpg_time_records: {7.462501525878906e-05} 
+
+** filename: Window4@pedersen.circom 
+** result: NOT SURE 
+** time: 21.651416 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 50 
+    ****** simple_replacement_expression_CONS_propogation: 21 
+    ****** bpg_edges: 10868 
+    ****** bpg_nodes: 270 
+    ****** single_to_double: 15 
+    ****** multi_con_to_single_uncon: 3 
+    ****** add_edge_to_assumptions: 1 
+    ****** bpg_time_records: {0.3085813522338867} 
+    ****** DO_ASSUMPTION_PHASE: 1 
+    ****** assumption_smt_count: 1 
+
+** filename: EdDSAPoseidonVerifier@eddsaposeidon.circom 
+** result: CONSTRAINED! 
+** time: 3.045284 
+    ** contribution counts: 
+    ****** bpg_time_records: {1.0728836059570312e-05} 
+
+** filename: Num2Bits_strict@bitify.circom 
+** result: CONSTRAINED! 
+** time: 3.63328 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 764 
+    ****** simple_replacement_expression_CONS_propogation: 1 
+    ****** bpg_edges: 13351 
+    ****** bpg_nodes: 5204 
+    ****** simple_replacement_constant: 2 
+    ****** single_to_double: 382 
+    ****** BPG_binary: 643 
+    ****** bpg_time_records: {0.24142861366271973} 
+    ****** binary_expression: 254 
+    ****** multi_con_to_single_uncon: 286 
+
+** filename: CompConstant@compconstant.circom 
+** result: CONSTRAINED! 
+** time: 0.290257 
+    ** contribution counts: 
+    ****** single_to_double: 262 
+    ****** multi_con_to_single_uncon: 129 
+    ****** bpg_edges: 5834 
+    ****** bpg_nodes: 2199 
+    ****** simple_replacement_expression: 2 
+    ****** simple_replacement_expression_CONS_propogation: 1 
+    ****** BPG_binary: 136 
+    ****** bpg_time_records: {0.030488014221191406} 
+    ****** binary_expression: 135 
+
+** filename: BinSub@binsub.circom 
+** result: CONSTRAINED! 
+** time: 48.029974 
+    ** contribution counts: 
+    ****** bpg_edges: 483846 
+    ****** bpg_nodes: 27 
+    ****** BPG_binary: 3 
+    ****** bpg_time_records: {10.50706171989441} 
+    ****** binary_expression: 3 
+    ****** single_to_double: 3 
+
+** filename: LessThan@comparators.circom 
+** result: CONSTRAINED! 
+** time: 0.026188 
+    ** contribution counts: 
+    ****** multi_con_to_single_uncon: 2 
+    ****** bpg_edges: 626 
+    ****** bpg_nodes: 29 
+    ****** simple_replacement_expression: 1 
+    ****** BPG_binary: 4 
+    ****** bpg_time_records: {0.005655765533447266} 
+    ****** binary_expression: 3 
+    ****** single_to_double: 3 
+
+** filename: SegmentMulFix@escalarmulfix.circom 
+** result: NOT SURE 
+** time: 116.396679 
+    ** contribution counts: 
+    ****** simple_replacement_expression: 144 
+    ****** simple_replacement_expression_CONS_propogation: 14 
+    ****** bpg_edges: 30113 
+    ****** bpg_nodes: 748 
+    ****** add_edge_to_assumptions: 1 
+    ****** single_to_double: 4 
+    ****** multi_con_to_single_uncon: 2 
+    ****** bpg_time_records: {0.7353830337524414} 
+    ****** DO_ASSUMPTION_PHASE: 1 
+    ****** assumption_smt_count: 1 
+
+** filename: EdDSAMiMCVerifier@eddsamimc.circom 
+** result: CONSTRAINED! 
+** time: 3.210395 
+    ** contribution counts: 
+    ****** bpg_time_records: {1.3828277587890625e-05} 
+
+** filename: Pedersen@pedersen.circom 
+** result: UNDER-CONSTRAINED! 
+** time: 1.129662 
+    ** contribution counts: 
+    ****** simple_replacement_constant: 52 
+    ****** bpg_edges: 7143 
+    ****** simple_replacement_expression: 57 
+    ****** simple_replacement_expression_CONS_propogation: 17 
+    ****** bpg_nodes: 338 
+    ****** single_to_double: 100 
+    ****** multi_con_to_single_uncon: 10 
+    ****** add_edge_to_assumptions: 2 
+    ****** bpg_time_records: {0.10538721084594727} 
+    ****** DO_ASSUMPTION_PHASE: 1 
+    ****** assumption_smt_count: 2 
+    ****** clause_learning: 1 
+    ****** Assumptions_grobner_early_conflict_cons: 1 
+    ****** solved_assumption_smt_count: 1 
+    ****** Assumptions_via_grobner_UNDER: 1 
+    ****** unsolved_assumption_smt_count: 1 
+
+** filename: Edwards2Montgomery@montgomery.circom 
+** result: UNDER-CONSTRAINED! 
+** time: 2.189967 
+    ** contribution counts: 
+    ****** add_edge_to_assumptions: 2 
+    ****** bpg_edges: 11 
+    ****** bpg_nodes: 11 
+    ****** bpg_time_records: {7.081031799316406e-05, 9.72747802734375e-05} 
+    ****** DO_ASSUMPTION_PHASE: 1 
+    ****** assumption_smt_count: 2 
+    ****** clause_learning: 1 
+    ****** Assumptions_grobner_early_conflict_cons: 1 
+    ****** solved_assumption_smt_count: 1 
+    ****** single_to_double: 1 
+    ****** multi_con_to_single_uncon: 1 
+    ****** Assumptions_via_grobner_UNDER: 1 
+    ****** unsolved_assumption_smt_count: 1 
+
+** filename: Num2Bits@bitify.circom 
+** result: CONSTRAINED! 
+** time: 0.001921 
+    ** contribution counts: 
+    ****** bpg_edges: 40 
+    ****** bpg_nodes: 13 
+    ****** BPG_binary: 2 
+    ****** bpg_time_records: {0.00033545494079589844} 
+    ****** binary_expression: 2 
+    ****** single_to_double: 2 
+

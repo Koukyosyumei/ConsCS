@@ -1,0 +1,39 @@
+# r1cs file: ./benchmarks/circomlibex-cff5ab6/Multiplexor2@escalarmulany@circomlib.r1cs
+# timeout: 5000
+# solver: cvc5
+# selector: counter
+# precondition: ()
+# propagation on: #t
+# solver on: #t
+# smt: #f
+# weak: #t
+# map: #f
+# number of wires: 8
+# number of constraints: 2
+# field size (how many bytes): 32
+# inputs: (0 3 4 5 6 7).
+# outputs: (1 2).
+# targets: #<set: 1 2>.
+# parsing original r1cs...
+# xlist: (x0 x1 x2 x3 x4 x5 x6 x7).
+# alt-xlist (x0 y1 y2 x3 x4 x5 x6 x7).
+# parsing alternative r1cs...
+# configuring precondition...
+# unique: #<set:>.
+# initial known-set #<set: 0 3 4 5 6 7>
+# initial unknown-set #<set: 1 2>
+# refined known-set: #<set: 0 3 4 5 6 7>
+# refined unknown-set: #<set: 1 2>
+  # propagation (linear lemma): #<set: 1 2> added.
+  # propagation (linear lemma): none.
+  # propagation (binary01 lemma): none.
+  # propagation (basis2 lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (linear lemma): none.
+  # propagation (binary01 lemma): none.
+  # propagation (basis2 lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (aboz lemma): none.
+# final unknown set #<set:>.
+# weak uniqueness: safe.

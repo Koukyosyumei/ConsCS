@@ -1,0 +1,65 @@
+# r1cs file: ./benchmarks/circomlib-cff5ab6/BabyDbl@babyjub.r1cs
+# timeout: 5000
+# solver: cvc5
+# selector: counter
+# precondition: ()
+# propagation on: #t
+# solver on: #t
+# smt: #f
+# weak: #t
+# map: #f
+# number of wires: 15
+# number of constraints: 12
+# field size (how many bytes): 32
+# inputs: (0 3 4).
+# outputs: (1 2).
+# targets: #<set: 1 2>.
+# parsing original r1cs...
+# xlist: (x0 x1 x2 x3 x4 x5 x6 x7 x8 x9 x10 x11 x12 x13 x14).
+# alt-xlist (x0 y1 y2 x3 x4 y5 y6 y7 y8 y9 y10 y11 y12 y13 y14).
+# parsing alternative r1cs...
+# configuring precondition...
+# unique: #<set:>.
+# initial known-set #<set: 0 3 4>
+# initial unknown-set #<set: 1 2 5 6 7 8 9 10 11 12 13 14>
+# refined known-set: #<set: 0 3 4>
+# refined unknown-set: #<set: 1 2 5 6 7 8 9 10 11 12 13 14>
+  # propagation (linear lemma): #<set: 7 8 9 10> added.
+  # propagation (linear lemma): #<set: 11 12 13> added.
+  # propagation (linear lemma): #<set: 14> added.
+  # propagation (linear lemma): none.
+  # propagation (binary01 lemma): none.
+  # propagation (basis2 lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (linear lemma): none.
+  # propagation (binary01 lemma): none.
+  # propagation (basis2 lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (aboz lemma): none.
+  # checking: (x6 y6), verified.
+  # propagation (linear lemma): #<set: 2> added.
+  # propagation (linear lemma): none.
+  # propagation (binary01 lemma): none.
+  # propagation (basis2 lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (linear lemma): none.
+  # propagation (binary01 lemma): none.
+  # propagation (basis2 lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (aboz lemma): none.
+  # checking: (x5 y5), verified.
+  # propagation (linear lemma): #<set: 1> added.
+  # propagation (linear lemma): none.
+  # propagation (binary01 lemma): none.
+  # propagation (basis2 lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (linear lemma): none.
+  # propagation (binary01 lemma): none.
+  # propagation (basis2 lemma): none.
+  # propagation (aboz lemma): none.
+  # propagation (aboz lemma): none.
+# final unknown set #<set:>.
+# weak uniqueness: safe.

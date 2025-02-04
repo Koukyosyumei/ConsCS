@@ -1,0 +1,1540 @@
+=================== AND@gates@circomlib.circom: AND@gates@circomlib ===================
+    compiling...
+template instances: 1
+non-linear constraints: 1
+linear constraints: 0
+public inputs: 0
+public outputs: 1
+private inputs: 2
+private outputs: 0
+wires: 4
+labels: 4
+Written successfully: ./benchmarks/circomlibex-cff5ab6/AND@gates@circomlib.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/AND@gates@circomlib.sym
+Everything went okay, circom safe
+=================== AliasCheck@aliascheck@circomlib.circom: AliasCheck@aliascheck@circomlib ===================
+    compiling...
+template instances: 3
+non-linear constraints: 262
+linear constraints: 259
+public inputs: 0
+public outputs: 0
+private inputs: 254
+private outputs: 0
+wires: 774
+labels: 774
+Written successfully: ./benchmarks/circomlibex-cff5ab6/AliasCheck@aliascheck@circomlib.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/AliasCheck@aliascheck@circomlib.sym
+Everything went okay, circom safe
+=================== BabyAdd@babyjub@circomlib.circom: BabyAdd@babyjub@circomlib ===================
+    compiling...
+template instances: 1
+non-linear constraints: 6
+linear constraints: 0
+public inputs: 0
+public outputs: 2
+private inputs: 4
+private outputs: 0
+wires: 11
+labels: 11
+Written successfully: ./benchmarks/circomlibex-cff5ab6/BabyAdd@babyjub@circomlib.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/BabyAdd@babyjub@circomlib.sym
+Everything went okay, circom safe
+=================== BabyCheck@babyjub@circomlib.circom: BabyCheck@babyjub@circomlib ===================
+    compiling...
+template instances: 1
+non-linear constraints: 3
+linear constraints: 0
+public inputs: 0
+public outputs: 0
+private inputs: 2
+private outputs: 0
+wires: 5
+labels: 5
+Written successfully: ./benchmarks/circomlibex-cff5ab6/BabyCheck@babyjub@circomlib.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/BabyCheck@babyjub@circomlib.sym
+Everything went okay, circom safe
+=================== BabyDbl@babyjub@circomlib.circom: BabyDbl@babyjub@circomlib ===================
+    compiling...
+template instances: 2
+non-linear constraints: 6
+linear constraints: 6
+public inputs: 0
+public outputs: 2
+private inputs: 2
+private outputs: 0
+wires: 15
+labels: 15
+Written successfully: ./benchmarks/circomlibex-cff5ab6/BabyDbl@babyjub@circomlib.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/BabyDbl@babyjub@circomlib.sym
+Everything went okay, circom safe
+=================== BabyPbk@babyjub@circomlib.circom: BabyPbk@babyjub@circomlib ===================
+    compiling...
+template instances: 12
+non-linear constraints: 3948
+linear constraints: 6166
+public inputs: 0
+public outputs: 2
+private inputs: 1
+private outputs: 0
+wires: 10115
+labels: 10115
+Written successfully: ./benchmarks/circomlibex-cff5ab6/BabyPbk@babyjub@circomlib.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/BabyPbk@babyjub@circomlib.sym
+Everything went okay, circom safe
+=================== BinSub@binsub@circomlib_16.circom: BinSub@binsub@circomlib_16 ===================
+    compiling...
+template instances: 1
+non-linear constraints: 17
+linear constraints: 1
+public inputs: 0
+public outputs: 16
+private inputs: 32
+private outputs: 0
+wires: 50
+labels: 50
+Written successfully: ./benchmarks/circomlibex-cff5ab6/BinSub@binsub@circomlib_16.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/BinSub@binsub@circomlib_16.sym
+Everything went okay, circom safe
+=================== BinSum@binsum@circomlib_32_2.circom: BinSum@binsum@circomlib_32_2 ===================
+    compiling...
+template instances: 1
+non-linear constraints: 33
+linear constraints: 1
+public inputs: 0
+public outputs: 33
+private inputs: 64
+private outputs: 0
+wires: 98
+labels: 98
+Written successfully: ./benchmarks/circomlibex-cff5ab6/BinSum@binsum@circomlib_32_2.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/BinSum@binsum@circomlib_32_2.sym
+Everything went okay, circom safe
+=================== BinSum@binsum@circomlib_32_5.circom: BinSum@binsum@circomlib_32_5 ===================
+    compiling...
+template instances: 1
+non-linear constraints: 35
+linear constraints: 1
+public inputs: 0
+public outputs: 35
+private inputs: 160
+private outputs: 0
+wires: 196
+labels: 196
+Written successfully: ./benchmarks/circomlibex-cff5ab6/BinSum@binsum@circomlib_32_5.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/BinSum@binsum@circomlib_32_5.sym
+Everything went okay, circom safe
+=================== BitElementMulAny@escalarmulany@circomlib.circom: BitElementMulAny@escalarmulany@circomlib ===================
+    compiling...
+template instances: 4
+non-linear constraints: 9
+linear constraints: 15
+public inputs: 0
+public outputs: 4
+private inputs: 5
+private outputs: 0
+wires: 30
+labels: 30
+Written successfully: ./benchmarks/circomlibex-cff5ab6/BitElementMulAny@escalarmulany@circomlib.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/BitElementMulAny@escalarmulany@circomlib.sym
+Everything went okay, circom safe
+=================== Bits2Num@bitify@circomlib_1.circom: Bits2Num@bitify@circomlib_1 ===================
+    compiling...
+template instances: 1
+non-linear constraints: 0
+linear constraints: 1
+public inputs: 0
+public outputs: 1
+private inputs: 1
+private outputs: 0
+wires: 3
+labels: 3
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Bits2Num@bitify@circomlib_1.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Bits2Num@bitify@circomlib_1.sym
+Everything went okay, circom safe
+=================== Bits2Num@bitify@circomlib_128.circom: Bits2Num@bitify@circomlib_128 ===================
+    compiling...
+template instances: 1
+non-linear constraints: 0
+linear constraints: 1
+public inputs: 0
+public outputs: 1
+private inputs: 128
+private outputs: 0
+wires: 130
+labels: 130
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Bits2Num@bitify@circomlib_128.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Bits2Num@bitify@circomlib_128.sym
+Everything went okay, circom safe
+=================== Bits2Num@bitify@circomlib_16.circom: Bits2Num@bitify@circomlib_16 ===================
+    compiling...
+template instances: 1
+non-linear constraints: 0
+linear constraints: 1
+public inputs: 0
+public outputs: 1
+private inputs: 16
+private outputs: 0
+wires: 18
+labels: 18
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Bits2Num@bitify@circomlib_16.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Bits2Num@bitify@circomlib_16.sym
+Everything went okay, circom safe
+=================== Bits2Num@bitify@circomlib_253.circom: Bits2Num@bitify@circomlib_253 ===================
+    compiling...
+template instances: 1
+non-linear constraints: 0
+linear constraints: 1
+public inputs: 0
+public outputs: 1
+private inputs: 253
+private outputs: 0
+wires: 255
+labels: 255
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Bits2Num@bitify@circomlib_253.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Bits2Num@bitify@circomlib_253.sym
+Everything went okay, circom safe
+=================== Bits2Num@bitify@circomlib_254.circom: Bits2Num@bitify@circomlib_254 ===================
+    compiling...
+template instances: 1
+non-linear constraints: 0
+linear constraints: 1
+public inputs: 0
+public outputs: 1
+private inputs: 254
+private outputs: 0
+wires: 256
+labels: 256
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Bits2Num@bitify@circomlib_254.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Bits2Num@bitify@circomlib_254.sym
+Everything went okay, circom safe
+=================== Bits2Num@bitify@circomlib_256.circom: Bits2Num@bitify@circomlib_256 ===================
+    compiling...
+template instances: 1
+non-linear constraints: 0
+linear constraints: 1
+public inputs: 0
+public outputs: 1
+private inputs: 256
+private outputs: 0
+wires: 258
+labels: 258
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Bits2Num@bitify@circomlib_256.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Bits2Num@bitify@circomlib_256.sym
+Everything went okay, circom safe
+=================== Bits2Num@bitify@circomlib_32.circom: Bits2Num@bitify@circomlib_32 ===================
+    compiling...
+template instances: 1
+non-linear constraints: 0
+linear constraints: 1
+public inputs: 0
+public outputs: 1
+private inputs: 32
+private outputs: 0
+wires: 34
+labels: 34
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Bits2Num@bitify@circomlib_32.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Bits2Num@bitify@circomlib_32.sym
+Everything went okay, circom safe
+=================== Bits2Num@bitify@circomlib_64.circom: Bits2Num@bitify@circomlib_64 ===================
+    compiling...
+template instances: 1
+non-linear constraints: 0
+linear constraints: 1
+public inputs: 0
+public outputs: 1
+private inputs: 64
+private outputs: 0
+wires: 66
+labels: 66
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Bits2Num@bitify@circomlib_64.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Bits2Num@bitify@circomlib_64.sym
+Everything went okay, circom safe
+=================== Bits2Num@bitify@circomlib_8.circom: Bits2Num@bitify@circomlib_8 ===================
+    compiling...
+template instances: 1
+non-linear constraints: 0
+linear constraints: 1
+public inputs: 0
+public outputs: 1
+private inputs: 8
+private outputs: 0
+wires: 10
+labels: 10
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Bits2Num@bitify@circomlib_8.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Bits2Num@bitify@circomlib_8.sym
+Everything went okay, circom safe
+=================== Bits2Num_strict@bitify@circomlib.circom: Bits2Num_strict@bitify@circomlib ===================
+    compiling...
+template instances: 5
+non-linear constraints: 262
+linear constraints: 769
+public inputs: 0
+public outputs: 1
+private inputs: 254
+private outputs: 0
+wires: 1284
+labels: 1284
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Bits2Num_strict@bitify@circomlib.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Bits2Num_strict@bitify@circomlib.sym
+Everything went okay, circom safe
+=================== Bits2Point@pointbits@circomlib.circom: Bits2Point@pointbits@circomlib ===================
+    compiling...
+template instances: 1
+non-linear constraints: 0
+linear constraints: 0
+public inputs: 0
+public outputs: 2
+private inputs: 256
+private outputs: 0
+wires: 259
+labels: 259
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Bits2Point@pointbits@circomlib.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Bits2Point@pointbits@circomlib.sym
+Everything went okay, circom safe
+=================== Bits2Point_Strict@pointbits@circomlib.circom: Bits2Point_Strict@pointbits@circomlib ===================
+    compiling...
+template instances: 8
+non-linear constraints: 1043
+linear constraints: 1546
+public inputs: 0
+public outputs: 2
+private inputs: 256
+private outputs: 0
+wires: 2838
+labels: 2838
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Bits2Point_Strict@pointbits@circomlib.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Bits2Point_Strict@pointbits@circomlib.sym
+Everything went okay, circom safe
+=================== EdDSAMiMCSpongeVerifier@eddsamimcsponge@circomlib.circom: EdDSAMiMCSpongeVerifier@eddsamimcsponge@circomlib ===================
+    compiling...
+template instances: 28
+non-linear constraints: 10368
+linear constraints: 13948
+public inputs: 0
+public outputs: 0
+private inputs: 7
+private outputs: 0
+wires: 24315
+labels: 24315
+Written successfully: ./benchmarks/circomlibex-cff5ab6/EdDSAMiMCSpongeVerifier@eddsamimcsponge@circomlib.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/EdDSAMiMCSpongeVerifier@eddsamimcsponge@circomlib.sym
+Everything went okay, circom safe
+=================== EdDSAMiMCVerifier@eddsamimc@circomlib.circom: EdDSAMiMCVerifier@eddsamimc@circomlib ===================
+    compiling...
+template instances: 28
+non-linear constraints: 8888
+linear constraints: 12849
+public inputs: 0
+public outputs: 0
+private inputs: 7
+private outputs: 0
+wires: 21736
+labels: 21736
+Written successfully: ./benchmarks/circomlibex-cff5ab6/EdDSAMiMCVerifier@eddsamimc@circomlib.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/EdDSAMiMCVerifier@eddsamimc@circomlib.sym
+Everything went okay, circom safe
+=================== EdDSAPoseidonVerifier@eddsaposeidon@circomlib.circom: EdDSAPoseidonVerifier@eddsaposeidon@circomlib ===================
+    compiling...
+template instances: 99
+non-linear constraints: 7394
+linear constraints: 13845
+public inputs: 0
+public outputs: 0
+private inputs: 7
+private outputs: 0
+wires: 21238
+labels: 21238
+Written successfully: ./benchmarks/circomlibex-cff5ab6/EdDSAPoseidonVerifier@eddsaposeidon@circomlib.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/EdDSAPoseidonVerifier@eddsaposeidon@circomlib.sym
+Everything went okay, circom safe
+=================== Edwards2Montgomery@montgomery@circomlib.circom: Edwards2Montgomery@montgomery@circomlib ===================
+    compiling...
+template instances: 1
+non-linear constraints: 2
+linear constraints: 0
+public inputs: 0
+public outputs: 2
+private inputs: 2
+private outputs: 0
+wires: 5
+labels: 5
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Edwards2Montgomery@montgomery@circomlib.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Edwards2Montgomery@montgomery@circomlib.sym
+Everything went okay, circom safe
+=================== ForceEqualIfEnabled@comparators@circomlib.circom: ForceEqualIfEnabled@comparators@circomlib ===================
+    compiling...
+template instances: 2
+non-linear constraints: 3
+linear constraints: 1
+public inputs: 0
+public outputs: 0
+private inputs: 3
+private outputs: 0
+wires: 7
+labels: 7
+Written successfully: ./benchmarks/circomlibex-cff5ab6/ForceEqualIfEnabled@comparators@circomlib.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/ForceEqualIfEnabled@comparators@circomlib.sym
+Everything went okay, circom safe
+=================== GreaterEqThan@comparators@circomlib_16.circom: GreaterEqThan@comparators@circomlib_16 ===================
+    compiling...
+template instances: 3
+non-linear constraints: 17
+linear constraints: 6
+public inputs: 0
+public outputs: 1
+private inputs: 2
+private outputs: 0
+wires: 25
+labels: 25
+Written successfully: ./benchmarks/circomlibex-cff5ab6/GreaterEqThan@comparators@circomlib_16.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/GreaterEqThan@comparators@circomlib_16.sym
+Everything went okay, circom safe
+=================== GreaterEqThan@comparators@circomlib_32.circom: GreaterEqThan@comparators@circomlib_32 ===================
+    compiling...
+template instances: 3
+non-linear constraints: 33
+linear constraints: 6
+public inputs: 0
+public outputs: 1
+private inputs: 2
+private outputs: 0
+wires: 41
+labels: 41
+Written successfully: ./benchmarks/circomlibex-cff5ab6/GreaterEqThan@comparators@circomlib_32.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/GreaterEqThan@comparators@circomlib_32.sym
+Everything went okay, circom safe
+=================== GreaterEqThan@comparators@circomlib_8.circom: GreaterEqThan@comparators@circomlib_8 ===================
+    compiling...
+template instances: 3
+non-linear constraints: 9
+linear constraints: 6
+public inputs: 0
+public outputs: 1
+private inputs: 2
+private outputs: 0
+wires: 17
+labels: 17
+Written successfully: ./benchmarks/circomlibex-cff5ab6/GreaterEqThan@comparators@circomlib_8.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/GreaterEqThan@comparators@circomlib_8.sym
+Everything went okay, circom safe
+=================== GreaterThan@comparators@circomlib_16.circom: GreaterThan@comparators@circomlib_16 ===================
+    compiling...
+template instances: 3
+non-linear constraints: 17
+linear constraints: 6
+public inputs: 0
+public outputs: 1
+private inputs: 2
+private outputs: 0
+wires: 25
+labels: 25
+Written successfully: ./benchmarks/circomlibex-cff5ab6/GreaterThan@comparators@circomlib_16.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/GreaterThan@comparators@circomlib_16.sym
+Everything went okay, circom safe
+=================== GreaterThan@comparators@circomlib_32.circom: GreaterThan@comparators@circomlib_32 ===================
+    compiling...
+template instances: 3
+non-linear constraints: 33
+linear constraints: 6
+public inputs: 0
+public outputs: 1
+private inputs: 2
+private outputs: 0
+wires: 41
+labels: 41
+Written successfully: ./benchmarks/circomlibex-cff5ab6/GreaterThan@comparators@circomlib_32.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/GreaterThan@comparators@circomlib_32.sym
+Everything went okay, circom safe
+=================== GreaterThan@comparators@circomlib_8.circom: GreaterThan@comparators@circomlib_8 ===================
+    compiling...
+template instances: 3
+non-linear constraints: 9
+linear constraints: 6
+public inputs: 0
+public outputs: 1
+private inputs: 2
+private outputs: 0
+wires: 17
+labels: 17
+Written successfully: ./benchmarks/circomlibex-cff5ab6/GreaterThan@comparators@circomlib_8.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/GreaterThan@comparators@circomlib_8.sym
+Everything went okay, circom safe
+=================== IsEqual@comparators@circomlib.circom: IsEqual@comparators@circomlib ===================
+    compiling...
+template instances: 2
+non-linear constraints: 2
+linear constraints: 2
+public inputs: 0
+public outputs: 1
+private inputs: 2
+private outputs: 0
+wires: 7
+labels: 7
+Written successfully: ./benchmarks/circomlibex-cff5ab6/IsEqual@comparators@circomlib.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/IsEqual@comparators@circomlib.sym
+Everything went okay, circom safe
+=================== IsZero@comparators@circomlib.circom: IsZero@comparators@circomlib ===================
+    compiling...
+template instances: 1
+non-linear constraints: 2
+linear constraints: 0
+public inputs: 0
+public outputs: 1
+private inputs: 1
+private outputs: 0
+wires: 4
+labels: 4
+Written successfully: ./benchmarks/circomlibex-cff5ab6/IsZero@comparators@circomlib.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/IsZero@comparators@circomlib.sym
+Everything went okay, circom safe
+=================== LessEqThan@comparators@circomlib_16.circom: LessEqThan@comparators@circomlib_16 ===================
+    compiling...
+template instances: 3
+non-linear constraints: 17
+linear constraints: 6
+public inputs: 0
+public outputs: 1
+private inputs: 2
+private outputs: 0
+wires: 25
+labels: 25
+Written successfully: ./benchmarks/circomlibex-cff5ab6/LessEqThan@comparators@circomlib_16.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/LessEqThan@comparators@circomlib_16.sym
+Everything went okay, circom safe
+=================== LessEqThan@comparators@circomlib_32.circom: LessEqThan@comparators@circomlib_32 ===================
+    compiling...
+template instances: 3
+non-linear constraints: 33
+linear constraints: 6
+public inputs: 0
+public outputs: 1
+private inputs: 2
+private outputs: 0
+wires: 41
+labels: 41
+Written successfully: ./benchmarks/circomlibex-cff5ab6/LessEqThan@comparators@circomlib_32.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/LessEqThan@comparators@circomlib_32.sym
+Everything went okay, circom safe
+=================== LessEqThan@comparators@circomlib_8.circom: LessEqThan@comparators@circomlib_8 ===================
+    compiling...
+template instances: 3
+non-linear constraints: 9
+linear constraints: 6
+public inputs: 0
+public outputs: 1
+private inputs: 2
+private outputs: 0
+wires: 17
+labels: 17
+Written successfully: ./benchmarks/circomlibex-cff5ab6/LessEqThan@comparators@circomlib_8.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/LessEqThan@comparators@circomlib_8.sym
+Everything went okay, circom safe
+=================== Main@main@circomlib.circom: Main@main@circomlib ===================
+    compiling...
+template instances: 102
+non-linear constraints: 31384
+linear constraints: 173081
+public inputs: 0
+public outputs: 1
+private inputs: 2
+private outputs: 0
+wires: 204154
+labels: 204154
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Main@main@circomlib.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Main@main@circomlib.sym
+Everything went okay, circom safe
+=================== Montgomery2Edwards@montgomery@circomlib.circom: Montgomery2Edwards@montgomery@circomlib ===================
+    compiling...
+template instances: 1
+non-linear constraints: 2
+linear constraints: 0
+public inputs: 0
+public outputs: 2
+private inputs: 2
+private outputs: 0
+wires: 5
+labels: 5
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Montgomery2Edwards@montgomery@circomlib.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Montgomery2Edwards@montgomery@circomlib.sym
+Everything went okay, circom safe
+=================== MontgomeryAdd@montgomery@circomlib.circom: MontgomeryAdd@montgomery@circomlib ===================
+    compiling...
+template instances: 1
+non-linear constraints: 3
+linear constraints: 0
+public inputs: 0
+public outputs: 2
+private inputs: 4
+private outputs: 0
+wires: 8
+labels: 8
+Written successfully: ./benchmarks/circomlibex-cff5ab6/MontgomeryAdd@montgomery@circomlib.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/MontgomeryAdd@montgomery@circomlib.sym
+Everything went okay, circom safe
+=================== MontgomeryDouble@montgomery@circomlib.circom: MontgomeryDouble@montgomery@circomlib ===================
+    compiling...
+template instances: 1
+non-linear constraints: 4
+linear constraints: 0
+public inputs: 0
+public outputs: 2
+private inputs: 2
+private outputs: 0
+wires: 7
+labels: 7
+Written successfully: ./benchmarks/circomlibex-cff5ab6/MontgomeryDouble@montgomery@circomlib.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/MontgomeryDouble@montgomery@circomlib.sym
+Everything went okay, circom safe
+=================== Multiplexor2@escalarmulany@circomlib.circom: Multiplexor2@escalarmulany@circomlib ===================
+    compiling...
+template instances: 1
+non-linear constraints: 2
+linear constraints: 0
+public inputs: 0
+public outputs: 2
+private inputs: 5
+private outputs: 0
+wires: 8
+labels: 8
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Multiplexor2@escalarmulany@circomlib.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Multiplexor2@escalarmulany@circomlib.sym
+Everything went okay, circom safe
+=================== Mux1@mux1@circomlib.circom: Mux1@mux1@circomlib ===================
+    compiling...
+template instances: 2
+non-linear constraints: 1
+linear constraints: 4
+public inputs: 0
+public outputs: 1
+private inputs: 3
+private outputs: 0
+wires: 9
+labels: 9
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Mux1@mux1@circomlib.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Mux1@mux1@circomlib.sym
+Everything went okay, circom safe
+=================== Mux2@mux2@circomlib.circom: Mux2@mux2@circomlib ===================
+    compiling...
+template instances: 2
+non-linear constraints: 4
+linear constraints: 9
+public inputs: 0
+public outputs: 1
+private inputs: 6
+private outputs: 0
+wires: 20
+labels: 20
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Mux2@mux2@circomlib.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Mux2@mux2@circomlib.sym
+Everything went okay, circom safe
+=================== Mux3@mux3@circomlib.circom: Mux3@mux3@circomlib ===================
+    compiling...
+template instances: 2
+non-linear constraints: 8
+linear constraints: 14
+public inputs: 0
+public outputs: 1
+private inputs: 11
+private outputs: 0
+wires: 34
+labels: 34
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Mux3@mux3@circomlib.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Mux3@mux3@circomlib.sym
+Everything went okay, circom safe
+=================== Mux4@mux4@circomlib.circom: Mux4@mux4@circomlib ===================
+    compiling...
+template instances: 2
+non-linear constraints: 19
+linear constraints: 23
+public inputs: 0
+public outputs: 1
+private inputs: 20
+private outputs: 0
+wires: 63
+labels: 63
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Mux4@mux4@circomlib.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Mux4@mux4@circomlib.sym
+Everything went okay, circom safe
+=================== NAND@gates@circomlib.circom: NAND@gates@circomlib ===================
+    compiling...
+template instances: 1
+non-linear constraints: 1
+linear constraints: 0
+public inputs: 0
+public outputs: 1
+private inputs: 2
+private outputs: 0
+wires: 4
+labels: 4
+Written successfully: ./benchmarks/circomlibex-cff5ab6/NAND@gates@circomlib.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/NAND@gates@circomlib.sym
+Everything went okay, circom safe
+=================== NOR@gates@circomlib.circom: NOR@gates@circomlib ===================
+    compiling...
+template instances: 1
+non-linear constraints: 1
+linear constraints: 0
+public inputs: 0
+public outputs: 1
+private inputs: 2
+private outputs: 0
+wires: 4
+labels: 4
+Written successfully: ./benchmarks/circomlibex-cff5ab6/NOR@gates@circomlib.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/NOR@gates@circomlib.sym
+Everything went okay, circom safe
+=================== NOT@gates@circomlib.circom: NOT@gates@circomlib ===================
+    compiling...
+template instances: 1
+non-linear constraints: 0
+linear constraints: 1
+public inputs: 0
+public outputs: 1
+private inputs: 1
+private outputs: 0
+wires: 3
+labels: 3
+Written successfully: ./benchmarks/circomlibex-cff5ab6/NOT@gates@circomlib.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/NOT@gates@circomlib.sym
+Everything went okay, circom safe
+=================== Num2Bits@bitify@circomlib_1.circom: Num2Bits@bitify@circomlib_1 ===================
+    compiling...
+template instances: 1
+non-linear constraints: 1
+linear constraints: 1
+public inputs: 0
+public outputs: 1
+private inputs: 1
+private outputs: 0
+wires: 3
+labels: 3
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Num2Bits@bitify@circomlib_1.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Num2Bits@bitify@circomlib_1.sym
+Everything went okay, circom safe
+=================== Num2Bits@bitify@circomlib_128.circom: Num2Bits@bitify@circomlib_128 ===================
+    compiling...
+template instances: 1
+non-linear constraints: 128
+linear constraints: 1
+public inputs: 0
+public outputs: 128
+private inputs: 1
+private outputs: 0
+wires: 130
+labels: 130
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Num2Bits@bitify@circomlib_128.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Num2Bits@bitify@circomlib_128.sym
+Everything went okay, circom safe
+=================== Num2Bits@bitify@circomlib_16.circom: Num2Bits@bitify@circomlib_16 ===================
+    compiling...
+template instances: 1
+non-linear constraints: 16
+linear constraints: 1
+public inputs: 0
+public outputs: 16
+private inputs: 1
+private outputs: 0
+wires: 18
+labels: 18
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Num2Bits@bitify@circomlib_16.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Num2Bits@bitify@circomlib_16.sym
+Everything went okay, circom safe
+=================== Num2Bits@bitify@circomlib_253.circom: Num2Bits@bitify@circomlib_253 ===================
+    compiling...
+template instances: 1
+non-linear constraints: 253
+linear constraints: 1
+public inputs: 0
+public outputs: 253
+private inputs: 1
+private outputs: 0
+wires: 255
+labels: 255
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Num2Bits@bitify@circomlib_253.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Num2Bits@bitify@circomlib_253.sym
+Everything went okay, circom safe
+=================== Num2Bits@bitify@circomlib_254.circom: Num2Bits@bitify@circomlib_254 ===================
+    compiling...
+template instances: 1
+non-linear constraints: 254
+linear constraints: 1
+public inputs: 0
+public outputs: 254
+private inputs: 1
+private outputs: 0
+wires: 256
+labels: 256
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Num2Bits@bitify@circomlib_254.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Num2Bits@bitify@circomlib_254.sym
+Everything went okay, circom safe
+=================== Num2Bits@bitify@circomlib_256.circom: Num2Bits@bitify@circomlib_256 ===================
+    compiling...
+template instances: 1
+non-linear constraints: 256
+linear constraints: 1
+public inputs: 0
+public outputs: 256
+private inputs: 1
+private outputs: 0
+wires: 258
+labels: 258
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Num2Bits@bitify@circomlib_256.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Num2Bits@bitify@circomlib_256.sym
+Everything went okay, circom safe
+=================== Num2Bits@bitify@circomlib_32.circom: Num2Bits@bitify@circomlib_32 ===================
+    compiling...
+template instances: 1
+non-linear constraints: 32
+linear constraints: 1
+public inputs: 0
+public outputs: 32
+private inputs: 1
+private outputs: 0
+wires: 34
+labels: 34
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Num2Bits@bitify@circomlib_32.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Num2Bits@bitify@circomlib_32.sym
+Everything went okay, circom safe
+=================== Num2Bits@bitify@circomlib_64.circom: Num2Bits@bitify@circomlib_64 ===================
+    compiling...
+template instances: 1
+non-linear constraints: 64
+linear constraints: 1
+public inputs: 0
+public outputs: 64
+private inputs: 1
+private outputs: 0
+wires: 66
+labels: 66
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Num2Bits@bitify@circomlib_64.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Num2Bits@bitify@circomlib_64.sym
+Everything went okay, circom safe
+=================== Num2Bits@bitify@circomlib_8.circom: Num2Bits@bitify@circomlib_8 ===================
+    compiling...
+template instances: 1
+non-linear constraints: 8
+linear constraints: 1
+public inputs: 0
+public outputs: 8
+private inputs: 1
+private outputs: 0
+wires: 10
+labels: 10
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Num2Bits@bitify@circomlib_8.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Num2Bits@bitify@circomlib_8.sym
+Everything went okay, circom safe
+=================== Num2BitsNeg@bitify@circomlib_1.circom: Num2BitsNeg@bitify@circomlib_1 ===================
+    compiling...
+template instances: 2
+non-linear constraints: 3
+linear constraints: 2
+public inputs: 0
+public outputs: 1
+private inputs: 1
+private outputs: 0
+wires: 6
+labels: 6
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Num2BitsNeg@bitify@circomlib_1.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Num2BitsNeg@bitify@circomlib_1.sym
+Everything went okay, circom safe
+=================== Num2BitsNeg@bitify@circomlib_128.circom: Num2BitsNeg@bitify@circomlib_128 ===================
+    compiling...
+template instances: 2
+non-linear constraints: 130
+linear constraints: 2
+public inputs: 0
+public outputs: 128
+private inputs: 1
+private outputs: 0
+wires: 133
+labels: 133
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Num2BitsNeg@bitify@circomlib_128.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Num2BitsNeg@bitify@circomlib_128.sym
+Everything went okay, circom safe
+=================== Num2BitsNeg@bitify@circomlib_16.circom: Num2BitsNeg@bitify@circomlib_16 ===================
+    compiling...
+template instances: 2
+non-linear constraints: 18
+linear constraints: 2
+public inputs: 0
+public outputs: 16
+private inputs: 1
+private outputs: 0
+wires: 21
+labels: 21
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Num2BitsNeg@bitify@circomlib_16.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Num2BitsNeg@bitify@circomlib_16.sym
+Everything went okay, circom safe
+=================== Num2BitsNeg@bitify@circomlib_253.circom: Num2BitsNeg@bitify@circomlib_253 ===================
+    compiling...
+template instances: 2
+non-linear constraints: 255
+linear constraints: 2
+public inputs: 0
+public outputs: 253
+private inputs: 1
+private outputs: 0
+wires: 258
+labels: 258
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Num2BitsNeg@bitify@circomlib_253.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Num2BitsNeg@bitify@circomlib_253.sym
+Everything went okay, circom safe
+=================== Num2BitsNeg@bitify@circomlib_254.circom: Num2BitsNeg@bitify@circomlib_254 ===================
+    compiling...
+template instances: 2
+non-linear constraints: 256
+linear constraints: 2
+public inputs: 0
+public outputs: 254
+private inputs: 1
+private outputs: 0
+wires: 259
+labels: 259
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Num2BitsNeg@bitify@circomlib_254.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Num2BitsNeg@bitify@circomlib_254.sym
+Everything went okay, circom safe
+=================== Num2BitsNeg@bitify@circomlib_256.circom: Num2BitsNeg@bitify@circomlib_256 ===================
+    compiling...
+template instances: 2
+non-linear constraints: 258
+linear constraints: 2
+public inputs: 0
+public outputs: 256
+private inputs: 1
+private outputs: 0
+wires: 261
+labels: 261
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Num2BitsNeg@bitify@circomlib_256.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Num2BitsNeg@bitify@circomlib_256.sym
+Everything went okay, circom safe
+=================== Num2BitsNeg@bitify@circomlib_32.circom: Num2BitsNeg@bitify@circomlib_32 ===================
+    compiling...
+template instances: 2
+non-linear constraints: 34
+linear constraints: 2
+public inputs: 0
+public outputs: 32
+private inputs: 1
+private outputs: 0
+wires: 37
+labels: 37
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Num2BitsNeg@bitify@circomlib_32.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Num2BitsNeg@bitify@circomlib_32.sym
+Everything went okay, circom safe
+=================== Num2BitsNeg@bitify@circomlib_64.circom: Num2BitsNeg@bitify@circomlib_64 ===================
+    compiling...
+template instances: 2
+non-linear constraints: 66
+linear constraints: 2
+public inputs: 0
+public outputs: 64
+private inputs: 1
+private outputs: 0
+wires: 69
+labels: 69
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Num2BitsNeg@bitify@circomlib_64.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Num2BitsNeg@bitify@circomlib_64.sym
+Everything went okay, circom safe
+=================== Num2BitsNeg@bitify@circomlib_8.circom: Num2BitsNeg@bitify@circomlib_8 ===================
+    compiling...
+template instances: 2
+non-linear constraints: 10
+linear constraints: 2
+public inputs: 0
+public outputs: 8
+private inputs: 1
+private outputs: 0
+wires: 13
+labels: 13
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Num2BitsNeg@bitify@circomlib_8.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Num2BitsNeg@bitify@circomlib_8.sym
+Everything went okay, circom safe
+=================== Num2Bits_strict@bitify@circomlib.circom: Num2Bits_strict@bitify@circomlib ===================
+    compiling...
+template instances: 5
+non-linear constraints: 516
+linear constraints: 769
+public inputs: 0
+public outputs: 254
+private inputs: 1
+private outputs: 0
+wires: 1284
+labels: 1284
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Num2Bits_strict@bitify@circomlib.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Num2Bits_strict@bitify@circomlib.sym
+Everything went okay, circom safe
+=================== OR@gates@circomlib.circom: OR@gates@circomlib ===================
+    compiling...
+template instances: 1
+non-linear constraints: 1
+linear constraints: 0
+public inputs: 0
+public outputs: 1
+private inputs: 2
+private outputs: 0
+wires: 4
+labels: 4
+Written successfully: ./benchmarks/circomlibex-cff5ab6/OR@gates@circomlib.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/OR@gates@circomlib.sym
+Everything went okay, circom safe
+=================== Pedersen@pedersen@circomlib_1.circom: Pedersen@pedersen@circomlib_1 ===================
+    compiling...
+template instances: 8
+non-linear constraints: 42
+linear constraints: 72
+public inputs: 0
+public outputs: 2
+private inputs: 1
+private outputs: 0
+wires: 116
+labels: 116
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Pedersen@pedersen@circomlib_1.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Pedersen@pedersen@circomlib_1.sym
+Everything went okay, circom safe
+=================== Pedersen@pedersen@circomlib_128.circom: Pedersen@pedersen@circomlib_128 ===================
+    compiling...
+template instances: 8
+non-linear constraints: 1561
+linear constraints: 2242
+public inputs: 0
+public outputs: 2
+private inputs: 128
+private outputs: 0
+wires: 3932
+labels: 3932
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Pedersen@pedersen@circomlib_128.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Pedersen@pedersen@circomlib_128.sym
+Everything went okay, circom safe
+=================== Pedersen@pedersen@circomlib_16.circom: Pedersen@pedersen@circomlib_16 ===================
+    compiling...
+template instances: 8
+non-linear constraints: 189
+linear constraints: 282
+public inputs: 0
+public outputs: 2
+private inputs: 16
+private outputs: 0
+wires: 488
+labels: 488
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Pedersen@pedersen@circomlib_16.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Pedersen@pedersen@circomlib_16.sym
+Everything went okay, circom safe
+=================== Pedersen@pedersen@circomlib_253.circom: Pedersen@pedersen@circomlib_253 ===================
+    compiling...
+template instances: 10
+non-linear constraints: 3128
+linear constraints: 4486
+public inputs: 0
+public outputs: 2
+private inputs: 253
+private outputs: 0
+wires: 7868
+labels: 7868
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Pedersen@pedersen@circomlib_253.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Pedersen@pedersen@circomlib_253.sym
+Everything went okay, circom safe
+=================== Pedersen@pedersen@circomlib_254.circom: Pedersen@pedersen@circomlib_254 ===================
+    compiling...
+template instances: 10
+non-linear constraints: 3128
+linear constraints: 4486
+public inputs: 0
+public outputs: 2
+private inputs: 254
+private outputs: 0
+wires: 7869
+labels: 7869
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Pedersen@pedersen@circomlib_254.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Pedersen@pedersen@circomlib_254.sym
+Everything went okay, circom safe
+=================== Pedersen@pedersen@circomlib_256.circom: Pedersen@pedersen@circomlib_256 ===================
+    compiling...
+template instances: 10
+non-linear constraints: 3128
+linear constraints: 4486
+public inputs: 0
+public outputs: 2
+private inputs: 256
+private outputs: 0
+wires: 7871
+labels: 7871
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Pedersen@pedersen@circomlib_256.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Pedersen@pedersen@circomlib_256.sym
+Everything went okay, circom safe
+=================== Pedersen@pedersen@circomlib_32.circom: Pedersen@pedersen@circomlib_32 ===================
+    compiling...
+template instances: 8
+non-linear constraints: 385
+linear constraints: 562
+public inputs: 0
+public outputs: 2
+private inputs: 32
+private outputs: 0
+wires: 980
+labels: 980
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Pedersen@pedersen@circomlib_32.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Pedersen@pedersen@circomlib_32.sym
+Everything went okay, circom safe
+=================== Pedersen@pedersen@circomlib_64.circom: Pedersen@pedersen@circomlib_64 ===================
+    compiling...
+template instances: 8
+non-linear constraints: 777
+linear constraints: 1122
+public inputs: 0
+public outputs: 2
+private inputs: 64
+private outputs: 0
+wires: 1964
+labels: 1964
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Pedersen@pedersen@circomlib_64.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Pedersen@pedersen@circomlib_64.sym
+Everything went okay, circom safe
+=================== Pedersen@pedersen@circomlib_8.circom: Pedersen@pedersen@circomlib_8 ===================
+    compiling...
+template instances: 8
+non-linear constraints: 91
+linear constraints: 142
+public inputs: 0
+public outputs: 2
+private inputs: 8
+private outputs: 0
+wires: 242
+labels: 242
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Pedersen@pedersen@circomlib_8.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Pedersen@pedersen@circomlib_8.sym
+Everything went okay, circom safe
+=================== Pedersen@pedersen_old@circomlib_1.circom: Pedersen@pedersen_old@circomlib_1 ===================
+    compiling...
+template instances: 5
+non-linear constraints: 40
+linear constraints: 59
+public inputs: 0
+public outputs: 2
+private inputs: 1
+private outputs: 0
+wires: 101
+labels: 101
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Pedersen@pedersen_old@circomlib_1.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Pedersen@pedersen_old@circomlib_1.sym
+Everything went okay, circom safe
+=================== Pedersen@pedersen_old@circomlib_128.circom: Pedersen@pedersen_old@circomlib_128 ===================
+    compiling...
+template instances: 36
+non-linear constraints: 1280
+linear constraints: 1798
+public inputs: 0
+public outputs: 2
+private inputs: 128
+private outputs: 0
+wires: 3207
+labels: 3207
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Pedersen@pedersen_old@circomlib_128.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Pedersen@pedersen_old@circomlib_128.sym
+Everything went okay, circom safe
+=================== Pedersen@pedersen_old@circomlib_16.circom: Pedersen@pedersen_old@circomlib_16 ===================
+    compiling...
+template instances: 8
+non-linear constraints: 160
+linear constraints: 230
+public inputs: 0
+public outputs: 2
+private inputs: 16
+private outputs: 0
+wires: 407
+labels: 407
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Pedersen@pedersen_old@circomlib_16.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Pedersen@pedersen_old@circomlib_16.sym
+Everything went okay, circom safe
+=================== Pedersen@pedersen_old@circomlib_253.circom: Pedersen@pedersen_old@circomlib_253 ===================
+    compiling...
+template instances: 69
+non-linear constraints: 2560
+linear constraints: 3591
+public inputs: 0
+public outputs: 2
+private inputs: 253
+private outputs: 0
+wires: 6405
+labels: 6405
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Pedersen@pedersen_old@circomlib_253.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Pedersen@pedersen_old@circomlib_253.sym
+Everything went okay, circom safe
+=================== Pedersen@pedersen_old@circomlib_254.circom: Pedersen@pedersen_old@circomlib_254 ===================
+    compiling...
+template instances: 69
+non-linear constraints: 2560
+linear constraints: 3592
+public inputs: 0
+public outputs: 2
+private inputs: 254
+private outputs: 0
+wires: 6407
+labels: 6407
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Pedersen@pedersen_old@circomlib_254.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Pedersen@pedersen_old@circomlib_254.sym
+Everything went okay, circom safe
+=================== Pedersen@pedersen_old@circomlib_256.circom: Pedersen@pedersen_old@circomlib_256 ===================
+    compiling...
+template instances: 70
+non-linear constraints: 2600
+linear constraints: 3646
+public inputs: 0
+public outputs: 2
+private inputs: 256
+private outputs: 0
+wires: 6503
+labels: 6503
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Pedersen@pedersen_old@circomlib_256.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Pedersen@pedersen_old@circomlib_256.sym
+Everything went okay, circom safe
+=================== Pedersen@pedersen_old@circomlib_32.circom: Pedersen@pedersen_old@circomlib_32 ===================
+    compiling...
+template instances: 12
+non-linear constraints: 320
+linear constraints: 454
+public inputs: 0
+public outputs: 2
+private inputs: 32
+private outputs: 0
+wires: 807
+labels: 807
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Pedersen@pedersen_old@circomlib_32.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Pedersen@pedersen_old@circomlib_32.sym
+Everything went okay, circom safe
+=================== Pedersen@pedersen_old@circomlib_64.circom: Pedersen@pedersen_old@circomlib_64 ===================
+    compiling...
+template instances: 20
+non-linear constraints: 640
+linear constraints: 902
+public inputs: 0
+public outputs: 2
+private inputs: 64
+private outputs: 0
+wires: 1607
+labels: 1607
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Pedersen@pedersen_old@circomlib_64.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Pedersen@pedersen_old@circomlib_64.sym
+Everything went okay, circom safe
+=================== Pedersen@pedersen_old@circomlib_8.circom: Pedersen@pedersen_old@circomlib_8 ===================
+    compiling...
+template instances: 6
+non-linear constraints: 80
+linear constraints: 118
+public inputs: 0
+public outputs: 2
+private inputs: 8
+private outputs: 0
+wires: 207
+labels: 207
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Pedersen@pedersen_old@circomlib_8.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Pedersen@pedersen_old@circomlib_8.sym
+Everything went okay, circom safe
+=================== Point2Bits@pointbits@circomlib.circom: Point2Bits@pointbits@circomlib ===================
+    compiling...
+template instances: 1
+non-linear constraints: 0
+linear constraints: 0
+public inputs: 0
+public outputs: 256
+private inputs: 2
+private outputs: 0
+wires: 259
+labels: 259
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Point2Bits@pointbits@circomlib.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Point2Bits@pointbits@circomlib.sym
+Everything went okay, circom safe
+=================== Point2Bits_Strict@pointbits@circomlib.circom: Point2Bits_Strict@pointbits@circomlib ===================
+    compiling...
+template instances: 6
+non-linear constraints: 1294
+linear constraints: 1544
+public inputs: 0
+public outputs: 256
+private inputs: 2
+private outputs: 0
+wires: 2834
+labels: 2834
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Point2Bits_Strict@pointbits@circomlib.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Point2Bits_Strict@pointbits@circomlib.sym
+Everything went okay, circom safe
+=================== SMTHash1@smthash_mimc@circomlib.circom: SMTHash1@smthash_mimc@circomlib ===================
+    compiling...
+template instances: 3
+non-linear constraints: 728
+linear constraints: 12
+public inputs: 0
+public outputs: 1
+private inputs: 2
+private outputs: 0
+wires: 743
+labels: 743
+Written successfully: ./benchmarks/circomlibex-cff5ab6/SMTHash1@smthash_mimc@circomlib.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/SMTHash1@smthash_mimc@circomlib.sym
+Everything went okay, circom safe
+=================== SMTHash1@smthash_poseidon@circomlib.circom: SMTHash1@smthash_poseidon@circomlib ===================
+    compiling...
+template instances: 70
+non-linear constraints: 264
+linear constraints: 666
+public inputs: 0
+public outputs: 1
+private inputs: 2
+private outputs: 0
+wires: 933
+labels: 933
+Written successfully: ./benchmarks/circomlibex-cff5ab6/SMTHash1@smthash_poseidon@circomlib.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/SMTHash1@smthash_poseidon@circomlib.sym
+Everything went okay, circom safe
+=================== SMTHash2@smthash_mimc@circomlib.circom: SMTHash2@smthash_mimc@circomlib ===================
+    compiling...
+template instances: 3
+non-linear constraints: 728
+linear constraints: 12
+public inputs: 0
+public outputs: 1
+private inputs: 2
+private outputs: 0
+wires: 743
+labels: 743
+Written successfully: ./benchmarks/circomlibex-cff5ab6/SMTHash2@smthash_mimc@circomlib.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/SMTHash2@smthash_mimc@circomlib.sym
+Everything went okay, circom safe
+=================== SMTHash2@smthash_poseidon@circomlib.circom: SMTHash2@smthash_poseidon@circomlib ===================
+    compiling...
+template instances: 71
+non-linear constraints: 243
+linear constraints: 521
+public inputs: 0
+public outputs: 1
+private inputs: 2
+private outputs: 0
+wires: 767
+labels: 767
+Written successfully: ./benchmarks/circomlibex-cff5ab6/SMTHash2@smthash_poseidon@circomlib.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/SMTHash2@smthash_poseidon@circomlib.sym
+Everything went okay, circom safe
+=================== SMTProcessorLevel@smtprocessorlevel@circomlib.circom: SMTProcessorLevel@smtprocessorlevel@circomlib ===================
+    compiling...
+template instances: 5
+non-linear constraints: 1466
+linear constraints: 36
+public inputs: 0
+public outputs: 2
+private inputs: 12
+private outputs: 0
+wires: 1515
+labels: 1515
+Written successfully: ./benchmarks/circomlibex-cff5ab6/SMTProcessorLevel@smtprocessorlevel@circomlib.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/SMTProcessorLevel@smtprocessorlevel@circomlib.sym
+Everything went okay, circom safe
+=================== SMTProcessorSM@smtprocessorsm@circomlib.circom: SMTProcessorSM@smtprocessorsm@circomlib ===================
+    compiling...
+template instances: 1
+non-linear constraints: 5
+linear constraints: 3
+public inputs: 0
+public outputs: 6
+private inputs: 11
+private outputs: 0
+wires: 20
+labels: 20
+Written successfully: ./benchmarks/circomlibex-cff5ab6/SMTProcessorSM@smtprocessorsm@circomlib.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/SMTProcessorSM@smtprocessorsm@circomlib.sym
+Everything went okay, circom safe
+=================== SMTVerifierLevel@smtverifierlevel@circomlib.circom: SMTVerifierLevel@smtverifierlevel@circomlib ===================
+    compiling...
+template instances: 5
+non-linear constraints: 732
+linear constraints: 19
+public inputs: 0
+public outputs: 1
+private inputs: 10
+private outputs: 0
+wires: 762
+labels: 762
+Written successfully: ./benchmarks/circomlibex-cff5ab6/SMTVerifierLevel@smtverifierlevel@circomlib.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/SMTVerifierLevel@smtverifierlevel@circomlib.sym
+Everything went okay, circom safe
+=================== SMTVerifierSM@smtverifiersm@circomlib.circom: SMTVerifierSM@smtverifiersm@circomlib ===================
+    compiling...
+template instances: 1
+non-linear constraints: 4
+linear constraints: 3
+public inputs: 0
+public outputs: 5
+private inputs: 8
+private outputs: 0
+wires: 16
+labels: 16
+Written successfully: ./benchmarks/circomlibex-cff5ab6/SMTVerifierSM@smtverifiersm@circomlib.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/SMTVerifierSM@smtverifiersm@circomlib.sym
+Everything went okay, circom safe
+=================== Sha256_2@sha256_2@circomlib.circom: Sha256_2@sha256_2@circomlib ===================
+    compiling...
+template instances: 101
+non-linear constraints: 31384
+linear constraints: 173078
+public inputs: 0
+public outputs: 1
+private inputs: 2
+private outputs: 0
+wires: 204151
+labels: 204151
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Sha256_2@sha256_2@circomlib.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Sha256_2@sha256_2@circomlib.sym
+Everything went okay, circom safe
+=================== Sha256compression@sha256compression@circomlib.circom: Sha256compression@sha256compression@circomlib ===================
+    compiling...
+template instances: 90
+non-linear constraints: 30952
+linear constraints: 171832
+public inputs: 0
+public outputs: 256
+private inputs: 768
+private outputs: 0
+wires: 203241
+labels: 203241
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Sha256compression@sha256compression@circomlib.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Sha256compression@sha256compression@circomlib.sym
+Everything went okay, circom safe
+=================== Sigma@poseidon@circomlib.circom: Sigma@poseidon@circomlib ===================
+    compiling...
+template instances: 1
+non-linear constraints: 3
+linear constraints: 0
+public inputs: 0
+public outputs: 1
+private inputs: 1
+private outputs: 0
+wires: 5
+labels: 5
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Sigma@poseidon@circomlib.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Sigma@poseidon@circomlib.sym
+Everything went okay, circom safe
+=================== Sigma@poseidon_old@circomlib.circom: Sigma@poseidon_old@circomlib ===================
+    compiling...
+template instances: 1
+non-linear constraints: 3
+linear constraints: 0
+public inputs: 0
+public outputs: 1
+private inputs: 1
+private outputs: 0
+wires: 5
+labels: 5
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Sigma@poseidon_old@circomlib.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Sigma@poseidon_old@circomlib.sym
+Everything went okay, circom safe
+=================== SigmaPlus@sigmaplus@circomlib.circom: SigmaPlus@sigmaplus@circomlib ===================
+    compiling...
+template instances: 11
+non-linear constraints: 162
+linear constraints: 865
+public inputs: 0
+public outputs: 32
+private inputs: 128
+private outputs: 0
+wires: 1155
+labels: 1155
+Written successfully: ./benchmarks/circomlibex-cff5ab6/SigmaPlus@sigmaplus@circomlib.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/SigmaPlus@sigmaplus@circomlib.sym
+Everything went okay, circom safe
+=================== Sign@sign@circomlib.circom: Sign@sign@circomlib ===================
+    compiling...
+template instances: 3
+non-linear constraints: 262
+linear constraints: 259
+public inputs: 0
+public outputs: 1
+private inputs: 254
+private outputs: 0
+wires: 775
+labels: 775
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Sign@sign@circomlib.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Sign@sign@circomlib.sym
+Everything went okay, circom safe
+=================== Switcher@switcher@circomlib.circom: Switcher@switcher@circomlib ===================
+    compiling...
+template instances: 1
+non-linear constraints: 1
+linear constraints: 2
+public inputs: 0
+public outputs: 2
+private inputs: 3
+private outputs: 0
+wires: 7
+labels: 7
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Switcher@switcher@circomlib.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Switcher@switcher@circomlib.sym
+Everything went okay, circom safe
+=================== T1@t1@circomlib.circom: T1@t1@circomlib ===================
+    compiling...
+template instances: 8
+non-linear constraints: 131
+linear constraints: 641
+public inputs: 0
+public outputs: 32
+private inputs: 192
+private outputs: 0
+wires: 964
+labels: 964
+Written successfully: ./benchmarks/circomlibex-cff5ab6/T1@t1@circomlib.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/T1@t1@circomlib.sym
+Everything went okay, circom safe
+=================== T2@t2@circomlib.circom: T2@t2@circomlib ===================
+    compiling...
+template instances: 8
+non-linear constraints: 161
+linear constraints: 545
+public inputs: 0
+public outputs: 32
+private inputs: 96
+private outputs: 0
+wires: 802
+labels: 802
+Written successfully: ./benchmarks/circomlibex-cff5ab6/T2@t2@circomlib.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/T2@t2@circomlib.sym
+Everything went okay, circom safe
+=================== Window4@pedersen@circomlib.circom: Window4@pedersen@circomlib ===================
+    compiling...
+template instances: 4
+non-linear constraints: 38
+linear constraints: 52
+public inputs: 0
+public outputs: 4
+private inputs: 6
+private outputs: 0
+wires: 97
+labels: 97
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Window4@pedersen@circomlib.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/Window4@pedersen@circomlib.sym
+Everything went okay, circom safe
+=================== WindowMulFix@escalarmulfix@circomlib.circom: WindowMulFix@escalarmulfix@circomlib ===================
+    compiling...
+template instances: 4
+non-linear constraints: 37
+linear constraints: 53
+public inputs: 0
+public outputs: 4
+private inputs: 5
+private outputs: 0
+wires: 96
+labels: 96
+Written successfully: ./benchmarks/circomlibex-cff5ab6/WindowMulFix@escalarmulfix@circomlib.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/WindowMulFix@escalarmulfix@circomlib.sym
+Everything went okay, circom safe
+=================== XOR@gates@circomlib.circom: XOR@gates@circomlib ===================
+    compiling...
+template instances: 1
+non-linear constraints: 1
+linear constraints: 0
+public inputs: 0
+public outputs: 1
+private inputs: 2
+private outputs: 0
+wires: 4
+labels: 4
+Written successfully: ./benchmarks/circomlibex-cff5ab6/XOR@gates@circomlib.r1cs
+Written successfully: ./benchmarks/circomlibex-cff5ab6/XOR@gates@circomlib.sym
+Everything went okay, circom safe
