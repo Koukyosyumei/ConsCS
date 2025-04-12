@@ -132,7 +132,7 @@ def main_solve(target_file_path):
 
     ################## START ##################
     start_time = time.time() 
-    timeout_reasoning_engine = 600
+    timeout_reasoning_engine = 7200
     timeout_assumptions_smt = 5
     
     try:
